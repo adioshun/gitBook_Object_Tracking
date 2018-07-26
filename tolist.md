@@ -8,6 +8,17 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 
 --- 
+- ~~[Object Detection and Tracking with Side Cameras and RADAR in an Automotive Context](http://www.mi.fu-berlin.de/inf/groups/ag-ki/Theses/Completed-theses/Master_Diploma-theses/2013/Hofmann/Master-Hofmann.pdf?1381479774)~~: 2013, 3장이 센서 퓨전 
+
+- ~~[Survey on Object Detection and Tracking Using Fusion Approach](https://www.ijircce.com/upload/2016/march/98_24_Survey.pdf)~~: 2016, 8P, 일반적 설명 
+
+- [Particle Filter Implementation](https://medium.com/@andrew.d.wilkie/self-driving-car-engineer-diary-9-898f075e888c): 하단 
+
+- 추천 : [Tracking pedestrians for self driving cars](https://medium.com/towards-data-science/tracking-pedestrians-for-self-driving-cars-ccf588acd170)
+- 추천 : [Tracking a self-driving car with high precision](https://medium.com/@priya.dwivedi/latest)
+
+
+
 
 
 ## 1. List
@@ -54,6 +65,10 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 
 ## 4. Youtube
+- [Vehicle Detection using LiDAR and Camera sensor Fusion](https://www.youtube.com/watch?v=V3cN5LrPr4M)
+
+- [Why You Should Use The Kalman Filter Tutorial - Pokemon Example](https://www.youtube.com/watch?v=bm3cwEP2nUo)
+
 
 
 
@@ -63,10 +78,17 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 ## 7. Implementation (Project)
 
+- [3차원 포인트 클라우드 스캔 기반 객체 추적](http://daddynkidsmakers.blogspot.com/2015/08/3_29.html): ROS 적용
+
+
+- [Object Tracking with Sensor Fusion-based Extended Kalman Filter](https://github.com/JunshengFu/tracking-with-Extended-Kalman-Filter)
+
+- [An extended Kalman Filter implementation in Python for fusing lidar and radar sensor measurements](https://github.com/mithi/fusion-ekf-python): 파이썬, 라이다+레이다. 
 
 
 
 ## 8. Research Group / Conference 
 
 
-
+---
+---
