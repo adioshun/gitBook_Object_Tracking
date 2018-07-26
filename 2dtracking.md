@@ -73,10 +73,9 @@ Manya Afonso는 대표적인 비선형 예측 알고리즘인 확장 칼만 필�
 
 ### Mean Shift 상세 
 
+> mean-shift 알고리즘은 데이터 집합의 밀도 분포에서 지역 극값(local extrema)을 찾아내는 방법이다.
+
 정의 : 사용자가 설정한 ROI 데이터(특징점,코너,색상) 밀도 분포의 peak 또는 무게중심을 찾아 간다.
-
-
-
 
 ![](https://i.imgur.com/o1vAQyg.png)
 
