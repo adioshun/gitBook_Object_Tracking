@@ -3,7 +3,6 @@
  [A Review on Object Detection and Tracking Methods](https://ijrest.net/downloads/volume-2/issue-1/pid-21201506.pdf) : 2015
 
 
-
 ### [A Survey on Object Detection and Tracking Methods](https://pdfs.semanticscholar.org/25a6/c5dff9a7019475daa81cd5a7f1f2dcdb5cf1.pdf): 2014
 
 ![image](https://user-images.githubusercontent.com/17797922/40040388-0ac64296-5855-11e8-8b14-5b15cc508410.png)
@@ -71,47 +70,5 @@ Manya Afonso는 대표적인 비선형 예측 알고리즘인 확장 칼만 필�
 
 ---
 
-### Mean Shift 상세 
-
-> mean-shift 알고리즘은 데이터 집합의 밀도 분포에서 지역 극값(local extrema)을 찾아내는 방법이다.
-
-정의 : 사용자가 설정한 ROI 데이터(특징점,코너,색상) 밀도 분포의 peak 또는 무게중심을 찾아 간다.
-
-![](https://i.imgur.com/o1vAQyg.png)
-
-단계
-1. 임의로 하늘색원으로 된 선택된 범위(ROI,관심영역)를 잡고
-2. 선택된 범위 안에 들어있는 특징점들의 밀도가 가장 큰 곳을 찾는다. 
-3. 밀도가 가장 큰곳을 중심으로 재설정한다
-4. 재설정된 중심을 기준으로 임의의 범위를 다시 잡는다.
-
-eg. 색상 히스토그램 이용시  :ROI중심으로 일정 거리 내에서(탐색 윈도우) 가장 비슷한 히스토그램을 쫒아다니는 방식으로 물체를 추적한다.
-
-문제점
-- 탐색윈도우가 작을 때는 Local minimum 에 빠져서 더 이상 추적이 불가능하다.
-- 영상속의 물체가 커지거나 작아져도 ROI 크기가 일정하다.
-- 색상히스토그램을 사용하는 경우 조도변화나 잡음이 많은 환경에서는 성능이 좋지 않다.
 
 
-![](http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile22.uf.tistory.com%2Fimage%2F1606F43C4EF8F8532B803B)
-위 그림처럼 Local Minimum에 빠진다. 
-
-
-### CAM(Continuously Adaptive Mean) shift 상세 
-
-특징 : Mean shift의 문제점 중 ROI크기가 일정하다는 문제점을 해결하여 ROI크기가 매번 바뀔 수 있고,회전변화에도 추적이 가능하다.
-- 탐색윈도우의 크기를 스스로 조정하는 기법을 사용하여 Mean-shift의 답점을 보강한다.
-
-
-검출된 객체의 영역의 Hue 값의 분포를 이용하여 변화될 위치를 예측하고 탐지한 후 중심을 찾아 객체를 추적하게 된다. 
-- 상대적으로 Hue 값을 사용하면 조명의 영향에 덜 민감하므로 Hue값을 사용한다
-
-
-단점 : 조도변화, 잡음이 많은 배경에서는 성능이 좋지않은 특징
-
-![](https://i.imgur.com/CZeuyTR.png)
-
-단계
-1. 관심영역(ROI)이 주어지면 HSV 색 모델의 Hue값으로 변환한다. 
-2. ROI에서 1차원 histogram을 구축하여 저장하고 추적 모델로 사용한다.
-3. ?
