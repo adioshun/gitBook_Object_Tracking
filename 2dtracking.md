@@ -31,6 +31,7 @@ OpenCV3.4에서 지원 하는 Tracking 알고리즘
 - GOTURN
 - MOSSE
 
+> 각 알고리즘에 대한 상세 설명은 [[여기]](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)참고 
 
 ---
 
