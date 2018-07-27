@@ -90,6 +90,10 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - [Object-Tracking-and-Detection](https://github.com/infparadox/Object-Tracking-and-Detection): python
 
+- OpenCV : [Motion Analysis and Object Tracking](https://docs.opencv.org/2.4/modules/video/doc/motion_analysis_and_object_tracking.html?highlight=kalman%20filter#cv2.KalmanFilterhttp://), [kalman.py](https://github.com/opencv/opencv/blob/master/samples/python/kalman.py)
+
+[Object Tracking using OpenCV (C++/Python)](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
+
 ## 8. Research Group / Conference 
 
 
