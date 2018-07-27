@@ -90,19 +90,7 @@ False separations 을 제거하기 위하여 군집들을 병합하는 단계를
 
 ---
 
-## [추천] [Object Tracking using OpenCV (C++/Python)](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
-
 Tracking 정의 : locating an object in successive frames of a video
-
-
-### OpenCV 3.2에서 지원 하는 Tracker
-- BOOSTING
-- MIL
-- KCF
-- TLD
-- MEDIANFLOW
-- GOTURN
-
 
 
 ### Object Tracking관련 아이디어들
