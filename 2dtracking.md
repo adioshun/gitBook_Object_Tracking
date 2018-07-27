@@ -21,6 +21,17 @@
 
 > [Moving Object Tracking of Vehicle Detection”: A Concise Review](http://docplayer.net/16497156-Moving-object-tracking-of-vehicle-detection-a-concise-review.html): 2015
 
+
+OpenCV3.4에서 지원 하는 Tracking 알고리즘 
+- BOOSTING
+- MIL
+- KCF
+- TLD
+- MEDIANFLOW
+- GOTURN
+- MOSSE
+
+
 ---
 
 색상객체의 추적에 사용되는 대표적인 추적 알고 리즘은 
