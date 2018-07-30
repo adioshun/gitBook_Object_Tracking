@@ -56,6 +56,9 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 - [Simultaneous Localization, Mapping and Moving Object Tracking](https://pdfs.semanticscholar.org/1c8e/ab35f14011e8394a6f92c7fad1b4cedd764d.pdf): 박사 학위 2004 [47p](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1062&context=robotics)
 
 
+- [Track, then Decide: Category-Agnostic Vision-based Multi-Object Tracking](https://www.vision.rwth-aachen.de/publication/00162/) : ICRA2018
+
+
 ## 3. Article (Post, blog, etc.)
 
 
@@ -69,7 +72,9 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - [Why You Should Use The Kalman Filter Tutorial - Pokemon Example](https://www.youtube.com/watch?v=bm3cwEP2nUo)
 
-
+- Very simple example of Multi object tracking using the Kalman filter and then Hungarian algorithm. : Student Dave
+    - [YOUTUBE](https://www.youtube.com/watch?v=Me0wbxEDO4I) : 1~4
+    - [Homepage](http://studentdavestutorials.weebly.com/)
 
 
 ## 6. Material (Pdf, ppt)
@@ -92,9 +97,16 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - OpenCV : [Motion Analysis and Object Tracking](https://docs.opencv.org/2.4/modules/video/doc/motion_analysis_and_object_tracking.html?highlight=kalman%20filter#cv2.KalmanFilterhttp://), [kalman.py](https://github.com/opencv/opencv/blob/master/samples/python/kalman.py)
 
-[Object Tracking using OpenCV (C++/Python)](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
+- [Object Tracking using OpenCV (C++/Python)](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
+
+
+- [KITTI Track Collection (KTC) devkit](https://github.com/aljosaosep/kitti-track-collection)
+
 
 ## 8. Research Group / Conference 
+
+- [KITTI Object Tracking Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)
+    - [This file describes the KITTI tracking benchmarks](https://github.com/pratikac/kitti/blob/master/readme.tracking.txt)
 
 
 ---
