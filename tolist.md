@@ -1,4 +1,4 @@
-CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013 
+CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 
 
@@ -7,12 +7,12 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 
 
---- 
-- ~~[Object Detection and Tracking with Side Cameras and RADAR in an Automotive Context](http://www.mi.fu-berlin.de/inf/groups/ag-ki/Theses/Completed-theses/Master_Diploma-theses/2013/Hofmann/Master-Hofmann.pdf?1381479774)~~: 2013, 3장이 센서 퓨전 
+---
+- ~~[Object Detection and Tracking with Side Cameras and RADAR in an Automotive Context](http://www.mi.fu-berlin.de/inf/groups/ag-ki/Theses/Completed-theses/Master_Diploma-theses/2013/Hofmann/Master-Hofmann.pdf?1381479774)~~: 2013, 3장이 센서 퓨전
 
-- ~~[Survey on Object Detection and Tracking Using Fusion Approach](https://www.ijircce.com/upload/2016/march/98_24_Survey.pdf)~~: 2016, 8P, 일반적 설명 
+- ~~[Survey on Object Detection and Tracking Using Fusion Approach](https://www.ijircce.com/upload/2016/march/98_24_Survey.pdf)~~: 2016, 8P, 일반적 설명
 
-- [Particle Filter Implementation](https://medium.com/@andrew.d.wilkie/self-driving-car-engineer-diary-9-898f075e888c): 하단 
+- [Particle Filter Implementation](https://medium.com/@andrew.d.wilkie/self-driving-car-engineer-diary-9-898f075e888c): 하단
 
 - 추천 : [Tracking pedestrians for self driving cars](https://medium.com/towards-data-science/tracking-pedestrians-for-self-driving-cars-ccf588acd170)
 - 추천 : [Tracking a self-driving car with high precision](https://medium.com/@priya.dwivedi/latest)
@@ -34,7 +34,7 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 
 - Upsampling Range Data in Dynamic Environments, Jennifer Dolson
-    - 카메라 + Lidar 연계 
+    - 카메라 + Lidar 연계
 
 
 - LidarBoost: Depth Superresolution for ToF 3D Shape Scanning, Sebastian Schuon(스탠포드)
@@ -88,22 +88,23 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - [Object Tracking with Sensor Fusion-based Extended Kalman Filter](https://github.com/JunshengFu/tracking-with-Extended-Kalman-Filter)
 
-- [An extended Kalman Filter implementation in Python for fusing lidar and radar sensor measurements](https://github.com/mithi/fusion-ekf-python): 파이썬, 라이다+레이다. 
+- [An extended Kalman Filter implementation in Python for fusing lidar and radar sensor measurements](https://github.com/mithi/fusion-ekf-python): 파이썬, 라이다+레이다.
 
 
-- [Multi Object Tracker Using Kalman Filter & Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking): 2D, python, 2017
+- [추천] [Multi Object Tracker Using Kalman Filter & Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking): 2D, python, 2017
 
 - [Object-Tracking-and-Detection](https://github.com/infparadox/Object-Tracking-and-Detection): python
 
-- OpenCV : [Motion Analysis and Object Tracking](https://docs.opencv.org/2.4/modules/video/doc/motion_analysis_and_object_tracking.html?highlight=kalman%20filter#cv2.KalmanFilterhttp://), [kalman.py](https://github.com/opencv/opencv/blob/master/samples/python/kalman.py)
 
-- [Object Tracking using OpenCV (C++/Python)](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
+
+- ~~[Object Tracking using OpenCV (C++/Python)](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)~~ : OpenCV지원 알고리즘을 이용한 간단한 구현(point 예측)
+  - OpenCV : [Motion Analysis and Object Tracking](https://docs.opencv.org/2.4/modules/video/doc/motion_analysis_and_object_tracking.html?highlight=kalman%20filter#cv2.KalmanFilterhttp://), [kalman.py](https://github.com/opencv/opencv/blob/master/samples/python/kalman.py)
 
 
 - [KITTI Track Collection (KTC) devkit](https://github.com/aljosaosep/kitti-track-collection)
 
 
-## 8. Research Group / Conference 
+## 8. Research Group / Conference
 
 - [KITTI Object Tracking Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)
     - [This file describes the KITTI tracking benchmarks](https://github.com/pratikac/kitti/blob/master/readme.tracking.txt)
