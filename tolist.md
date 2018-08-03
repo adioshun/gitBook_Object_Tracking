@@ -91,11 +91,13 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 - [An extended Kalman Filter implementation in Python for fusing lidar and radar sensor measurements](https://github.com/mithi/fusion-ekf-python): 파이썬, 라이다+레이다.
 
 
-- [추천] [Multi Object Tracker Using Kalman Filter & Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking): 2D, python, 2017
+- [추천] [Multi Object Tracker Using Kalman Filter & Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking): Hungarian algorithm + Kalman filter multitarget tracker implementation, python, 2017
+
+- [Multitarget-tracker](https://github.com/Smorodov/Multitarget-tracker) : Hungarian algorithm + Kalman filter multitarget tracker implementation.C++
 
 - [Object-Tracking-and-Detection](https://github.com/infparadox/Object-Tracking-and-Detection): python, 차량 카운팅
 
-
+- [dlib correlation tracker](https://github.com/ZidanMusk/experimenting-with-sort) : python, an appearance model기반 추적 (칼만은 모션모델 기반)
 
 - ~~[Object Tracking using OpenCV (C++/Python)](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)~~ : OpenCV지원 알고리즘을 이용한 간단한 구현(point 예측)
   - OpenCV : [Motion Analysis and Object Tracking](https://docs.opencv.org/2.4/modules/video/doc/motion_analysis_and_object_tracking.html?highlight=kalman%20filter#cv2.KalmanFilterhttp://), [kalman.py](https://github.com/opencv/opencv/blob/master/samples/python/kalman.py)
