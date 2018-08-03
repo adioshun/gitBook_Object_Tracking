@@ -91,9 +91,9 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 - [An extended Kalman Filter implementation in Python for fusing lidar and radar sensor measurements](https://github.com/mithi/fusion-ekf-python): 파이썬, 라이다+레이다.
 
 
-- [추천] [Multi Object Tracker Using Kalman Filter & Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking): 2D, python, 2017 
+- [추천] [Multi Object Tracker Using Kalman Filter & Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking): 2D, python, 2017
 
-- [Object-Tracking-and-Detection](https://github.com/infparadox/Object-Tracking-and-Detection): python
+- [Object-Tracking-and-Detection](https://github.com/infparadox/Object-Tracking-and-Detection): python, 차량 카운팅
 
 
 
