@@ -21,11 +21,11 @@
 ## Correction : Measurement Update = correct
 
 * 하나의 사실에 대해 모순되는 정보 있을때 \(eg. Prior와 Measure가 다를때\)
-* Prior : 내 위치라고 생각 하는 값
-* measure : 실제 내 위치
+  * Prior : 내 위치라고 생각 하는 값
+  * measure : 실제 내 위치
 * 수행시, 공분산 낮아지고 & 정확도 향상
 
-> 칼만 개인 : 두 분포\(예측 & 관측\) 중에 가중치를 줄지 결정 \($$KG = \frac{E_{est}}{E_{est}+E_{mea}}$$\)
+> 칼만 GAIN : 두 분포(예측 & 관측) 중에 가중치를 줄지 결정 ($$KG = \frac{E_{est}}{E_{est}+E_{mea}}$$)
 
 ![image](https://user-images.githubusercontent.com/17797922/40169944-36caa93c-5a02-11e8-9664-7584d9eebcd5.png)
 
@@ -42,8 +42,8 @@
 ## 1. 정의
 
 * Kalman filter is a scheme of estimation of signals`(=position of an Vehicle)` by combining multiple sources of **measurements** or **estimation** with uncertainties.
-* The first, primary **measurements** is the position of the object from lidar or radar.
-* The second **estimation** is the prediction of the movement of the object based the understanding of the **speed** of the object.
+  * **Measurements** : The position of the object from lidar or radar.
+  * **Estimation** : The prediction of the movement of the object based the understanding of the **speed** of the object.
 
 ## 2. 절차
 
@@ -51,9 +51,8 @@
 
 1. 대략적 위치 추정 : `Make a wild guess of the position of the object (initialization);`
 2. 측정값을 활용하여 정확도 향상 : `Use the measurement of the position to improve the accuracy (update by measurement);`
-3. motion prediction과 2단계에서의 업데이트된 예측값 `(updated estimation)`을 이용하여서 예측 정확도 향상 :
-4. `Use the motion prediction and based the updated estimation of the object’s position in step 2 to further predict/improve the estimation of the position of the object (predict by independent motion estimation)`
-5. 3단계 결과를 이용하여 위치를 예측, 2~4단계 부터 반복 `Use the outcome of step 3, as the new estimation of the object’s position, repeat the iteration starting from step 2.`
+3. motion prediction과 2단계에서의 업데이트된 예측값 `(updated estimation)`을 이용하여서 예측 정확도 향상 : `Use the motion prediction and based the updated estimation of the object’s position in step 2 to further predict/improve the estimation of the position of the object (predict by independent motion estimation)`
+4. 3단계 결과를 이용하여 위치를 예측, 2~4단계 부터 반복 `Use the outcome of step 3, as the new estimation of the object’s position, repeat the iteration starting from step 2.`
 
 ### 2.2 절차\(상세\)
 
@@ -101,8 +100,8 @@
 
 ## 2. 절차
 
-| ![](https://cdn-images-1.medium.com/max/1100/1*11DTo3NRPXq_SnU0S5EHmg.png) | ![](https://cdn-images-1.medium.com/max/1100/1*x1_NCZrJsBwvADPSno7YvQ.png) |
-| --- | --- |
+|![](https://cdn-images-1.medium.com/max/1100/1*11DTo3NRPXq_SnU0S5EHmg.png)|![](https://cdn-images-1.medium.com/max/1100/1*x1_NCZrJsBwvADPSno7YvQ.png)|
+|-|-|
 
 
 ![](https://cdn-images-1.medium.com/max/1100/1*GQKTKlknURjgggGMlD-7_Q.png)
@@ -242,4 +241,3 @@ This algorithm is a recursive two-step process: **prediction**, and **update**.
 ![](https://cdn-images-1.medium.com/max/800/1*s2kA7oclIHoCAQsao2fXhw.jpeg)
 
 ![image](https://user-images.githubusercontent.com/17797922/40173698-a45fd8ae-5a0d-11e8-8e37-681f95210626.png)
-
