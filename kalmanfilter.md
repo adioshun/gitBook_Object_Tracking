@@ -1,4 +1,4 @@
-# 칼만필터
+# 칼만필터  [[홈페이지]](http://www.cs.unc.edu/~welch/kalman/)
 
 * Fusion: Used to estimate a state of the system by combining **measurements** from different sources
 * Prediction : Used to estimate a system **state**\(=velo, position\), where it cannot measure it directly, but an** indirect measurement** is available
@@ -271,3 +271,16 @@ This algorithm is a recursive two-step process: **prediction**, and **update**.
 ![](https://cdn-images-1.medium.com/max/800/1*s2kA7oclIHoCAQsao2fXhw.jpeg)
 
 ![image](https://user-images.githubusercontent.com/17797922/40173698-a45fd8ae-5a0d-11e8-8e37-681f95210626.png)
+
+
+---
+
+칼만 필터를 사용하면서도 칼만 게인이 어떤 의미인지 잘 모르겠고,
+
+SLAM과의 관계가 궁금하다면 다음 글들을 한 번 읽어보세요.
+
+http://refopen.blogspot.kr/2014/08/blog-post_19.html
+http://refopen.blogspot.kr/2014/08/slamsimultaneous-localization-and.html
+http://refopen.blogspot.kr/2014/08/slamsimultaneous-localization-and_21.html
+http://refopen.blogspot.kr/2014/08/slamsimultaneous-localization-and_24.html
+[출처] Kalman gain 해석 (OpenCV KOREA 대한민국 최고의 컴퓨터비젼 커뮤니티) |작성자 refopen
