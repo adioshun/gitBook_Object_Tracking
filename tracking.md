@@ -69,6 +69,7 @@ False separations 을 제거하기 위하여 군집들을 병합하는 단계를
 [2] F. Bourgeois and J. C. Lassalle, “An Extension of the Munkres Algorithm for the Assignment Problem to Rectangular Matrices.” Communications of the ACM, vol. 14, no. 12, p. 802, December, 1971.
 ```
 
+[[추천] Introduction to Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf): ppt, CSE598C Fall, 2012, Bob Collins, CSE, PSU
 
 ### 2.3 상태 추정(State Estimation)
 
