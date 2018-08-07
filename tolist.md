@@ -106,6 +106,8 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 - [KITTI Track Collection (KTC) devkit](https://github.com/aljosaosep/kitti-track-collection)
 
 
+- [차량 추적 및 카운팅](https://www.youtube.com/watch?v=Y3ac5rFMNZ0): C++, Youtube
+
 ## 8. Research Group / Conference
 
 - [KITTI Object Tracking Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)
