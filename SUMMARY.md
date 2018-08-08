@@ -10,6 +10,7 @@
 * [3D\_Tracking](3dtracking.md)
   * [2007-SLAMMOT](3dtracking/2007-slammot.md)
   * 2017-Low resolution lidar-based multi-object tracking for driving applications
+  * [2011-Tracking People in 3D Using a Bottom-Up Top-Down Detector](3dtracking/2011-tracking-people-in-3d-using-a-bottom-up-top-down-detector.md)
 * [kalman\_filter](kalmanfilter.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
   * [Kalman-code](kalmanfilter/kalman-code.md)

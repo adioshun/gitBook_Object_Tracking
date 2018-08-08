@@ -59,6 +59,15 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 - [Track, then Decide: Category-Agnostic Vision-based Multi-Object Tracking](https://www.vision.rwth-aachen.de/publication/00162/) : ICRA2018
 
 
+- [Laser-Based Detection and Tracking of Dynamic Objects](http://www.robots.ox.ac.uk/~mobile/Theses/WangThesis.pdf): 학위 문 2014
+
+- [LiDAR Based Real Time Multiple Vehicle Detection and Tracking](https://waset.org/publications/10004678/lidar-based-real-time-multiple-vehicle-detection-and-tracking)
+
+
+- Tracking People in 3D Using a Bottom-Up Top-Down Detector
+
+
+
 ## 3. Article (Post, blog, etc.)
 
 
