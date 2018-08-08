@@ -9,6 +9,7 @@
   * [2017-Detect2Track-Track2Detect](2dtracking/2017-detect2track-track2detect.md)
 * [3D\_Tracking](3dtracking.md)
   * [2007-SLAMMOT](3dtracking/2007-slammot.md)
+  * 2017-Low resolution lidar-based multi-object tracking for driving applications
 * [kalman\_filter](kalmanfilter.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
   * [Kalman-code](kalmanfilter/kalman-code.md)
