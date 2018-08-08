@@ -66,7 +66,7 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - Tracking People in 3D Using a Bottom-Up Top-Down Detector
 
-
+- [Lidar-based methods for tracking and identification](http://studentarbeten.chalmers.se/publication/241972-lidar-based-methods-for-tracking-and-identification): [youtube](https://www.youtube.com/watch?v=_Mhgm2BXdFI)
 
 ## 3. Article (Post, blog, etc.)
 
@@ -114,6 +114,7 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - [KITTI Track Collection (KTC) devkit](https://github.com/aljosaosep/kitti-track-collection)
 
+- [ROS package for Perception of the KITTI dataset](https://github.com/appinho/ROS_Perception_Package_Kitti_Dataset): 센서 퓨전, 탐지, 추적, C++
 
 - [차량 추적 및 카운팅](https://www.youtube.com/watch?v=Y3ac5rFMNZ0): C++, Youtube
 
