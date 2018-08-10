@@ -223,7 +223,7 @@ Certainly many other clustering algorithms are suitable for segmenting the point
 
 an extended Kalman filter estimates the frame-by-frame position of each person
 - 3D position
-- 3D velocity 
+- 3D velocity
 - 1D heading direction
 
 

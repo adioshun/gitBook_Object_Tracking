@@ -9,6 +9,7 @@
   * [2017-Detect2Track-Track2Detect](2dtracking/2017-detect2track-track2detect.md)
 * [3D\_Tracking](3dtracking.md)
   * [2007-SLAMMOT](3dtracking/2007-slammot.md)
+  * [2008-Model based vehicle tracking for autonomous driving in urban environments](3dtracking/2008-model based vehicle tracking for autonomousdriving in urban environments.md)
   * [2017-Low resolution lidar-based multi-object tracking for driving applications](3dtracking/2017-low-resolution-lidar-based-multi-object-tracking-for-driving-applications.md)
   * [2010-Tracking People with a 360 degreelidar](3dtracking/2010-Tracking-People-with-a-360-degree-lidar.md)
   * [2011-Tracking People in 3D Using a Bottom-Up Top-Down Detector](3dtracking/2011-tracking-people-in-3d-using-a-bottom-up-top-down-detector.md)
