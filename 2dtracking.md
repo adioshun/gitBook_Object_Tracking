@@ -11,7 +11,14 @@
   - Particle Filter
 
 
+Basic Tracking Algorithm
+- centroid tracking : it relies on the Euclidean distance between
+  - (1) existing object centroids (i.e., objects the centroid tracker has already seen before) and
+  - (2) new object centroids between subsequent frames in a video.
 
+Advanced Tracking Algorithm
+- kernel-based
+- correlation-based
 
 추적 알고리즘 분류 #2
 - Mean Shift,
