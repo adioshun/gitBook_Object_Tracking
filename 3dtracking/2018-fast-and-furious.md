@@ -1,4 +1,4 @@
-|논문명 |OFast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net |
+|논문명 |Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net |
 | --- | --- |
 | 저자\(소속\) | Wenjie Luo\(우\) |
 | 학회/년도 | CVPR 2018, [논문](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf) |
