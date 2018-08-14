@@ -1,6 +1,6 @@
 |논문명 |Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net |
 | --- | --- |
-| 저자\(소속\) | Wenjie Luo\(우\) |
+| 저자\(소속\) | Wenjie Luo\(우버\) |
 | 학회/년도 | CVPR 2018, [논문](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf) |
 | Citation ID / 키워드 | |
 | 데이터셋(센서)/모델 | |
@@ -12,9 +12,6 @@
 
 
 
-![](https://i.imgur.com/wuNOkP6.png)
-
-Dataset : Uber TOR4D datasets
 
 이전 연구?
 - SBNet: [Sparse Blocks Network for Fast Inference](http://www.cs.toronto.edu/~mren/sbnet/index.html), [[code]](https://eng.uber.com/sbnet/), [[github]](https://github.com/uber/sbnet), [[arxiv]](https://arxiv.org/abs/1801.02108)
@@ -115,7 +112,11 @@ Nam and Han [21] finetuned a CNN at inference time to track object within the sa
 
 
 
+---
 
+![](https://i.imgur.com/wuNOkP6.png)
+
+Dataset : Uber TOR4D datasets
 
 
 
