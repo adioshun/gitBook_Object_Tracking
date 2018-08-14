@@ -15,9 +15,9 @@
   * [2011-Tracking People in 3D Using a Bottom-Up Top-Down Detector](3dtracking/2011-tracking-people-in-3d-using-a-bottom-up-top-down-detector.md)
   * [2017-online Learning](3dtracking/2017-Online learning for human classification in 3D LiDAR-based tracking.md)
   * [2018-Fast and Furious](3dtracking/2018-fast-and-furious.md)
+  * [2018-pixor](3dtracking/2018-pixor.md)
 * [kalman\_filter](kalmanfilter.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
   * [Kalman-code](kalmanfilter/kalman-code.md)
 * [Condensation](Condensation.md)
   * [code](Condensation/Condensation-code.md)
-
