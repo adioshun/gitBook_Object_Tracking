@@ -1,10 +1,15 @@
-Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net
+|논문명 |OFast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net |
+| --- | --- |
+| 저자\(소속\) | \(\) |
+| 학회/년도 | CVPR 2018, [논문](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf) |
+| Citation ID / 키워드 | |
+| 데이터셋(센서)/모델 | |
+| 관련연구||
+| 참고 | [기](https://www.utoronto.ca/news/autonomous-vehicles-u-t-researchers-make-advances-new-algorithm),  [Youtube_CVPR2018](https://youtu.be/Jl1NeziAHFY?t=24m32s) |
+| 코드 ||
 
-http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf
 
-https://www.utoronto.ca/news/autonomous-vehicles-u-t-researchers-make-advances-new-algorithm
 
-[Youtube_CVPR2018](https://youtu.be/Jl1NeziAHFY?t=24m32s)
 
 
 ![](https://i.imgur.com/wuNOkP6.png)
