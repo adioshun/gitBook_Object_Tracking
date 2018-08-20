@@ -10,81 +10,6 @@
 2. cvKalmanCorrect라는 함수로 보정(현재 측정정보 이용)을 합니다.
 3. 그리고 이 보정값은 다시 cvKalmanPredict 의 인자로 들어가는 반복구조입니다.
 
----
-
-![](https://i.imgur.com/h8Lgnya.png)
-
-```Python
-
-import cv2
-import numpy as np
-
-#  create an empty frame, of size 800 x 800
-frame = np.zeros((800, 800, 3), np.uint8)
-
-#initialize the arrays that will take the coordinates of the measurements and predictions of the mouse movements
-last_measurement = current_measurement = np.array((2,1),np.float32)
-last_prediction = current_prediction = np.zeros((2,1), np.float32)
-
-def mousemove(event, x, y, s, p):
-    """
-    we store the last measurements and last prediction,
-    correct the Kalman with the current measurement, calculate the Kalman prediction,
-    and finally draw two lines, from the last measurement to the current and from the last prediction to the current:
-    """
-    global frame, current_measurement, measurements, last_measurement, current_prediction, last_prediction
-
-    last_prediction = current_prediction
-    last_measurement = current_measurement
-
-    current_measurement = np.array([[np.float32(x)],[np.float32(y)]])  #마우스 입력
-
-    # Update(=correction): In the second phase, it records the object's position and adjusts the covariance for the next cycle of calculations   
-    kalman.correct(current_measurement)
-
-    # Predict: In the first phase, the Kalman filter uses the covariance calculated up to the current point in time to estimate the object's new position
-    current_prediction = kalman.predict()
-
-    lmx, lmy = last_measurement[0], last_measurement[1]
-    cmx, cmy = current_measurement[0], current_measurement[1]
-    lpx, lpy = last_prediction[0], last_prediction[1]
-    cpx, cpy = current_prediction[0], current_prediction[1]
-
-    cv2.line(frame, (lmx, lmy), (cmx, cmy), (0,100,0))
-    cv2.line(frame, (lpx, lpy), (cpx, cpy), (0,0,200))
-    """
-    Parameters:
-    img – 그림을 그릴 이미지 파일
-    start – 시작 좌표(ex; (0,0))
-    end – 종료 좌표(ex; (500. 500))
-    color – BGR형태의 Color(ex; (255, 0, 0) -> Blue)
-    thickness (int) – 선의 두께. pixel
-    """
-
-
-#  initialize the window and set the Callback function.
-cv2.namedWindow("kalman_tracker")
-cv2.setMouseCallback("kalman_tracker", mousemove)
-
-kalman = cv2.KalmanFilter(4,2)
-    """
-    - dynamParams: This parameter states the dimensionality of the state
-    - MeasureParams: This parameter states the dimensionality of the measurement
-    - ControlParams: This parameter states the dimensionality of the control
-    - vector.type: This parameter states the type of the created matrices that should be CV_32F or CV_64F
-    """
-kalman.measurementMatrix = np.array([[1,0,0,0],[0,1,0,0]],np.float32)
-kalman.transitionMatrix = np.array([[1,0,1,0],[0,1,0,1],[0,0,1,0],[0,0,0,1]],np.float32)
-kalman.processNoiseCov = np.array([[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]],np.float32) * 0.03
-
-while True:
-    cv2.imshow("kalman_tracker", frame)
-    if (cv2.waitKey(30) & 0xFF) == 27:
-        break
-cv2.destroyAllWindows()
-
-```
-
 
 ---
 
@@ -201,6 +126,86 @@ if __name__ == "__main__":
     cv.destroyWindow("Kalman")
 
 ```
+
+
+---
+
+![](https://i.imgur.com/h8Lgnya.png)
+
+```Python
+
+import cv2
+import numpy as np
+
+#  create an empty frame, of size 800 x 800
+frame = np.zeros((800, 800, 3), np.uint8)
+
+#initialize the arrays that will take the coordinates of the measurements and predictions of the mouse movements
+last_measurement = current_measurement = np.array((2,1),np.float32)
+last_prediction = current_prediction = np.zeros((2,1), np.float32)
+
+def mousemove(event, x, y, s, p):
+    """
+    we store the last measurements and last prediction,
+    correct the Kalman with the current measurement, calculate the Kalman prediction,
+    and finally draw two lines, from the last measurement to the current and from the last prediction to the current:
+    """
+    global frame, current_measurement, measurements, last_measurement, current_prediction, last_prediction
+
+    last_prediction = current_prediction
+    last_measurement = current_measurement
+
+    current_measurement = np.array([[np.float32(x)],[np.float32(y)]])  #마우스 입력
+
+    # Update(=correction): In the second phase, it records the object's position and adjusts the covariance for the next cycle of calculations   
+    kalman.correct(current_measurement)
+
+    # Predict: In the first phase, the Kalman filter uses the covariance calculated up to the current point in time to estimate the object's new position
+    current_prediction = kalman.predict()
+
+    lmx, lmy = last_measurement[0], last_measurement[1]
+    cmx, cmy = current_measurement[0], current_measurement[1]
+    lpx, lpy = last_prediction[0], last_prediction[1]
+    cpx, cpy = current_prediction[0], current_prediction[1]
+
+    cv2.line(frame, (lmx, lmy), (cmx, cmy), (0,100,0))
+    cv2.line(frame, (lpx, lpy), (cpx, cpy), (0,0,200))
+    """
+    Parameters:
+    img – 그림을 그릴 이미지 파일
+    start – 시작 좌표(ex; (0,0))
+    end – 종료 좌표(ex; (500. 500))
+    color – BGR형태의 Color(ex; (255, 0, 0) -> Blue)
+    thickness (int) – 선의 두께. pixel
+    """
+
+
+#  initialize the window and set the Callback function.
+cv2.namedWindow("kalman_tracker")
+cv2.setMouseCallback("kalman_tracker", mousemove)
+
+kalman = cv2.KalmanFilter(4,2)
+    """
+    - dynamParams: This parameter states the dimensionality of the state
+    - MeasureParams: This parameter states the dimensionality of the measurement
+    - ControlParams: This parameter states the dimensionality of the control
+    - vector.type: This parameter states the type of the created matrices that should be CV_32F or CV_64F
+    """
+kalman.measurementMatrix = np.array([[1,0,0,0],[0,1,0,0]],np.float32)
+kalman.transitionMatrix = np.array([[1,0,1,0],[0,1,0,1],[0,0,1,0],[0,0,0,1]],np.float32)
+kalman.processNoiseCov = np.array([[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]],np.float32) * 0.03
+
+while True:
+    cv2.imshow("kalman_tracker", frame)
+    if (cv2.waitKey(30) & 0xFF) == 27:
+        break
+cv2.destroyAllWindows()
+
+```
+
+
+---
+
 
 
 ---
