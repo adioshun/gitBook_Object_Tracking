@@ -5,12 +5,10 @@
 코드 설명 : https://cafe.naver.com/opencv/13685, https://cafe.naver.com/opencv/1634
 
 
-최종적으로는 
-1. cvKalmanPredict 라는 함수를 이용하여 예측(과거 정보 이용)을 하고 
+최종적으로는
+1. cvKalmanPredict 라는 함수를 이용하여 예측(과거 정보 이용)을 하고
 2. cvKalmanCorrect라는 함수로 보정(현재 측정정보 이용)을 합니다.
 3. 그리고 이 보정값은 다시 cvKalmanPredict 의 인자로 들어가는 반복구조입니다.
-
-
 
 ---
 
