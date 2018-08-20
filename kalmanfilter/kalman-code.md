@@ -6,11 +6,15 @@
 
 
 Key Concept
-최종적으로는 cvKalmanPredict 라는 함수를 이용하여 예측을 하고 cvKalmanCorrect라는 함수로 보정을 합니다.
+최종적으로는 cvKalmanPredict 라는 함수를 이용하여 예측(과거 정보 이용)을 하고 cvKalmanCorrect라는 함수로 보정(현재 측정보 이용)을 합니다.
 그리고 이 보정값은 다시 cvKalmanPredict 의 인자로 들어가는 반복구조입니다.(white 문으로 구현이 되겠지요).
 다시 말해 칼만 필터의 기본 개념은 예측 후 보정, 다시 그 보정값을 이용하여 다시 예측입니다.
 보정시에는 진짜 측정 데이터를 이용하여 보정합니다
 
+
+---
+
+![](https://i.imgur.com/h8Lgnya.png)
 
 ```Python
 
@@ -85,6 +89,8 @@ cv2.destroyAllWindows()
 
 
 ---
+
+![](https://i.imgur.com/XskJiOx.png)
 
 ```Python
 #!/usr/bin/env python
@@ -200,6 +206,9 @@ if __name__ == "__main__":
 
 
 ---
+
+![](https://i.imgur.com/PndfH0m.png)
+
 
 ```python
 #! /usr/bin/python
