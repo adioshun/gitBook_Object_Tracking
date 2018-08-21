@@ -3,10 +3,11 @@
 * Fusion: Used to estimate a state of the system by combining **measurements** from different sources
 * Prediction : Used to estimate a system **state**\(=velo, position\), where it cannot measure it directly, but an** indirect measurement** is available
 
-> 참고 : 도대체 칼만필터란 무엇인가? [\[1\]](https://blog.naver.com/pjy6075/221228342912), [\[2\]](https://blog.naver.com/pjy6075/221244351376), [\[공식설명\]](https://blog.naver.com/dusrb2003/220272227990),[코드분석](http://msnayana.blog.me/80107534127), [책정리](http://msnayana.blog.me/80144116755), [영문매거진](http://academic.csuohio.edu/simond/courses/eec644/kalman.pdf)  
-> 참고\(영문\) : [Object tracking with LIDAR, Radar, sensor fusion and Extended Kalman Filter](http://www.coldvision.io/2017/04/15/object-tracking-with-lidar-radar-sensor-fusion-and-extended-kalman-filter/), [Sensor Fusion Algorithms For Autonomous Driving: Part 1 ](https://medium.com/@wilburdes/sensor-fusion-algorithms-for-autonomous-driving-part-1-the-kalman-filter-and-extended-kalman-a4eab8a833dd)
-> 네이버 OpenCV 카페 : [[강좌]Kalman filter의 중요 개념을 표시한 그림과 주석](https://cafe.naver.com/opencv/1647), [
+> - 참고 : 도대체 칼만필터란 무엇인가? [\[1\]](https://blog.naver.com/pjy6075/221228342912), [\[2\]](https://blog.naver.com/pjy6075/221244351376), [\[공식설명\]](https://blog.naver.com/dusrb2003/220272227990),[코드분석](http://msnayana.blog.me/80107534127), [책정리](http://msnayana.blog.me/80144116755), [영문매거진](http://academic.csuohio.edu/simond/courses/eec644/kalman.pdf)  
+> - 참고\(영문\) : [Object tracking with LIDAR, Radar, sensor fusion and Extended Kalman Filter](http://www.coldvision.io/2017/04/15/object-tracking-with-lidar-radar-sensor-fusion-and-extended-kalman-filter/), [Sensor Fusion Algorithms For Autonomous Driving: Part 1 ](https://medium.com/@wilburdes/sensor-fusion-algorithms-for-autonomous-driving-part-1-the-kalman-filter-and-extended-kalman-a4eab8a833dd)
+> - 네이버 OpenCV 카페 : [[강좌]Kalman filter의 중요 개념을 표시한 그림과 주석](https://cafe.naver.com/opencv/1647), [
 OpenCV 칼만필터에 관한 질문입니다~(Pk 관련)](https://cafe.naver.com/opencv/8734), [점 추적을 위한 칼만 필터 예제와 질문](https://cafe.naver.com/opencv/13685)
+> - [[추천] 칼만 필터 기초 - 알고리즘](http://lovely-embedded.tistory.com/15)
 
 ## 용어 정리
 
