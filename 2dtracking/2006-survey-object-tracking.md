@@ -151,6 +151,43 @@ In either tracking approach,
     - Proximal uniformity is a combination of the proximity and the small, velocity change constraints.
 
 
+### 1.2 Statistical Methods for Correspondence. 
 
+- Statistical correspondence methods solve these tracking problems by taking the measurement and the model uncertainties into account during object state estimation. 
+    - Measurements obtained from video sensors invariably contain noise. 
+    - Moreover, the object motions can undergo random perturbations, for instance, maneuvering vehicles. 
+
+- The statistical correspondence methods use the state space approach to model the object properties such as position, velocity, and acceleration.
+
+- Measurements usually consist of the object position in the image, which is obtained by a detection mechanism. 
+
+- Followings, we will discuss the state estimation methods in the context of point tracking, however, it should be noted that these methods can be used in general to estimate the state of any time varying system. 
+
+- For example, these methods have extensively been used for tracking contours, activity recognition, object identification, and structure from motion ].
+
+
+#### A.  Single Object State Estimation
+
+##### 가. 칼만필터 
+
+##### 나. Particle Filters
+
+#### B. Multiobject Data Association and State Estimation
+
+- When tracking multiple objects using Kalman or particle filters, one needs to deterministically associate the most likely measurement for a particular object to that object’s state, that is, the correspondence problem needs to be solved before these filters can be applied. 
+
+- The simplest method to perform correspondence is to use the nearest neighbor approach. 
+
+- However, if the objects are close to each other, then there is always a chance that the correspondence is incorrect. 
+
+- An incorrectly associated measurement can cause the filter to fail to converge. 
+
+- There exist several statistical data association techniques to tackle this problem.
+
+##### 가. Joint Probability Data Association Filter
+
+##### 나. Multiple Hypothesis Tracking (MHT )
+
+---
 
 ![](https://i.imgur.com/iAcbBz6.png)
