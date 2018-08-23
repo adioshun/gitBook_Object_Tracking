@@ -89,9 +89,11 @@ In either tracking approach,
     - In the case where a geometric shape representation is used for the object, parametric motion models like affine or projective transformations are appropriate. 
 
 
-![](https://i.imgur.com/5hbE0Mo.png)
 
-## Point Tracking. 
+
+![](https://i.imgur.com/udmzbwR.png)
+
+#### Point Tracking. 
 
 - Objects detected in consecutive frames are represented by points, 
 
@@ -101,7 +103,7 @@ In either tracking approach,
 
 > An example of object correspondence is shown in Figure 8(a).
 
-## Kernel Tracking. 
+#### Kernel Tracking. 
 
 > Kernel refers to the object shape and appearance. (eg.: rectangular template or an elliptical shape with an associated histogram. )
 
@@ -109,7 +111,7 @@ In either tracking approach,
 
 - This motion is usually in the form of a parametric transformation such as translation, rotation, and affine.
 
-## Silhouette Tracking. 
+#### Silhouette Tracking. 
 
 - Tracking is performed by **estimating the object region** in each frame. 
 
@@ -121,5 +123,25 @@ In either tracking approach,
 
 - Both of these methods can essentially be considered as object segmentation applied in the temporal domain using the priors generated from the previous frames.
 
+
+![](https://i.imgur.com/5hbE0Mo.png)
+
+## 1. Point Tracking
+
+- Tracking can be formulated as the correspondence of detected objects represented by points across frames. 
+
+- Overall, point correspondence methods can be divided into two broad categories, 
+    - Deterministic methods : use qualitative motion heuristics to constrain the correspondence problem. 
+    - Statistical methods : take the object measurement and take uncertainties into account to establish correspondence.
+
+### 1.1 Deterministic Methods for Correspondence. 
+
+- Deterministic methods for point correspondence define a cost of associating each object in frame t − 1 to a single object in frame t using a set of motion constraints. 
+
+- Minimization of the correspondence cost is formulated as a combinatorial optimization problem. 
+
+- A solution, which consists of oneto-one correspondences (Figure 9(b)) among all possible associations (Figure 9(a)), can be obtained by optimal assignment methods, for example, Hungarian algorithm, [Kuhn 1955] or greedy search methods. 
+
+- The correspondence cost is usually defined by using a combination of the following constraints.
 
 ![](https://i.imgur.com/iAcbBz6.png)
