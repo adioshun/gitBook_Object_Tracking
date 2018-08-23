@@ -36,7 +36,8 @@ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.8588&rep=rep1&type=
 
 > 추적 알고리즘은 object representation에 따라 달라 질수 있다. 
 
-![](https://i.imgur.com/5hbE0Mo.png)
+![image](https://user-images.githubusercontent.com/17797922/40040689-303d1cce-5856-11e8-86c5-07293af6f9ec.png)
+
 
 
 ### 3.1 Feature based
@@ -69,8 +70,30 @@ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.8588&rep=rep1&type=
 - Bosting
 
 
+---
 
-![image](https://user-images.githubusercontent.com/17797922/40040689-303d1cce-5856-11e8-86c5-07293af6f9ec.png)
+The tasks of detecting the object and establishing correspondence between the object instances across frames can either be performed **separately** or **jointly**. 
+
+In the first case, 
+- possible object regions in every frame are obtained by means of an object detection algorithm, 
+- and then the **tracker** corresponds objects across frames. 
+
+In the latter case, 
+- the object region and correspondence is jointly estimated by iteratively updating object location and region
+information obtained from previous frames. 
+
+In either tracking approach, 
+- the objects are represented using the shape and/or appearance models described in Section 2. 
+- The model selected to represent object shape limits the type of motion or deformation it can undergo. 
+    - For example, if an object is represented as a point, then only a translational model can be used. 
+    - In the case where a geometric shape representation is used for the object, parametric motion models like affine or projective transformations are appropriate. 
+
+
+
+
+![](https://i.imgur.com/5hbE0Mo.png)
+
+
 
 
 
