@@ -1,21 +1,22 @@
-# 이미지 기반 트래킹
+#
+이미지 기반 트래킹
 
 추적 알고리즘 분류 \#1
 
 * 결정론적 방법 : Local Search
-  * Least-Square tracking
-  * Mean-Shift
-  * Gradient ascent/decent 알고리즘
+* Least-Square tracking
+* Mean-Shift
+* Gradient ascent/decent 알고리즘
 * 확률론적 방법 : Probabilistic search
-  * Kalman Filter
-  * extended kalman Filter
-  * Particle Filter
+* Kalman Filter
+* extended kalman Filter
+* Particle Filter
 
 Basic Tracking Algorithm
 
 * centroid tracking : it relies on the Euclidean distance between
-  * \(1\) existing object centroids \(i.e., objects the centroid tracker has already seen before\) and
-  * \(2\) new object centroids between subsequent frames in a video.
+* \(1\) existing object centroids \(i.e., objects the centroid tracker has already seen before\) and
+* \(2\) new object centroids between subsequent frames in a video.
 
 Advanced Tracking Algorithm
 
@@ -92,25 +93,19 @@ Manya Afonso는 대표적인 비선형 예측 알고리즘인 확장 칼만 필�
 
 ---
 
-[A Review on Object Detection and Tracking Methods  
+[A Review on Object Detection and Tracking Methods
 ](https://ijrest.net/downloads/volume-2/issue-1/pid-21201506.pdf) : 2015
 
 ### [A Survey on Object Detection and Tracking Methods](https://pdfs.semanticscholar.org/25a6/c5dff9a7019475daa81cd5a7f1f2dcdb5cf1.pdf): 2014
 
 ![image](https://user-images.githubusercontent.com/17797922/40040388-0ac64296-5855-11e8-8b14-5b15cc508410.png)
 
-### [A Review of Object Detection and Tracking Methods](http://www.ijaerd.com/papers/finished_papers/A Review of Object Detection and Tracking Methods-IJAERDV04I1045913.pdf):2017
-
-![image](https://user-images.githubusercontent.com/17797922/40040689-303d1cce-5856-11e8-86c5-07293af6f9ec.png)
 
 * Tracking Methods
-  * Region-based tracking methods
-  * contour tracking methods
-  * 3D Model based tracking methods
-  * Feature based tracking methods
-  * Color and Pattern based tracking methods
+* Region-based tracking methods
+* contour tracking methods
+* 3D Model based tracking methods
+* Feature based tracking methods
+* Color and Pattern based tracking methods
 
 > [Moving Object Tracking of Vehicle Detection”: A Concise Review](http://docplayer.net/16497156-Moving-object-tracking-of-vehicle-detection-a-concise-review.html): 2015
-
-
-
