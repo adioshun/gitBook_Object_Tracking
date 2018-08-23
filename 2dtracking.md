@@ -99,9 +99,6 @@ Manya Afonso는 대표적인 비선형 예측 알고리즘인 확장 칼만 필�
 
 ![image](https://user-images.githubusercontent.com/17797922/40040388-0ac64296-5855-11e8-8b14-5b15cc508410.png)
 
-### [A Review of Object Detection and Tracking Methods](http://www.ijaerd.com/papers/finished_papers/A Review of Object Detection and Tracking Methods-IJAERDV04I1045913.pdf):2017
-
-![image](https://user-images.githubusercontent.com/17797922/40040689-303d1cce-5856-11e8-86c5-07293af6f9ec.png)
 
 * Tracking Methods
   * Region-based tracking methods
