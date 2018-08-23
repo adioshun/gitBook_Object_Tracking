@@ -89,12 +89,37 @@ In either tracking approach,
     - In the case where a geometric shape representation is used for the object, parametric motion models like affine or projective transformations are appropriate. 
 
 
-
-
 ![](https://i.imgur.com/5hbE0Mo.png)
 
+## Point Tracking. 
 
+- Objects detected in consecutive frames are represented by points, 
 
+- and the association of the points is based on the previous object state which can include object position and motion. 
+
+- This approach requires an external mechanism to detect the objects in every frame. 
+
+> An example of object correspondence is shown in Figure 8(a).
+
+## Kernel Tracking. 
+
+> Kernel refers to the object shape and appearance. (eg.: rectangular template or an elliptical shape with an associated histogram. )
+
+- Objects are tracked by computing the **motion of the kernel** in consecutive frames (Figure 8(b)). 
+
+- This motion is usually in the form of a parametric transformation such as translation, rotation, and affine.
+
+## Silhouette Tracking. 
+
+- Tracking is performed by **estimating the object region** in each frame. 
+
+- Silhouette tracking methods use the information encoded inside the object region. 
+
+- This information can be in the form of appearance density and shape models which are usually in the form of edge maps. 
+
+- Given the object models, silhouettes are tracked by either **shape matching** or **contour evolution** (see Figure 8(c), (d)). 
+
+- Both of these methods can essentially be considered as object segmentation applied in the temporal domain using the priors generated from the previous frames.
 
 
 ![](https://i.imgur.com/iAcbBz6.png)
