@@ -140,8 +140,17 @@ In either tracking approach,
 
 - Minimization of the correspondence cost is formulated as a combinatorial optimization problem. 
 
-- A solution, which consists of oneto-one correspondences (Figure 9(b)) among all possible associations (Figure 9(a)), can be obtained by optimal assignment methods, for example, Hungarian algorithm, [Kuhn 1955] or greedy search methods. 
+- A solution, which consists of one-to-one correspondences (Figure 9(b)) among all possible associations (Figure 9(a)), can be obtained by optimal assignment methods, for example, Hungarian algorithm, [Kuhn 1955] or greedy search methods. 
 
 - The correspondence cost is usually defined by using a combination of the following constraints.
+    - Proximity assumes the location of the object would not change notably from one frame to other (see Figure 10(a)).
+    - Maximum velocity defines an upper bound on the object velocity and limits the possible correspondences to the circular neighborhood around the object (see Figure 10(b)).
+    - Small velocity change (smooth motion) assumes the direction and speed of the object does not change drastically (see Figure 10(c)).
+    - Common motion constrains the velocity of objects in a small neighborhood to be similar (see Figure 10(d)). This constraint is suitable for objects represented by multiple points.
+    - Rigidity assumes that objects in the 3D world are rigid, therefore, the distance between any two points on the actual object will remain unchanged (see Figure 10(e)).
+    - Proximal uniformity is a combination of the proximity and the small, velocity change constraints.
+
+
+
 
 ![](https://i.imgur.com/iAcbBz6.png)
