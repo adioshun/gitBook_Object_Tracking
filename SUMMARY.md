@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [To\_List](tolist.md)
 * [Tracking 개요](tracking.md)
 * [2D\_Tracking](2dtracking.md)
   * [Mean Shift\_CAM shift](2dtracking/mean-shift.md)
