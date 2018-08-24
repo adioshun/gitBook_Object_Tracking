@@ -187,14 +187,10 @@ GNN 기법 [6,16]은 유효측정영역 내부의 측정치가 기껏해야 한 
  - track oriented MHT (Multiple Hypothesis Tracking) 기법 [2,5,20]도 널리 적용되고 있다. 
 
 
-- 그리고 기하급수적으로 증가하는 트랙-측정치간의 joint event의 수로 인해 실용성이 결여되는 것을 방지하기 위해 
- - 준최적 할당기법이 제안되었다[21-24]. 
-
-
-- 또 한 표적의 개수 증가에 따라 가설의 증가가 선형적으로 증가하는 
+- 그리고 기하급수적으로 증가하는 트랙-측정치간의 joint event의 수로 인해 실용성이 결여되는 것을 방지하기 위해 준최적 할당기법이 제안되었다[21-24]. 
  - LM-IPDA (Linear Multitarget - Integrated Probabilistic Data Association) [25], 
  - LM-ITS (Linear Multitarget - Integrated Track Splitting) [19,25] 알고리듬은 
- - 연산량의 기하급수적인 증가를 막으면서, 최적에 가까운 표적추적 성능을 나타내는 다중표적 자료연관 기법으로 알려져 있다.
+ > 한 표적의 개수 증가에 따라 가설의 증가가 선형적으로 증가하는 연산량의 기하급수적인 증가를 막으면서, 최적에 가까운 표적추적 성능을 나타내는 다중표적 자료연관 기법으로 알려져 있다.
 
 
 ### 3.1 JIPDA (Joint IPDA)
