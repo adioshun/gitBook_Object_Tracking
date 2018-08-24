@@ -17,6 +17,7 @@
   * [2018-Fast and Furious](3dtracking/2018-fast-and-furious.md)
   * [2018-pixor](3dtracking/2018-pixor.md)
 * [kalman\_filter](kalmanfilter.md)
+  * [Kalman-Intro](kalmanfilter/kalman-intro.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
   * [Kalman-code](kalmanfilter/kalman-code.md)
 * [Condensation](Condensation.md)
