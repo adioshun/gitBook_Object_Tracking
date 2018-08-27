@@ -1,3 +1,6 @@
+[3D-LIDAR Multi Object Tracking for Autonomous Driving](https://www.slideshare.net/adioshun/3dlidar-multi-object-tracking-for-autonomous-driving): A.S. Abdul Rachman,석사 학위 논문, 140page
+
+
 # Multi Object Tracking
 
 ![](https://i.imgur.com/cMfis3G.png)
@@ -119,11 +122,38 @@ The basic concept of Bayes filtering is introduced along with the filters which 
 따라서 후속적인 분류및 확인 절차가 필요 하다. `Therefore, a subsequent classification and validation of the estimated track are simply necessary.`
 
 Data Association (DA) is a process of associating the detection result into a tracking filter.
-There are two classes of DA filter: the deterministic filter and the probabilistic filter. Repre-
-sentative of deterministic DA filter is Nearest Neighborhood Filter (NNF) algorithm which
-updates each object with the closest measurement relative to the state. NNF associates object
-with known track based on the shortest Euclidean or the Mahalanobis distance between the
+
+There are two classes of DA filter: 
+- the deterministic filter and 
+- the probabilistic filter. 
+
+
+##### 가. NNF
+
+- Representative of deterministic DA filter is Nearest Neighborhood Filter (NNF) algorithm 
+
+- NNF updates each object with the closest measurement relative to the state. 
+
+- NNF associates object with known track based on the shortest Euclidean or the Mahalanobis distance between the
 measurement and track.
+
+##### 나. PDAF
+
+- The probabilistic DA filter that is very well-known in object tracking literature body is the
+eponymous Probabilistic Data Association Filter (PDAF)[29]. 
+
+- The PDAF perform a weighted update of the object state using all association hypotheses in order to avoid hard, possibly erroneous association decisions commonly encountered in the use of NNF algorithm. 
+
+- The erroneous association is often found during the scenario in which multiple measurements is located close to each other (i.e. clutter) and results in single measurement being used to incorrectly update all other nearby objects.
+
+
+> PDA is also one of the most computationally efficient tracking algorithms among clutter-aware tracker[97], for
+instance when compared to MHT[117]. 
+
+
+![](https://i.imgur.com/eJBHCLO.png)
+
+
 
 ### 3.4 Probabilistic Data Association Filter (단일)
 

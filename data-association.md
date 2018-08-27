@@ -1,4 +1,4 @@
-![](https://i.imgur.com/eJBHCLO.png)
+
 
 [Global Data Association for Multiple Pedestrian Tracking](https://www.youtube.com/watch?v=SgRSniLdpwk): youtube 
 
