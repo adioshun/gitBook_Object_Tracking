@@ -52,3 +52,50 @@ Further issues emerge when spurious observations can arise from non-tracked, bac
 
 In such cases, the assignment space for matching tracks to observations should be expanded to include these possibilities in order to achieve best performance.
 
+
+##### 가. Nearest Neighbour
+
+The Nearest Neighbour (NN) approach is perhaps the simplest assignment method for performing data association.
+
+1. one first calculates a distance matrix $$D \in R^{N×N}$$ between every track and every observation
+
+2. Then, one greedily matches detections to tracks by sequentially selecting the closest, unassigned track-detection pair from D until all are assigned.
+
+Several metrics exists for the track-observation distance calculation
+- Euclidian distance
+- Mahalanobis distance
+
+장/단점 `The NN data association approach benefits from a simple implementation, however,due to its greedy assignment method, it is suboptimal`
+
+##### 나. Global Nearest Neighbour
+
+
+The Global Nearest Neighbour (GNN) approach is a data association method which 
+- minimizes the cumulative distance of all assignments in the matrix D. 
+
+This typically results in less assignment errors compared to the NN approach
+
+In the literature, finding the matchings in D which minimize the cumulative distance is typically referred to as the 
+- linear assignment problem 
+- simply the assignment problem [14]
+
+There exist a number of published methods and libraries for finding the optimal solution. For example, two commonly used methods are 
+- the Munkres assignment algorithm [40] and 
+- the Jonker-Volgenant assignment algorithm [33].
+
+While the GNN approach is typically superior to the NN approach at producing accurate assignments, it suffers from a slower computation time
+
+##### 다. Other Data Association Approaches
+
+- Probabilistic Data Association Filter
+- the MultiHypothesis Tracker  
+
+
+For more in-depth analyses in this area, the reader is encourged examine existing seminal work [4].
+
+```
+[4] Yaakov Bar-Shalom and Xiao-Rong Li. Multitarget-multisensor tracking: principles and techniques, volume 19. Yaakov Bar-Shalom, 1995.
+```
+
+##### 라. Track Initiation and Deletion
+
