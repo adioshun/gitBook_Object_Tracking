@@ -19,6 +19,7 @@
   * [2018-Fast and Furious](3dtracking/2018-fast-and-furious.md)
   * [2018-pixor](3dtracking/2018-pixor.md)
   * [2017-3D-Lidar MOT for Autonomous-Driving](3dtracking/2017-3d-lidar-mot-for-autonomous-driving.md)
+  * [2015-PersonTracking-2D-Lidar](3dtracking/2015-persontracking-2d-lidar.md)
 * [kalman\_filter](kalmanfilter.md)
   * [Kalman-Intro](kalmanfilter/kalman-intro.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
