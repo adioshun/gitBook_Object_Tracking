@@ -25,6 +25,9 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - 깃북 : [칼만필터](https://adioshun.gitbooks.io/deep_drive/content/introfusion.html)
 
+- [‘Object Tracking’ 카테고리](http://openresearch.ai/t/object-tracking/124): openresearch
+
+
 ## 2. Paper
 
 - [LiDAR Based Real Time Multiple Vehicle Detection and Tracking](https://waset.org/publications/10004678/lidar-based-real-time-multiple-vehicle-detection-and-tracking): 3.D Data Association and Tracking
