@@ -123,6 +123,7 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - [OpenCV People Counter](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/): pyimagesearch
 
+- [Summer School Session 4: Tracking Methods - Meanshift, Camshift and Kalman Filter](https://iitmcvg.github.io/summer_school/Session4/)
 
 ## 8. Research Group / Conference
 
