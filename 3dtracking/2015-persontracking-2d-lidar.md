@@ -99,3 +99,11 @@ For more in-depth analyses in this area, the reader is encourged examine existin
 
 ##### 라. Track Initiation and Deletion
 
+
+
+## 3. Joint Leg Tracker
+
+### 3.1 Autonomous Person Detection
+
+### 3.2 Autonomous Tracking of Multiple People
+
