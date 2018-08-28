@@ -2,7 +2,7 @@
 
 [Global Data Association for Multiple Pedestrian Tracking](https://www.youtube.com/watch?v=SgRSniLdpwk): youtube 
 
-Object tracking : https://www.youtube.com/watch?v=liFAVoff9nM
+[Object tracking](https://www.youtube.com/watch?v=liFAVoff9nM) : UCF CRCV 강좌 
 
 Human Detection, Tracking and Segmentation in Surveillance Video : https://www.youtube.com/watch?v=f7PHLx3HoyQ&t=4s
 
