@@ -2,7 +2,9 @@
 
 [Global Data Association for Multiple Pedestrian Tracking](https://www.youtube.com/watch?v=SgRSniLdpwk): youtube 
 
+Object tracking : https://www.youtube.com/watch?v=liFAVoff9nM
 
+Human Detection, Tracking and Segmentation in Surveillance Video : https://www.youtube.com/watch?v=f7PHLx3HoyQ&t=4s
 
 [Introduction to Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf): ppt, CSE598C
 
