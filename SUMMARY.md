@@ -7,6 +7,7 @@
   * [2012-TLD](2dtracking/pn-tracker.md)
   * [2017-Detect2Track-Track2Detect](2dtracking/2017-detect2track-track2detect.md)
   * [2006-Survey-Object-tracking](2dtracking/2006-survey-object-tracking.md)
+  * [2016- GOTURN](2dtracking/2016-goturn.md)
 * [3D\_Tracking](3dtracking.md)
   * [2007-SLAMMOT](3dtracking/2007-slammot.md)
   * [2008-Model based vehicle tracking for autonomous driving in urban environments](3dtracking/2008-model based vehicle tracking for autonomousdriving in urban environments.md)
