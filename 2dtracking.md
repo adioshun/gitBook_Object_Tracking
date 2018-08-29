@@ -73,7 +73,7 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 ## 3. Article (Post, blog, etc.)
 
-
+[Tracking Things in Object Detection Videos](https://lab.moovel.com/blog/tracking-things-in-object-detection-videos)
 
 ## 3. Tutorial (Series, )
 
@@ -124,6 +124,9 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 - [OpenCV People Counter](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/): pyimagesearch
 
 - [Summer School Session 4: Tracking Methods - Meanshift, Camshift and Kalman Filter](https://iitmcvg.github.io/summer_school/Session4/)
+
+
+- [Offline Object Detection and Tracking on a Raspberry Pi](https://medium.com/ml-everything/offline-object-detection-and-tracking-on-a-raspberry-pi-fddb3bde130): 히트맵 표현 
 
 ## 8. Research Group / Conference
 
