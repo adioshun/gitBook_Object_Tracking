@@ -55,7 +55,7 @@ However, for each comparison, a multi-data octree has to be constructed.
 
 In addition, the implementation of the data structure is not as straightforward as voxel grid used in our platform
 
-### 2.3 reviewe 논
+### 2.3 reviewe 논문 
 
 Recent approaches on change detection in laser scan data were reviewed in [Lindenbergh and Pietrzyk, 2015]. 
 
@@ -70,16 +70,13 @@ Recent approaches on change detection in laser scan data were reviewed in [Linde
 2. detection methods that quantify changes. 
 
 
+버드아이뷰 방식의 탐지법 : Readers can also refer to [Xiao et al., 2015] for a brief overview on change detection methods from different fields such as remote sensing and photogrammetry, computer vision, and robotics.
 
-Our proposed method in Section 3 belongs to the former category. A variety of applications
-based on change detection are discussed as well, e.g., structural
-monitoring, forestry, geomorphology, and urban changes.
-Readers can also refer to [Xiao et al., 2015] for a brief overview
-on change detection methods from different fields such as remote
-sensing and photogrammetry, computer vision, and robotics.
-
-
-
+본 논문의 방식 
+- Our method is similar to the approach proposed in [Barber et al.,2008] which is based on an octree. 
+- On the other hand, we employ a voxel grid and implement entire method by means of cloud computing. 
+- The differences between an octree and a voxel grid and the reasons of applying a voxel grid in our work are further
+investigated in Section 3.2
 
 
 
