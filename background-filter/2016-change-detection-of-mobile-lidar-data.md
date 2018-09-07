@@ -86,7 +86,7 @@ Lindenbergh, R. and Pietrzyk, P., 2015. Change detection and deformation analysi
 버드아이뷰 방식의 탐지법 : Readers can also refer to [Xiao et al., 2015] for a brief overview on change detection methods from different fields such as remote sensing and photogrammetry, computer vision, and robotics.
 
 ```
-Xiao, W., Vallet, B., Bredif, M. and Paparoditis, N., 2015. Street ´ environment change detection from mobile laser scanning point clouds. ISPRS Journal of Photogrammetry and Remote Sensing
+Xiao, W., Vallet, B., Bredif, M. and Paparoditis, N., 2015. Street environment change detection from mobile laser scanning point clouds. ISPRS Journal of Photogrammetry and Remote Sensing
 107, pp. 38–49.
 ```
 
