@@ -96,7 +96,7 @@ Change detection is performed to obtain differences in the target regarding the 
 The proposed method 
 1. takes the two point clouds as inputs, 
 2. performs difference detection, and assigns a label to each point. 
-3. The outputs of the method are two sets
+3. The outputs of the method are two sets (수식 참고)
 
 ### 3.2 Algorithm for Difference Detection
 
@@ -131,7 +131,25 @@ Furthermore, an occupied voxel v must be one of the three following cases:
 3. occupied by both P1 and P2.
 
 
+In our algorithm, a label l is assigned to each point p by checking such occupancy information.
 
+In our algorithm, point clouds are transformed into voxels as an intermediate geometry representation. 
+
+Mesh reconstruction [Kazhdan et al., 2006] and Hausdorff distance computation [Memoli and Sapiro, 2004] are successfully avoided by virtue of voxels, which makes our algorithm efficient. 
+
+Voxel grid can be considered as a space partitioning scheme as well. 
+
+In a voxel grid, voxels have the constant size. Such size can be prescribed as a parameter by users. 
+
+Voxel octree [Laine and Karras, 2011] is another
+popular partitioning scheme. Contrary to voxel grid, voxels
+from a voxel octree may have different sizes. In our algorithm
+voxel grid is applied instead of voxel octree, because voxel grid
+can perform a uniform resampling spontaneously due to constant
+voxel size, which makes our algorithm robust to varying sampling
+densities. In addition, voxel grid is more suitable for our parallel
+computing engine Apache Spark. More details about parallel
+implementation are discussed in Section 4.
 
 
 
