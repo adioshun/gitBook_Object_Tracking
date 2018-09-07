@@ -141,15 +141,13 @@ Voxel grid can be considered as a space partitioning scheme as well.
 
 In a voxel grid, voxels have the constant size. Such size can be prescribed as a parameter by users. 
 
-Voxel octree [Laine and Karras, 2011] is another
-popular partitioning scheme. Contrary to voxel grid, voxels
-from a voxel octree may have different sizes. In our algorithm
-voxel grid is applied instead of voxel octree, because voxel grid
-can perform a uniform resampling spontaneously due to constant
-voxel size, which makes our algorithm robust to varying sampling
-densities. In addition, voxel grid is more suitable for our parallel
-computing engine Apache Spark. More details about parallel
-implementation are discussed in Section 4.
+Voxel octree [Laine and Karras, 2011] is another popular partitioning scheme. 
+
+Contrary to voxel grid, voxels from a voxel octree may have different sizes. 
+
+In our algorithm voxel grid is applied instead of voxel octree, because voxel grid can perform a uniform resampling spontaneously due to constant voxel size, which makes our algorithm robust to varying sampling densities. 
+
+In addition, voxel grid is more suitable for our parallel computing engine Apache Spark. 
 
 
 
