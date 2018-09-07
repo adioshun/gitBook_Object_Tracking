@@ -81,9 +81,54 @@ investigated in Section 3.2
 
 
 
+## 3. OUR METHOD
 
 
+### 3.1 Problem Statement
 
+we have two LiDAR data collections of the same city region which are captured at different dates even using different mobile mapping systems. 
+- 기준 데이터, The earlier acquired data set is chosen as the reference,
+- 타겟 데이터, and the newer one is selected as the target. 
+
+Change detection is performed to obtain differences in the target regarding the reference
+
+
+The proposed method 
+1. takes the two point clouds as inputs, 
+2. performs difference detection, and assigns a label to each point. 
+3. The outputs of the method are two sets
+
+### 3.2 Algorithm for Difference Detection
+
+the input of our method are two point clouds without further assumption such as sampling density and distribution. 
+
+The aim of our method is to compute geometry differences between the input point clouds.
+
+The algorithm for difference detection is outlined in Figure 1.
+
+![](https://i.imgur.com/p2c0RK2.png)
+```
+Figure 1. The figure outlines the algorithm to compare the geometry of two point clouds. 
+- A voxel grid is built based on the point clouds.
+- Geometry differences of the point clouds can be computed by comparing occupancy status of each voxel with respect to the two point clouds. 
+- The rightmost column visualizes the computed geometry differences which are illustrated as orange dots in the figure.
+```
+
+Given the input point clouds P1 (green) and P2 (red), a voxel grid is built. 
+
+A voxel grid, which is a regular grid in three dimensional space, is popularlly used in computer graphics, especially
+in 3D reconstruction [Curless and Levoy, 1996] and rendering [Fujimoto et al., 1986]. 
+
+To construct the grid, the minimum bounding box of the two point clouds is computed first and then the box is partitioned regularly by voxels within the same size. 
+
+In our algorithm, the voxel size is a parameter prescribed by users to control the resolution of detected geometry differences. 
+
+A voxel v is occupied by point cloud P if and only if some point p ∈ P is located in the voxel v. 
+
+Furthermore, an occupied voxel v must be one of the three following cases:
+1. occupied by P1 only,
+2. occupied by P2 only,
+3. occupied by both P1 and P2.
 
 
 
