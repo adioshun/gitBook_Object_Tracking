@@ -37,9 +37,18 @@ However, computing a discrete approximation of Gromov-Hausdorff distance is not 
 
 Pairwise geodesic distances between points are required, which introduces efficiency issue.
 
+```
+Memoli, F. and Sapiro, G., 2004. Comparing point clouds. In: ´Proceedings of the 2004 Eurographics/ACM SIGGRAPH symposium on Geometry processing, ACM, pp. 32–40.
+```
+
+
 ### 2.2 multi-data octree
 
 An out-of-core method was developed in [Richter et al., 2013] for detecting changes in massive point clouds without having to reduce the raw point data. 
+
+```
+Richter, R., Kyprianidis, J. E. and Dollner, J., 2013. Out-of-core gpu-based change detection in massive 3d point clouds. Transactions in GIS 17(5), pp. 724–741.
+```
 
 The basic idea of the method is computing the distance between each point to its closest point. 
 
@@ -59,6 +68,10 @@ In addition, the implementation of the data structure is not as straightforward 
 
 Recent approaches on change detection in laser scan data were reviewed in [Lindenbergh and Pietrzyk, 2015]. 
 
+```
+Lindenbergh, R. and Pietrzyk, P., 2015. Change detection and deformation analysis using static and mobile laser scanning. Applied Geomatics 7(2), pp. 65–74.
+```
+
 주요 문제점 언급 `Major existing difficulties are studied including `
 - local varying properties of point cloud, 
 - registration, 
@@ -71,6 +84,12 @@ Recent approaches on change detection in laser scan data were reviewed in [Linde
 
 
 버드아이뷰 방식의 탐지법 : Readers can also refer to [Xiao et al., 2015] for a brief overview on change detection methods from different fields such as remote sensing and photogrammetry, computer vision, and robotics.
+
+```
+Xiao, W., Vallet, B., Bredif, M. and Paparoditis, N., 2015. Street ´ environment change detection from mobile laser scanning point clouds. ISPRS Journal of Photogrammetry and Remote Sensing
+107, pp. 38–49.
+```
+
 
 본 논문의 방식 
 - Our method is similar to the approach proposed in [Barber et al.,2008] which is based on an octree. 
