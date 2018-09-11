@@ -11,6 +11,7 @@
   * [2014-Survey-ObjectDetection-TrackingMethods](2dtracking/2014-survey-objectdetection-trackingmethods.md)
   * [2016-SORT-SimpleOnlineRealtimeTracking](2dtracking/2016-sort-simpleonlinerealtimetracking.md)
   * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
+  * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
 * [3D\_Tracking](3dtracking.md)
   * [2007-SLAMMOT](3dtracking/2007-slammot.md)
   * [2008-Model based vehicle tracking for autonomous driving in urban environments](3dtracking/2008-model based vehicle tracking for autonomousdriving in urban environments.md)
