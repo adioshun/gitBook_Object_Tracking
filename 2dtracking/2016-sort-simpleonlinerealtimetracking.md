@@ -3,10 +3,10 @@
 | 저자\(소속\) | Bewley, Alex and Ge, Zongyuan and Ott, Lionel and Ramos, Fabio and Upcroft, Ben \(\) |
 | 학회/년도 | 2016, [논문](https://arxiv.org/abs/1602.00763) |
 | Citation ID / 키워드 | |
-| 데이터셋(센서)/모델 | |
+| 데이터셋(센서)/모델 |25 FPS(맥북 프로) |
 | 관련연구||
 | 참고 | [홈페이지](https://motchallenge.net/tracker/SORT), [Youtube](https://motchallenge.net/movies/ETH-Linthescher-SORT.mp4) |
-| 코드 | [깃허브](https://github.com/abewley/sort), [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) |
+| 코드 | [python/C++](https://github.com/abewley/sort), [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) |
 
 
 |년도|1st 저자|논문명|코드|

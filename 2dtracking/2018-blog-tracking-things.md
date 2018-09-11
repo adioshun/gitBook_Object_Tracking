@@ -171,12 +171,30 @@ https://adioshun.gitbooks.io/object-tracking/content/2dtracking/2017-iou-tracker
 
 
 
+## 4. Finalizing implementation
+
+유클리드 거리 방법 대신 IOU를 사용하여 성능 향상 가능 
+
+Based on the previous learning, we simply integrated to the tracker the `distance()` function of the **IOU** paper instead of reasoning on euclidean distances, this led to lots of improvements and making the tracker much more reliable.
 
 
 
+## 5. Limitation and ideas for improvement
+
+- 트럭에 특화됨 it was mostly tested on tracking cars, and could be over optimized for this use case and perform badly on other use cases. 
+
+- 카메라가 고정된 환경 Also it was only tested on fixed camera viewpoint.
+
+- 개선 방안 To improve it further, 
+  - 칼만필터 기반 예측 it could be a good idea to work on the prediction framework, by integrating Kalman filters, 
+  - 탐지 신뢰도 점수 활용 and also integrate the confidence on the detection given by YOLO which isn’t used at the moment.
 
 
+## 6. Conclusion
 
+We didn’t take the time to improve the tracker further as it was good enough for our use case, but there is plenty of room to do so.
+
+In this post we simply wanted to share our learning process on tracking things, and we hope it gives you enough context to be able to fork the project and customize it for you use case.
 
 
 
