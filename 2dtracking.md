@@ -73,7 +73,7 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 ## 3. Article (Post, blog, etc.)
 
-[Tracking Things in Object Detection Videos](https://lab.moovel.com/blog/tracking-things-in-object-detection-videos)
+[Tracking Things in Object Detection Videos](https://lab.moovel.com/blog/tracking-things-in-object-detection-videos): [정리](https://legacy.gitbook.com/book/adioshun/object-tracking/edit#/edit/master/2dtracking/2018-blog-tracking-things.md)
 
 ## 3. Tutorial (Series, )
 
