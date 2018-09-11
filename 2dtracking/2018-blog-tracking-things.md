@@ -158,8 +158,7 @@ Historically there was almost no algorithm working only on the detections output
 
 #### A. SORT : Simple Online and Realtime Tracking
 
-
-
+https://adioshun.gitbooks.io/object-tracking/content/2dtracking/2016-sort-simpleonlinerealtimetracking.html
 
 
 
