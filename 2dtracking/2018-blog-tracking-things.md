@@ -133,11 +133,54 @@ We noticed that
 > 대부분의 연구는 단일 물체 추적에 초점을 두고 있음 `Also most of the papers and projects published are focusing on single object tracking and not MOT`
 
 
+Historically there was almost no algorithm working only on the detections output only as the detections weren't as good / fast as the recent progress of neural network based detector such as YOLO, and they needed to get more data from the image frame to do their job. But now this is changing and the tracking algorithms get simpler and faster as the detections are better. This technique is also called doing **tracking by detections**.
+
+> “Due to recent progress in object detection, tracking-by-detection has become the leading paradigm in multiple object tracking.” [[출처:SORT deep paper]](https://arxiv.org/pdf/1703.07402.pdf)
+
+본 문서에서는 tracking-by-detection기법을 적용하지 않았다. `That said there are maybe tracking approaches using image data that lead to better tracking results than just "tracking by detections" , but we haven’t looked into them as they will be more complex to run and may likely not run in real time: for example color based tracking, particle tracking ...`
+
+### 3.2 Our problem set
 
 
+> 주요 내용 없음 
 
 
-
+### 3.3 Benchmarking existing solutions
   
-  
+
+[MOT 추적 벤치마킹](https://motchallenge.net/)
+ : A challenge exists for researcher to compare their tracking algorithm, and it is specifically designed for Multiple object tracking: 
+
+많은 알고리즘 중에 하기 두가지 특징을 가지는 알고리즘을 분석 대상으로 삼았다. `There are plenty of algorithm, but we benchmarked two of them that had the following criterias:`
+- run at more the 25 FPS
+- open source implementation done in Python / C++
+
+
+#### A. SORT : Simple Online and Realtime Tracking
+
+
+
+
+
+
+#### B. IOU Tracker:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
