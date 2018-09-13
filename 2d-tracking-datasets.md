@@ -15,3 +15,12 @@ https://motchallenge.net/
 ![](https://i.imgur.com/vlKnkLn.png)
 
 > [MOTChallenge 2015: Towards a Benchmark for Multi-Target Tracking](https://arxiv.org/pdf/1504.01942.pdf)
+
+
+---
+
+# Welcome to the [UA-DETRAC](https://detrac-db.rit.albany.edu/) Benchmark Suite!
+
+![](https://detrac-db.rit.albany.edu/index_files/examples.jpg)
+
+- [UA-DETRAC: A New Benchmark and Protocol for Multi-Object Detection and Tracking](https://arxiv.org/abs/1511.04136): 2015, 
