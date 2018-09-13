@@ -93,10 +93,20 @@ Due to the few features extracted from LIDAR data, by building motion-map and st
 
 #### B. Segmentation
 
+The data segmentation process seeks to 
+- divide the collected data points into distinct segments 
+- such that points associated with the same object are grouped together. 
 
 
+거리 기반 방식으로 세그멘테이션 `As a first criterion, a common method is to perform segmentation based on a distance threshold. `
+    - Examples : Wang et al., Maclanchlan and Mertz and Vu et al. [28, 35, 66].
 
-
+한 물체의 연속적인 점들 도출 `As the next step, consecutive(연속적) points on the same object are sought(구하다).`
+    - 문제점 : This is challenging because of the limited angular resolution of the LIDAR sensor in this study. 
+    - 빈번한 position/angle 변경시 더 큰 문제 `Specifically, the distance between two consecutive scan points on the same surface can change dramatically depending on the varying position and angle of the surface relative to the sensor. `
+    
+![](https://i.imgur.com/vSviMed.png)
+동일 물체라도 angle문제로 Distance가 서로 다르다.     
 
 
 
