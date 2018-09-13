@@ -108,6 +108,22 @@ The data segmentation process seeks to
 ![](https://i.imgur.com/vSviMed.png)
 동일 물체라도 angle문제로 Distance가 서로 다르다.     
 
+해결책 #1: Adaptive Distance Threshold `A possible solution to this problem has been suggested by Sparbert et al. and Mendes et al. who used an adaptive distance threshold to perform segmentation [29, 30].`
+- Their methods are based on the distance between data point to the LIDAR. 
+- In their method any two consecutive points $$r_k$$ and $$r_{k+1}$$ will be regarded as belonging to the same object if the distance between them $$r_{k,k+1}$$ fulfill the Equation 2.1: (공식은 해당 논문 참고)
+- 위 해결책은 노이즈 포인트에 잘 대처 하지 못함 `Because the algorithm mentioned above is based on the consecutive beams, it is very sensitive to the noise point.`
+
+해결책 #2 : DBSCAN `Therefore, in this thesis, a density-based spatial clustering algorithm is applied for data segmentation. This clustering algorithm is a well-known data mining method named “Density-Based Spatial Clustering of Applications with Noise” (Figure 2.3) [31].`
+
+> 자세한 DBSCAN의 설명 및 장점은 논문 참고 
+> 본 논문에서 제안 하는 DBSCAN 파라미터 
+> - The minimum number of points required to form a cluster is set to 2. 
+> - The distance is empirically chosen as 120cm.
+
+#### C. Occlusion
+
+
+
 
 
 
