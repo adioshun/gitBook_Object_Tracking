@@ -29,6 +29,60 @@ minimization techniques.
 - [6] estimates short tracklets for unambiguous frames and stitches them according to a dynamics-based similarity. 
 - Other approaches include using a globally optimal and locally greedy method and integer linear programming [12] and online discriminative appearance learning [3].
 
+```
+[1] A. Andriyenko and K. Schindler. Multi-target tracking by continuous energy minimization. In Proceedings of the IEEE Conference on  (CVPR), pages 1265–1272. IEEE, 2011.
+[2] A. Andriyenko, K. Schindler, and S. Roth. Discretecontinuous optimization for multi-target tracking. In Proceedings of the IEEE Conference on  (CVPR), pages 1926–1933. IEEE, 2012.
+[6] C. Dicle, O. I. Camps, and M. Sznaier. The way they move: Tracking multiple targets with similar appearance. In Proceedings of the IEEE Conference on  (CVPR), pages 2304–2311, 2013.
+[12] H. Pirsiavash, D. Ramanan, and C. C. Fowlkes. Globallyoptimal greedy algorithms for tracking a variable number of objects. In Proceedings of the IEEE Conference on n (CVPR), pages 1201–1208. IEEE, 2011.
+[3] S.-H. Bae and K.-J. Yoon. Robust online multi-object tracking based on tracklet confidence and online discriminative appearance learning. In Proceedings of the IEEE Conference on CVPR,pages 1218–1225, 2014.
+```
+
+
+본 논문의 기본 아이디어 : in this paper a very simple tracking approach shall be assessed which is based on the idea of a passive detection filter introduced in [8].
+
+```
+[8] V. Eiselein, E. Bochinski, and T. Sikora. Assessing post-detection filters for a generic pedestrian detector in a tracking-by-detection scheme. In Analysis of video and audio ”in the Wild” workshop at IEEE AVSS17, Lecce, Italy, Aug. 2017.
+```
+
+
+## 2. Method
+
+가정사항 
+- The detector produces a detection per frame for every object to be tracked, 
+    - i.e. there are none or only few ”gaps” in the detections. 
+- detections of an object in consecutive frames have an unmistakably high overlap IOU
+
+
+정의 : We propose a simple IOU tracker 
+- which essentially continues a track by associating the detection with the highest IOU to the last detection in the previous frame if a certain threshold σIOU is met. 
+- All detections not assigned to an existing track will start a new one. 
+- All tracks without an assigned detection will end.
+
+![image](https://user-images.githubusercontent.com/17797922/45467812-61828380-b6d6-11e8-9d45-1c6d246b3a17.png)
+
+- $$D_f$$ denotes the detections at frame $$f$$
+- $$d_j$$ the $$j^{th}$$ detection at that frame
+- $$T_a$$ active tracks
+- $$T_f$$ finished tracks 
+- $$F$$ the number of Frames in the sequence
+
+Note that in line 5 only the best-matching, unassigned detection is taken as a candidate to extend the track. 
+
+This does not necessarily lead to an optimal association between the detections Df and tracks $$T_a$$ but could be solved 
+- e.g. by applying the Hungarian algorithm maximizing the sum of all IOUs at that frame. 
+
+However, taking the best match is a reasonable heuristic since $$σIOU$$ is normally chosen in the same range as the $$IOU$$ threshold for the non-maxima suppression of the detector. 
+
+Therefore, multiple matches satisfying $$σIOU$$ are rare in practice.
+
+## 3. Experiments
+
+## 4. Conclusions
+
+Our presented IOU tracker considerably outperforms the state-of-the-art at only a fraction of the complexity and computational cost. 
+
+This becomes possible due to the recent advances in the object detection
+domain, not at least due to the current boom of CNN-based approaches. 
 
 
 ---
