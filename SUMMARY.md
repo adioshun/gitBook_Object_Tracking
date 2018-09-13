@@ -24,7 +24,7 @@
   * [2017-3D-Lidar MOT for Autonomous-Driving](3dtracking/2017-3d-lidar-mot-for-autonomous-driving.md)
   * [2015-PersonTracking-2D-Lidar](3dtracking/2015-persontracking-2d-lidar.md)
   * [2014-Confidence-Based-PedestrianTracking](3dtracking/2014-confidence-based-pedestriantracking.md)
-  * 2012-Lidar-Based-MOT-system-with-Dyanamic-modeling
+  * [2012-Lidar-Based-MOT-system-with-Dyanamic-modeling](3dtracking/2012-lidar-based-mot-system-with-dyanamic-modeling.md)
 * [kalman\_filter](kalmanfilter.md)
   * [Kalman-Intro](kalmanfilter/kalman-intro.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
@@ -39,7 +39,6 @@
 * [Datasets](datasets.md)
   * [2D-Tracking-Datasets](2d-tracking-datasets.md)
 * [3D Background-filter](background-filter.md)
-  * [2012-Lidar-based-MOT system with Dynamic model](background-filter/2012-lidar-based-mot-system-with-dynamic-model.md)
   * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
 * [2D Background-filter](https://adioshun.gitbooks.io/gitbook_from_github/content/opencvbackgroundsubtractor.html)
 * Application-Counting
