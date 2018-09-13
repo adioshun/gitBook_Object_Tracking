@@ -3,10 +3,32 @@
 | 저자\(소속\) | Erik Bochinski, Volker Eiselein and Thomas Sikora \(\) |
 | 학회/년도 | IEEE AVSS 2017, [논문](http://elvera.nue.tu-berlin.de/files/1517Bochinski2017.pdf) |
 | Citation ID / 키워드 | |
-| 데이터셋(센서)/모델 |2,666 FPS(맥북프로)|
+| 데이터셋(센서)/모델 |DETRAC dataset, 2,666 FPS(맥북프로)|
 | 관련연구||
 | 참고 | [홈페이지](https://motchallenge.net/tracker/IOU17) , [blog(중국어)](https://blog.csdn.net/zhangjunhit/article/details/78911287), [blog(영어)](https://lab.moovel.com/blog/tracking-things-in-object-detection-videos#3b-iou-tracker)|
 | 코드 | [깃허브](https://github.com/bochinski/iou-tracker/) |
+
+
+
+# IOT Tracker
+
+## 1. Introduction
+
+최근 추적 기법 트랜드 : tracking-by-detection 
+1. first an object detector is applied to each video frame. 
+2. In a second step, a tracker is used to associate these detections to tracks. 
+
+챌린지 
+- limited performance of the underlying detector which may produce false positive and missed detections
+- MOT
+- Paths become ambiguous
+
+기존 연구 결과 `Many methods have been proposed to solve these problems:`
+- [1, 2] define a continuous energy function and search for strong local minima using sophisticated
+minimization techniques. 
+- [6] estimates short tracklets for unambiguous frames and stitches them according to a dynamics-based similarity. 
+- Other approaches include using a globally optimal and locally greedy method and integer linear programming [12] and online discriminative appearance learning [3].
+
 
 
 ---
@@ -45,4 +67,23 @@ And it does just that (no prediction, no velocity vector computation...)
 > SIMPLE IS THE BEST : “simple tracking methods like the IOU tracker can lead to better results than complex approaches based on decades of research”
 
 기존 유클리드 기반 distance()함수를 IOU로 바꾸면 성능 향상 가능 `Based on what we learned we revisited our `distance()` function. It could be improved by using this overlapping area comparison.`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
