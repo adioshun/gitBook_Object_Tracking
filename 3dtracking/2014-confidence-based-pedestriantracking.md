@@ -1,13 +1,12 @@
-Confidence-Based Pedestrian Tracking in Unstructured Environments Using 3D Laser Distance Measurements
-
-https://uagas/Documents/Haeselich2014CBP.pdfserpages.uni-koblenz.de/~
-
-Velodyne HDL-64E, SVM, 파티클 필터 
-
-Code : https://github.com/koide3/hdl_people_tracking
-
-
-참고 논문 : K. Kidono, T. Miyasaka, A. Watanabe, T. Naito, and J. Miura. Pedestrian recognition using high-definition LIDAR. In Proceedings
+|논문명 |Confidence-Based Pedestrian Tracking in Unstructured Environments Using 3D Laser Distance Measurements |
+| --- | --- |
+| 저자\(소속\) | \(\) |
+| 학회/년도 | 2014, [논문](https://userpages.uni-koblenz.de/~agas/Documents/Haeselich2014CBP.pdf) |
+| Citation ID / 키워드 | Velodyne HDL-64E, SVM, 파티클 필터 |
+| 데이터셋(센서)/모델 | |
+| 관련연구|K. Kidono, Pedestrian recognition using high-definition LIDAR. In Proceedings, 2011|
+| 참고 |  |
+| 코드 |[ROS](https://github.com/koide3/hdl_people_tracking)|
 
 
 # Confidence-Based Pedestrian Tracking
