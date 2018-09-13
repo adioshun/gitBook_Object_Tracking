@@ -6,6 +6,10 @@ Velodyne HDL-64E, SVM, 파티클 필터
 
 Code : https://github.com/koide3/hdl_people_tracking
 
+
+참고 논문 : K. Kidono, T. Miyasaka, A. Watanabe, T. Naito, and J. Miura. Pedestrian recognition using high-definition LIDAR. In Proceedings
+
+
 # Confidence-Based Pedestrian Tracking
 
 we address the problem of tracking multiple pedestrians in unstructured 3D point clouds by extracting and discarding additional candidates from vegetation and other structures. 
@@ -153,6 +157,11 @@ Sato et al. [18] use an LRF with six scanning layers to track pedestrians with a
 
 정의 : The Task of ground removal is to separate obstacle points from ground points (cf. [11], [15]) in order to reduce the computational load and to perform a first selection of candidates. 
 
+```
+[11] K. Kidono, T. Miyasaka, A. Watanabe, T. Naito, and J. Miura. Pedestrian recognition using high-definition LIDAR. In Proceedings of the IEEE Intelligent Vehicles Symposium, pages 405–410, 2011.
+[15] L. Navarro-Serment, C. Mertz, and M. Hebert. Pedestrian Detection and Tracking Using Three-dimensional LADAR Data. International Journal of Robotics Research, Special Issue: Seventh International Conference on Field and Service Robots, 29(12):1516–1528, 2010.
+```
+
 높이 정보를 기준으로 하면 실패 가능성이 높다. `In unstructured environments, an assumption of a planar ground surface with a fixed ground height is likely to fail. `
 - Planar ground regions are often interrupted by hills, ditches, and other surface variations. 
 
@@ -189,6 +198,11 @@ In order to keep the overall runtime low, several algorithms were inspected.
 
 - 해결책 # 2 : The problem of an unknown k is solved by the dp-means algorithm [12], which we use and that starts with k = 1 and increments it, if a cluster grows too large, and in addition exhibits fast runtimes. 
 
+```
+[1] D. Arthur and S. Vassilvitskii. K-means++: The Advantages of Careful Seeding. In Proceedings of the Annual ACM-SIAM Symposium on Discrete Algorithms, pages 1027–1035, 2007
+[12] B. Kulis and M. Jordan. Revisiting k-means: New Algorithms via Bayesian Nonparametrics. In Proceedings of the International Conference on Machine Learning, pages 513–520, 2012.
+```
+
 A resulting separated cluster is exemplary shown in Fig. 1 where the replaced cluster is framed in blue and the
 new clusters are framed in green.
 
@@ -222,13 +236,26 @@ In another approach, Kidono et al. [11] introduce two additional features.
     - As the descriptive power of the slice feature decreases over longer distances, only a rough estimate remains in long distances.
 - The other feature introduced by Kidono et al. considers the distribution of the reflection intensities in the cluster. 
     -Since our LRF is not calibrated wrt. the intensities, this feature could not be integrated.
-    
+
+```
+[17] C. Premebida, O. Ludwig, and U. Nunes. Exploiting LIDAR-based Features on Pedestrian Detection in Urban Scenarios. In Proceedings of the International IEEE Conference on Intelligent Transportation Systems, pages 405–410, 2009
+[15] L. Navarro-Serment, C. Mertz, and M. Hebert. Pedestrian Detection and Tracking Using Three-dimensional LADAR Data. International Journal of Robotics Research, Special Issue: Seventh International Conference on Field and Service Robots, 29(12):1516–1528, 2010
+[11] K. Kidono, T. Miyasaka, A. Watanabe, T. Naito, and J. Miura. Pedestrian recognition using high-definition LIDAR. In Proceedings of the IEEE Intelligent Vehicles Symposium, pages 405–410, 2011.    
+```    
+        
+                
 ### 3.4 Classification & Training
 
 분류 목적 : 이진 분류 (사람 or NOT) `The task of the classifier is to perform a binary classification
 between pedestrian and non-pedestrian as precise as possible.`
 
 알고리즘 :SVM + RBF 커널 `As proposed by Kidono et al. [11], we use a SVM with radial basis function (RBF) Kernel [4], [5] together`
+
+```
+[11] K. Kidono, T. Miyasaka, A. Watanabe, T. Naito, and J. Miura. Pedestrian recognition using high-definition LIDAR. In Proceedings
+[4] C.-C. Chang and C.-J. Lin. LIBSVM: A library for Support Vector Machines. ACM Transactions on Intelligent Systems and Technology, 2(3):27:1–27:27, 2011.
+[5] C. Cortes and V. Vapnick. Support-Vector Networks. Machine Learning, 20(3):273–297, 1995.
+```
 
 Feature : 본 논문 3.3에서 언급한 특징들
 
@@ -238,6 +265,10 @@ Feature : 본 논문 3.3에서 언급한 특징들
 
 학습 알고리즘 : For this work, we used the LIBSVM library from Chang and Lin [4] that computes a separating hyperplane which
 discriminates between the pedestrian and non-pedestrian.
+
+```
+[4] C.-C. Chang and C.-J. Lin. LIBSVM: A library for Support Vector Machines. ACM Transactions on Intelligent Systems and Technology, 2(3):27:1–27:27, 2011.
+```
 
 분류 이후 작업 : Our classifier returns a vector of confidence values in [0, 1] for each class how likely a candidate belongs to the class. 
 - The probability of the highest rated class is used as input value for the tracking system
@@ -255,6 +286,26 @@ Hence, we developed a new measurement model and decided to focus on an sophistic
 This allows our approach to discard hypotheses early and enables it to deal efficiently with false detection that occur frequently in unstructured environments.
 
 
+
+### 4.1 Measurement Model
+
+### 4.2 Particle Filter & Particle Extinction
+
+## V. EXPERIMENTS
+
+## VI. DISCUSSIONS
+
+## VII. CONCLUSIONS
+
+We presented an approach for pedestrian tracking in unstructured environments that aims to identify pedestrians
+close to vegetation by using split and merge strategies on 3D clusters. 
+
+While the algorithms separate pedestrians from other structures, a great number of newly created candidates
+affect precision and runtime. 
+
+The proposed tracking approach performs well in all test environments, especially when regarding the low recall values of the SVM in cluttered environments. 
+
+The SVM is unable to deal with a divergent update frequency of the Velodyne HDL-64E, thus lowering precision and recall on the publicly available datasets and creating a further challenge for the tracking system which proved reliable under these complicated circumstances.
 
 
 
