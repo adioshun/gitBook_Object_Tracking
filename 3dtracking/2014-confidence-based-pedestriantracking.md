@@ -223,13 +223,36 @@ In another approach, Kidono et al. [11] introduce two additional features.
 - The other feature introduced by Kidono et al. considers the distribution of the reflection intensities in the cluster. 
     -Since our LRF is not calibrated wrt. the intensities, this feature could not be integrated.
     
+### 3.4 Classification & Training
 
+분류 목적 : 이진 분류 (사람 or NOT) `The task of the classifier is to perform a binary classification
+between pedestrian and non-pedestrian as precise as possible.`
 
+알고리즘 :SVM + RBF 커널 `As proposed by Kidono et al. [11], we use a SVM with radial basis function (RBF) Kernel [4], [5] together`
 
+Feature : 본 논문 3.3에서 언급한 특징들
 
+학습 데이터 : For training the SVM we annotated pedestrians in different datasets from the campus Koblenz of the University of Koblenz-Landau, 
+- which contain vegetation, trees and buildings.
+- Positive samples are extracted from annotations and negative samples are generated at random from clusters that have not been marked as pedestrians by a human annotator.
 
+학습 알고리즘 : For this work, we used the LIBSVM library from Chang and Lin [4] that computes a separating hyperplane which
+discriminates between the pedestrian and non-pedestrian.
 
+분류 이후 작업 : Our classifier returns a vector of confidence values in [0, 1] for each class how likely a candidate belongs to the class. 
+- The probability of the highest rated class is used as input value for the tracking system
 
+## IV. PEDESTRIAN TRACKING
+
+Our initial idea for the tracking was to use virtual 2D scans and was inspired by Petrovskaya and Thrun [16]. 
+
+With an adopted measurement model we observed that, with a high resolution 2D scan, many pedestrians could be successfully tracked. 
+
+Unlike, in urban scenarios varying inclination angles of the terrain and many occlusions, e.g. caused by vegetation, are problematic. 
+
+Hence, we developed a new measurement model and decided to focus on an sophisticated interaction of the detection algorithm with the particle filter. 
+
+This allows our approach to discard hypotheses early and enables it to deal efficiently with false detection that occur frequently in unstructured environments.
 
 
 
