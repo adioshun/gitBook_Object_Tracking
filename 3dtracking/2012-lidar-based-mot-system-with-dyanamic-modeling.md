@@ -233,11 +233,19 @@ To maintain estimates of the tracks during occlusion, it is critical to have an 
 
 3. During the data association step, the system tries to match an object to the
 nearest segment with the same label
+    - If a new segment cannot be associated to a previously-existing object, it is stored for a short period. Such stored segments are marked as missing and deleted if no prior or subsequent matches are found for several frames.
+    - If a segment is not found to match a new object, and the object persists for a specific time interval, it is marked as a new object and added to the object list for future tracking.
 
-If a new segment cannot be associated to a previously-existing object, it is stored for a short period. Such stored segments are marked as missing and deleted if no prior or subsequent matches are found for several frames.
+4. Once the association is completed, each object’s position is predicted and correlated with incoming data using Kalman filters.
+
+4. Objects remaining within a small boundary for a long time interval are marked as stationary.
+
+5. If any object is marked as missing during the association step, its new position will be estimated by the dynamic model. 
+
+6. Finally, the system obtains a new data frame and repeats the processing loop again.
 
 
-
+### 4.1 Pre-processing
 
 
 
