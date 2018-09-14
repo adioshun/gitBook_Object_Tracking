@@ -122,12 +122,41 @@ The data segmentation process seeks to
 
 #### C. Occlusion
 
+![](https://i.imgur.com/j5LgoWY.png)
+
+정의 : the shadow of one object may partially block the view of a second object, causing segmentation to try to classify the single second object as several different objects moving in unison (Figure 2.4). 
 
 
+해결책 #1 : a geometric vehicle model that requires continuity between disjoint point segments [47, 52, 81]. 
+
+해결책 #2 : by performing image processing approaches before clustering step. 
+    - the LIDAR image is processed as a 2D birds-eye-view image, 
+    - and afterwards image-processing methods are applied.
+    - eg #1. Zhao and Thorpe used **Hough transformation** to extract the lines [22]
+    - eg #2. Burke applied a **median filter** following PCA [40].
+    
 
 
+#### D. Classification
 
 
+방법 #1 : 물체별 속도로 구분 (사람 5mph, 자동차 5mph+)
+
+
+방법 #2 : laser-based multi-object tracking system has been studied extensively [29, 30, 34, 36]
+
+방법 #3 : Voting `Mendes, et al. uses a voting scheme presented by [37].`
+- By considering all the hypotheses over time, an object is assigned with a class until the confidence level reaches a reasonable value [30]. 
+- Although the features used are not discussed in detail, the results showed that voting classification approach can assign the right class after several frames (Figure 2.5).
+
+
+### 2.3 Filtering methods for laser-based tracking system
+
+목적 : Filtering is necessary to smooth the trajectory and to predict the vehicles pose state when the observation cannot be obtained directly. 
+
+방법 `To perform this filtering,`
+- Bayesian based filters : the Kalman Filter, the Extended Kalman Filter, the particle filter 
+- The IMM algorithm
 
 
 
