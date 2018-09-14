@@ -2,6 +2,10 @@
 
 * [Introduction](README.md)
 * [Tracking 개요](tracking.md)
+
+---
+
+* [2D Background-filter](https://adioshun.gitbooks.io/gitbook_from_github/content/opencvbackgroundsubtractor.html)
 * 2D\_Detection
 * [2D\_Tracking](2dtracking.md)
   * [Mean Shift\_CAM shift](2dtracking/mean-shift.md)
@@ -14,7 +18,8 @@
   * [2017-Detect2Track-Track2Detect](2dtracking/2017-detect2track-track2detect.md)
   * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
 ---
-
+* [3D Background-filter](background-filter.md)
+  * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
 * 3D\_Detection
   * [2018-pixor](3dtracking/2018-pixor.md)
 * [3D\_Tracking](3dtracking.md)
@@ -29,6 +34,9 @@
   * [2017-3D-Lidar MOT for Autonomous-Driving](3dtracking/2017-3d-lidar-mot-for-autonomous-driving.md)
   * [2017-online Learning](3dtracking/2017-Online learning for human classification in 3D LiDAR-based tracking.md)
   * [2018-Fast and Furious](3dtracking/2018-fast-and-furious.md)
+
+
+---
 * [kalman\_filter](kalmanfilter.md)
   * [Kalman-Intro](kalmanfilter/kalman-intro.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
@@ -42,9 +50,6 @@
   * [Hungarian-method](hungarian-method.md)
 * [Datasets](datasets.md)
   * [2D-Tracking-Datasets](2d-tracking-datasets.md)
-* [3D Background-filter](background-filter.md)
-  * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
-* [2D Background-filter](https://adioshun.gitbooks.io/gitbook_from_github/content/opencvbackgroundsubtractor.html)
 * Application-Counting
 
 
