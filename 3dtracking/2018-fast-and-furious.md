@@ -5,7 +5,7 @@
 | Citation ID / 키워드 | |
 | 데이터셋(센서)/모델 | |
 | 관련연구||
-| 참고 | [기](https://www.utoronto.ca/news/autonomous-vehicles-u-t-researchers-make-advances-new-algorithm),  [Youtube_CVPR2018](https://youtu.be/Jl1NeziAHFY?t=24m32s) |
+| 참고 | [기사](https://www.utoronto.ca/news/autonomous-vehicles-u-t-researchers-make-advances-new-algorithm),  [Youtube_CVPR2018](https://youtu.be/Jl1NeziAHFY?t=27m55s) |
 | 코드 ||
 
 
