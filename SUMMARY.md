@@ -19,7 +19,7 @@
   * [2011-Tracking People in 3D Using a Bottom-Up Top-Down Detector](3dtracking/2011-tracking-people-in-3d-using-a-bottom-up-top-down-detector.md)
   * [2012-Lidar-Based-MOT-system-with-Dyanamic-modeling](3dtracking/2012-lidar-based-mot-system-with-dyanamic-modeling.md)
   * [2014-Confidence-Based-PedestrianTracking](3dtracking/2014-confidence-based-pedestriantracking.md)
-  * [2015-PersonTracking-2D-Lidar](3dtracking/2015-persontracking-2d-lidar.md) 
+  * [2015-PersonTracking-2D-Lidar](3dtracking/2015-persontracking-2d-lidar.md)
   * [2017-Low resolution lidar-based multi-object tracking for driving applications](3dtracking/2017-low-resolution-lidar-based-multi-object-tracking-for-driving-applications.md)
   * [2017-3D-Lidar MOT for Autonomous-Driving](3dtracking/2017-3d-lidar-mot-for-autonomous-driving.md)
   * [2017-online Learning](3dtracking/2017-Online learning for human classification in 3D LiDAR-based tracking.md)
@@ -42,4 +42,6 @@
   * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
 * [2D Background-filter](https://adioshun.gitbooks.io/gitbook_from_github/content/opencvbackgroundsubtractor.html)
 * Application-Counting
+* 3D\_Detection
+* 2D\_Detection
 
