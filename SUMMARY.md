@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Tracking 개요](tracking.md)
+* 2D\_Detection
 * [2D\_Tracking](2dtracking.md)
   * [Mean Shift\_CAM shift](2dtracking/mean-shift.md)
   * [2006-Survey-Object-tracking](2dtracking/2006-survey-object-tracking.md)
@@ -12,6 +13,9 @@
   * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
   * [2017-Detect2Track-Track2Detect](2dtracking/2017-detect2track-track2detect.md)
   * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
+---
+* 3D\_Detection
+  * [2018-pixor](3dtracking/2018-pixor.md)
 * [3D\_Tracking](3dtracking.md)
   * [2007-SLAMMOT](3dtracking/2007-slammot.md)
   * [2008-Model based vehicle tracking for autonomous driving in urban environments](3dtracking/2008-model based vehicle tracking for autonomousdriving in urban environments.md)
@@ -41,7 +45,6 @@
   * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
 * [2D Background-filter](https://adioshun.gitbooks.io/gitbook_from_github/content/opencvbackgroundsubtractor.html)
 * Application-Counting
-* 3D\_Detection
-  * [2018-pixor](3dtracking/2018-pixor.md)
-* 2D\_Detection
+
+
 
