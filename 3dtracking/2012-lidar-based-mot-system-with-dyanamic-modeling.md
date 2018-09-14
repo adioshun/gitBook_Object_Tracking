@@ -1,7 +1,7 @@
 [LIDAR-BASED MULTI-OBJECT TRACKING SYSTEM WITH DYNAMIC MODELING](https://neu-gou.github.io/thesis_Mengran.pdf): 2012, 석사 학위 논문 
 
-
-
+DBSCAN
+DA : Greedy Nearest Neighbor (GNN)
 
 
 ## 1. Introduction
@@ -174,9 +174,49 @@ accurate data association is very difficult, especially for crowded scenes.
 - As the most intuitive approach to assign the nearest segment to the object
 - 간담함, 직관적, 부하 적음, Reasonable ERROR , 많은 연구에서 활용 [35, 38, 52]
 
-향상된 알고리즘 : advanced well-known Bayesian approaches are 
+향상된 알고리즘[53,54] : advanced well-known Bayesian approaches are 
 - 1) multiple hypothesis tracking (MHT) algorithm 
 - 2) joint probabilistic data association (JPDA)
+
+최근 알고리즘 : Recently, a batch of multi-object tracking systems have achieved notable success by applying Markov chain Monte Carlo data association (MCMCDA) [55, 56, 57].
+- 기존 알고리즘 : Unlike other data-association methods that seek to maintain or test all possible data assignments, 
+- MCMCDA uses Markov chain Monte Carlo sampling [58]. 
+- 활용예 : Vu, et al,applied this data association for laser-based tracking systems and obtained positive results [59]
+
+
+#### A. Greedy Nearest Neighbor (GNN) Filter
+
+
+#### B. Joint probabilistic data association (JPDA)
+
+
+#### C. Multiple Hypothesis Tracking (MHT)
+
+
+### 2.5 Approaches for occlusion(맞물림) handling
+
+사람이 많은 곳에서 서로 가려짐이 발생할경우 추적이 어렵게 된다. 
+
+The temporary occlusion of the objects may lead to mismatch when they return to view. 
+
+To maintain estimates of the tracks during occlusion, it is critical to have an estimate of the motion model of the objects during occlusion [64].
+
+
+해결 방법 : 이전장에 언급한 filltering알고리즘에 기능을 추가 하여 해결 가능 `To some extent, this occlusion problem can be resolved using some of the previously-mentioned filtering methods necessary in laser-based tracking systems.`
+- 움직임 예측 가능 : 칼만 필터 
+- 움직임 예측이 불가능 함(칼만필터기반) : IMM(Interactive Multiple Model), 일반적으로 사용됨 
+    - runs several Kalman Filters with different models parallel and merge the outputs to predict the positions [22, 28, 42, 52].
+- 움직임 예측이 불가능 함(확률 기반) : 파티클 필터 
+    - probability based model in a particle filter can deal with complex dynamic motion
+
+
+#### A.Explicit model with Kalman Filter
+
+#### B. Probability model with particle filter
+
+#### C. Interacting Multiple Models (IMM)
+
+#### D. Dynamic Model
 
 
 
