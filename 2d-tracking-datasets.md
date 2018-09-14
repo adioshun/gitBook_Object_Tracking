@@ -24,3 +24,9 @@ https://motchallenge.net/
 ![](https://detrac-db.rit.albany.edu/index_files/examples.jpg)
 
 - [UA-DETRAC: A New Benchmark and Protocol for Multi-Object Detection and Tracking](https://arxiv.org/abs/1511.04136): 2015, 
+
+---
+
+[TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild](http://openaccess.thecvf.com/content_ECCV_2018/html/Matthias_Muller_TrackingNet_A_Large-Scale_ECCV_2018_paper.html), ECCV2018
+
+https://tracking-net.org/

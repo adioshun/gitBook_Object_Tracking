@@ -30,7 +30,7 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 ## 2. Paper
 
-- [LiDAR Based Real Time Multiple Vehicle Detection and Tracking](https://waset.org/publications/10004678/lidar-based-real-time-multiple-vehicle-detection-and-tracking): 3.D Data Association and Tracking
+
 
 - ~~A New Upsampling Method for Mobile LiDAR Data~~, Ruisheng Wang, Jeff Bach, Jane Macfarlane, NAVTEQ Corporation
     - 카메라 + Lidar연계, upsample mobile LiDAR data using panoramic images
@@ -52,7 +52,6 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 
 - [Extended Object Tracking: Introduction, Overview and Applications](https://arxiv.org/abs/1604.00970): arXiv2017
 
-- [3D-LIDAR Multi Object Tracking for Autonomous Driving](https://repository.tudelft.nl/islandora/object/uuid%3Af536b829-42ae-41d5-968d-13bbaa4ec736): 석사 학위 2017
 
 - [Robust Real-Time Tracking Combining 3D Shape, Color, and Motion](http://davheld.github.io/DavidHeld_files/ijrr_tracking.pdf): 2015, 28page
 
@@ -62,14 +61,8 @@ CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 2013
 - [Track, then Decide: Category-Agnostic Vision-based Multi-Object Tracking](https://www.vision.rwth-aachen.de/publication/00162/) : ICRA2018
 
 
-- [Laser-Based Detection and Tracking of Dynamic Objects](http://www.robots.ox.ac.uk/~mobile/Theses/WangThesis.pdf): 학위 문 2014
 
-- [LiDAR Based Real Time Multiple Vehicle Detection and Tracking](https://waset.org/publications/10004678/lidar-based-real-time-multiple-vehicle-detection-and-tracking)
-
-
-- Tracking People in 3D Using a Bottom-Up Top-Down Detector
-
-- [Lidar-based methods for tracking and identification](http://studentarbeten.chalmers.se/publication/241972-lidar-based-methods-for-tracking-and-identification): [youtube](https://www.youtube.com/watch?v=_Mhgm2BXdFI)
+[Collaborative Deep Reinforcement Learning for Multi-Object Tracking](http://openaccess.thecvf.com/content_ECCV_2018/html/Liangliang_Ren_Collaborative_Deep_Reinforcement_ECCV_2018_paper.html), Liangliang Ren, Jiwen Lu, Zifeng Wang, Qi Tian, Jie Zhou; The European Conference on Computer Vision (ECCV), 2018, pp. 586-602
 
 ## 3. Article (Post, blog, etc.)
 
