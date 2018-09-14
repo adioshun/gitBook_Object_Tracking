@@ -159,6 +159,24 @@ The data segmentation process seeks to
 - The IMM algorithm
 
 
+#### A. Kalman Filter
+
+#### B. Particle Filter
+
+### 2.4 Data association approaches for laser-based tracking system
+
+목적:  Data association seeks to match data points to a specific object
+
+Lidar기반 DA의 문제점 : Because of the limited features provided by the distance sensor,
+accurate data association is very difficult, especially for crowded scenes.
+
+가장 일반적 알고리즘 : Greedy Nearest Neighbor (GNN) filter [5]
+- As the most intuitive approach to assign the nearest segment to the object
+- 간담함, 직관적, 부하 적음, Reasonable ERROR , 많은 연구에서 활용 [35, 38, 52]
+
+향상된 알고리즘 : advanced well-known Bayesian approaches are 
+- 1) multiple hypothesis tracking (MHT) algorithm 
+- 2) joint probabilistic data association (JPDA)
 
 
 
