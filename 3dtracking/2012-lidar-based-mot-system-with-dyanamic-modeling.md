@@ -308,3 +308,50 @@ DBSCAN사용
 - Occluded one endpoint;
 - Occluded both endpoints;
 - Occluded middle part;
+
+
+```python
+# The pseudo-code of the occlusion detection is:
+occlusionDetec(S, D)
+for each segment i in S
+    for each beam j in the 5 neighbor beams outside the endpoints of i
+        if the distance of j is less the distance of corresponding endpoint
+            D(j) = 1
+return D
+```
+
+#### C. Object classification and feature extraction
+
+룰기분류 `Similar to the method mentioned by Nashashibi [36], a rules-based classification is performed to distinguish pedestrian and vehicles:`
+- Segments with width less than 80cm are pedestrian;
+- Segments with width larger than 80cm are vehicle candidates and will be fitted to **line shape** or **L shape**;
+- L-shaped segments with both sides less than 80cm and no occlusion detection are vehicle.
+
+
+#### D. Line and “L-shape” classification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
