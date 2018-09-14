@@ -24,7 +24,6 @@
   * [2017-3D-Lidar MOT for Autonomous-Driving](3dtracking/2017-3d-lidar-mot-for-autonomous-driving.md)
   * [2017-online Learning](3dtracking/2017-Online learning for human classification in 3D LiDAR-based tracking.md)
   * [2018-Fast and Furious](3dtracking/2018-fast-and-furious.md)
-  * [2018-pixor](3dtracking/2018-pixor.md)
 * [kalman\_filter](kalmanfilter.md)
   * [Kalman-Intro](kalmanfilter/kalman-intro.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
@@ -43,5 +42,6 @@
 * [2D Background-filter](https://adioshun.gitbooks.io/gitbook_from_github/content/opencvbackgroundsubtractor.html)
 * Application-Counting
 * 3D\_Detection
+  * [2018-pixor](3dtracking/2018-pixor.md)
 * 2D\_Detection
 
