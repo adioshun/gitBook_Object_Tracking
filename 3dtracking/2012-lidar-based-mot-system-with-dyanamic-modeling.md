@@ -219,6 +219,22 @@ To maintain estimates of the tracks during occlusion, it is critical to have an 
 #### D. Dynamic Model
 
 
+## 3. System Setup
+
+> 장비 구성 및 테스트 환경 
+
+## 4. Methodology
+
+![](https://i.imgur.com/B6ndvLa.png)
+
+1. Each frame of the LIDAR data is pre-processed to remove noise and to extract foreground information from background information. 
+
+2. Next, the data is separated into different segments and each segment is classified and labeled as either belonging to a vehicle or a pedestrian. 
+
+3. During the data association step, the system tries to match an object to the
+nearest segment with the same label
+
+If a new segment cannot be associated to a previously-existing object, it is stored for a short period. Such stored segments are marked as missing and deleted if no prior or subsequent matches are found for several frames.
 
 
 
