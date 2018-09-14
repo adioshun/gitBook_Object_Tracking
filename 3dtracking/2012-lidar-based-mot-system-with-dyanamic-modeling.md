@@ -22,7 +22,9 @@ tracking becomes the problem of estimating the dynamic states of each object.
 
 Generally, this estimation consists of two parts: 
 - Data Association and 
-- Filtering [5].
+- Filtering 
+
+
 
 ### B. Data Association
 
@@ -43,6 +45,10 @@ the problem of detecting and tracking multi-object generally consists of three p
 - Detection
 - Filtering
 - Data Association [5]. 
+
+```
+[5] Y. Bar-Shalom and T.E. Fortman, “Tracking and Data Association,” Academic Press, 1988
+```
 
 Detection addresses the problem of extracting the foreground from the raw data. 
 
@@ -105,6 +111,12 @@ The data segmentation process seeks to
     - 문제점 : This is challenging because of the limited angular resolution of the LIDAR sensor in this study. 
     - 빈번한 position/angle 변경시 더 큰 문제 `Specifically, the distance between two consecutive scan points on the same surface can change dramatically depending on the varying position and angle of the surface relative to the sensor. `
     
+```
+[28] C. C. Wang, C. Thorpe, and S. Thrun, “Online simultaneous localization and mapping with detection and tracking of moving objects: Theory and results from a ground vehicle in crowded urban areas,” IEEE International Conference on Robotics and Automation, Vol. 1, Sept. 2003, pp. 842–849
+[35] T. D. Vu, O. Aycard, and N. Appenrodt, “Online localization and mapping with moving object tracking in dynamic outdoor environments,” IEEE Intelligent Vehicles Symposium, Istanbul, Turkey, June 2007
+[66] R. A. Maclachlan, “Tracking of moving objects from a moving vehicle using a scanning laser rangefinder,” IEEE Intelligent Transportation Systems Conference, Toronto, Canada, Sept. 2006
+```   
+    
 ![](https://i.imgur.com/vSviMed.png)
 동일 물체라도 angle문제로 Distance가 서로 다르다.     
 
@@ -113,12 +125,21 @@ The data segmentation process seeks to
 - In their method any two consecutive points $$r_k$$ and $$r_{k+1}$$ will be regarded as belonging to the same object if the distance between them $$r_{k,k+1}$$ fulfill the Equation 2.1: (공식은 해당 논문 참고)
 - 위 해결책은 노이즈 포인트에 잘 대처 하지 못함 `Because the algorithm mentioned above is based on the consecutive beams, it is very sensitive to the noise point.`
 
+```
+[29] J. Sparbert, K. Dietmayer, and D. Streller, “Lane detection and street type classification using laser range images,” IEEE Intelligent Transportation System Conference, Oakland, CA, USA, Aug. 2001
+[30] A. Mendes, L. C. Bento, and U. Nunes, “Multi-target detection and tracking with a laser-scanner,” IEEE Intelligent Vehicles Symposium, Parma, Italy, June 2004
+```
+
 해결책 #2 : DBSCAN `Therefore, in this thesis, a density-based spatial clustering algorithm is applied for data segmentation. This clustering algorithm is a well-known data mining method named “Density-Based Spatial Clustering of Applications with Noise” (Figure 2.3) [31].`
 
 > 자세한 DBSCAN의 설명 및 장점은 논문 참고 
 > 본 논문에서 제안 하는 DBSCAN 파라미터 
 > - The minimum number of points required to form a cluster is set to 2. 
 > - The distance is empirically chosen as 120cm.
+
+```
+[31] M. Ester, H. Kriegel, J. Sander, X. Xu, “A density-based algorithm for discovering clusters in large spatial databases with noise,” proc. 2nd Int. Conf. on Knowledge Discovery and Data Mining, Portland, OR, USA, 1996, pp. 226
+```
 
 #### C. Occlusion
 
@@ -136,6 +157,12 @@ The data segmentation process seeks to
     - eg #2. Burke applied a **median filter** following PCA [40].
     
 
+```
+[47] A. Petrovskaya and S. Thrun, “Model based vehicle tracking in urban environments,” IEEE International Conference on Robotics and Automation, Workshop on Safe Navigation, Vol. 1, 2009, pp. 1–8
+[52] T. Ogawa, H. Sakai, Y. Suzuki, K. Takagi, K. Morikawa, “Pedestrian detection and tracking using in-vehicle lidar for automotive application,” IEEE Intelligent Vehicles Symposium, Baden-Baden, Germany, June 2011
+[81] O. Aycard, “Contribution to perception for intelligent vehicles,” PhD thesis, Universite de Grenoble, France, 2010
+
+```
 
 #### D. Classification
 
@@ -145,9 +172,21 @@ The data segmentation process seeks to
 
 방법 #2 : laser-based multi-object tracking system has been studied extensively [29, 30, 34, 36]
 
+```
+[29] J. Sparbert, K. Dietmayer, and D. Streller, “Lane detection and street type classification using laser range images,” IEEE Intelligent Transportation System Conference, Oakland, CA, USA, Aug. 2001
+[30] A. Mendes, L. C. Bento, and U. Nunes, “Multi-target detection and tracking with a laser-scanner,” IEEE Intelligent Vehicles Symposium, Parma, Italy, June 2004
+[34] C. Premebida and U. Nunes, “A multi-target tracking and GMM-classifier for intelligent vehicles,” IEEE Intelligent Transportation Systems Conference, Toronto, Canada, Sept. 2006
+[36] F. Nashashibi and A. Bargeton, “Laser-based vehicles tracking and classification using occlusion reasoning and confidence estimation,” IEEE Intelligent Vehicles Symposium, Eindhoven, The Netherlands, June 2008
+```
+
+
 방법 #3 : Voting `Mendes, et al. uses a voting scheme presented by [37].`
 - By considering all the hypotheses over time, an object is assigned with a class until the confidence level reaches a reasonable value [30]. 
 - Although the features used are not discussed in detail, the results showed that voting classification approach can assign the right class after several frames (Figure 2.5).
+
+```
+[37] T. Deselaers, D. Keysers, R. Paredes, E. Vidal, and H. Ney, “Local representations for multi-object recognition,” DAGM 2003, Pattern Recognition, 25th DAGM Symp, pp. 305312, September 2003
+```
 
 
 ### 2.3 Filtering methods for laser-based tracking system
@@ -174,14 +213,34 @@ accurate data association is very difficult, especially for crowded scenes.
 - As the most intuitive approach to assign the nearest segment to the object
 - 간담함, 직관적, 부하 적음, Reasonable ERROR , 많은 연구에서 활용 [35, 38, 52]
 
+```
+[5] Y. Bar-Shalom and T.E. Fortman, “Tracking and Data Association,” Academic Press, 1988
+[35] T. D. Vu, O. Aycard, and N. Appenrodt, “Online localization and mapping with moving object tracking in dynamic outdoor environments,” IEEE Intelligent Vehicles Symposium, Istanbul, Turkey, June 2007
+[38] F. Fayad and V. Cherfaoui, “Tracking objects using a laser scanner in driving situation based on modeling target shape,” IEEE Intelligent Vehicle Symposium, Istanbul, Turkey, June 2007
+[52] T. Ogawa, H. Sakai, Y. Suzuki, K. Takagi, K. Morikawa, “Pedestrian detection and tracking using in-vehicle lidar for automotive application,” IEEE Intelligent Vehicles Symposium, Baden-Baden, Germany, June 2011
+```
+
 향상된 알고리즘[53,54] : advanced well-known Bayesian approaches are 
 - 1) multiple hypothesis tracking (MHT) algorithm 
 - 2) joint probabilistic data association (JPDA)
+
+```
+[53] S. S. Blackman, “Multiple hypothesis tracking for multiple target tracking,” IEEE Aerospace and Electronic Systems Magazine, Vol. 19, No. 1, 2004, pp. 5–18
+[54] Y. B. Shalom, T. Kirubarajan, and X. Lin, “ Probabilistic data association techniques for target tracking with applications to sonar, radar and EO sensors,” IEEE Aerospace and Electronic System Magazine, Vol. 20, No. 8, Aug. 2005, pp. 37–56
+```
 
 최근 알고리즘 : Recently, a batch of multi-object tracking systems have achieved notable success by applying Markov chain Monte Carlo data association (MCMCDA) [55, 56, 57].
 - 기존 알고리즘 : Unlike other data-association methods that seek to maintain or test all possible data assignments, 
 - MCMCDA uses Markov chain Monte Carlo sampling [58]. 
 - 활용예 : Vu, et al,applied this data association for laser-based tracking systems and obtained positive results [59]
+
+```
+[55] S. Oh, S. Russell, and S. Sastry, “Markov chain monte carlo data association for general multiple-target tracking problems,” IEEE Conference on Decision and Control, Atlantis, Paradise Island, Bahamas, Dec. 2004
+[56] T. Zhao, R. Nevatia, and B. Wu, “Segmentation and tracking of multiple humans in crowded environments,” IEEE Transactions on Pattern Analysis and Machine Intelligence, 2008
+[57] S. Oh, S. Russell, and S. Sastry, “Markov chain monte carlo data association for multi-target tracking,” IEEE Transactions on Automatic Control, Vol. 54, No. 3, Mar. 2009
+[58] R. Karlsson and F. Gustafsson, “Monte carlo data association for multiple target tracking,” Target Tracking: Algorithms and Applications, Vol. 1, Oct. 2001
+[59] T. D. Vu and O. Aycard, “Laser-based detection and tracking moving objects using data-driven markov chain monte carlo,” IEEE International Conference on Robotics and Automation, Kobe, Japan, May 2009
+```
 
 
 #### A. Greedy Nearest Neighbor (GNN) Filter
@@ -200,6 +259,10 @@ accurate data association is very difficult, especially for crowded scenes.
 The temporary occlusion of the objects may lead to mismatch when they return to view. 
 
 To maintain estimates of the tracks during occlusion, it is critical to have an estimate of the motion model of the objects during occlusion [64].
+
+```
+[64] R. Rosales and S. Sclaroff, “Improved tracking of multiple humans with trajectory prediction and occlusion modeling,” IEEE CVPR Workshop on the Interpretation of Visual Motion,1998
+```
 
 
 해결 방법 : 이전장에 언급한 filltering알고리즘에 기능을 추가 하여 해결 가능 `To some extent, this occlusion problem can be resolved using some of the previously-mentioned filtering methods necessary in laser-based tracking systems.`
@@ -295,6 +358,11 @@ return newMap
 
 3. After classifying, every segment will be marked by feature points for the convenience of data association.
 
+```
+[36] F. Nashashibi and A. Bargeton, “Laser-based vehicles tracking and classification using occlusion reasoning and confidence estimation,” IEEE Intelligent Vehicles Symposium, Eindhoven, The Netherlands, June 2008
+```
+
+
 ![](https://i.imgur.com/nZE9cMP.png)
 
 #### A. Segmentation
@@ -309,6 +377,11 @@ DBSCAN사용
 - Occluded both endpoints;
 - Occluded middle part;
 
+```
+[38] F. Fayad and V. Cherfaoui, “Tracking objects using a laser scanner in driving situation based on modeling target shape,” IEEE Intelligent Vehicle Symposium, Istanbul, Turkey, June 2007
+[36] F. Nashashibi and A. Bargeton, “Laser-based vehicles tracking and classification using occlusion reasoning and confidence estimation,” IEEE Intelligent Vehicles Symposium, Eindhoven, The Netherlands, June 2008
+
+```
 
 ```python
 # The pseudo-code of the occlusion detection is:
@@ -322,7 +395,7 @@ return D
 
 #### C. Object classification and feature extraction
 
-룰기분류 `Similar to the method mentioned by Nashashibi [36], a rules-based classification is performed to distinguish pedestrian and vehicles:`
+룰 기반 분류 `Similar to the method mentioned by Nashashibi [36], a rules-based classification is performed to distinguish pedestrian and vehicles:`
 - Segments with width less than 80cm are pedestrian;
 - Segments with width larger than 80cm are vehicle candidates and will be fitted to **line shape** or **L shape**;
 - L-shaped segments with both sides less than 80cm and no occlusion detection are vehicle.
@@ -330,23 +403,134 @@ return D
 
 #### D. Line and “L-shape” classification
 
+The corner point is found by searching the distance between the points and the line formed by the two endpoints. 
+
+가장 멀리 있는 포인트가 코너 포인트가 됨`The farthest point will be regarded as the corner point.`
+
+After that, the segment will be separated into two parts and the **weighted line fitting**  will be applied to each part. 
+
+If the angle between the two lines is 
+- less than 45 degree, this segment will be marked as **line**. 
+- Otherwise, it will be marked as **L-shape**. 
+
+When the number of the points of either part is less than 3, 
+- the segment will be marked as **line** since the information of this part is too vague to determine a feature.
+
+![](https://i.imgur.com/2sIXbRf.png)
+
+
+
+```python 
+LlDistinguish(i)
+for each point n in segment i
+    d(n) = distance between n to the line formed by two endpoints
+mark the point with greatest d as potential corner point C
+divided i into two sides A, B based on C
+if sizeof (A) <= 3 or sizeof (B) <= 3
+    mark i as a line
+    return
+else
+    lineA = weightedlineFit(A)*
+    lineB = weightedlineFit(B)*
+    a = angle between lineA and lineB
+    if a < 45
+        mark i as a line
+    else
+        mark i as a L shape
+(* this part is presented in following section)
+```
+
+
+#### E. Robust line fitting
+
+#### F. Weighted line fitting
+
+#### G. Corner fitting
+
+#### H. Feature points calculation
+
+The feature points are used to represent a vehicle depend on the shape and occlusion situation of the segment of points representing the vehicle.
+
+##### 가. vehicle-classified object
+
+For a vehicle-classified object, the object may be in the shape of a line, an “L”, or be uncertain. 
+
+For a line segment, the two endpoints can serve as feature points. 
+
+For this line representation, any occluded endpoints are deleted. 
+
+For an “L-shaped” object, the corner point will also be included as a feature. 
+
+If no feature point is detected, the mean point of the whole segment will be counted as the feature point. 
+
+
+##### 나. For pedestrian-classified objects
+
+For pedestrian-classified objects, the feature point is represented by the mean point of the segment.
+
+Figure 4.13 illustrates some examples of the feature points calculation.
+
+![](https://i.imgur.com/8sAxXyf.png)
+
+
+
+### 4.3 Data association
+
+Greedy Nearest Neighbor (GNN) 알고리즘 사용 
+- the Mahalanobis distance is used to measure the distance instead of Euclidean
+distance 
+- because it(=Mahalanobis distance) takes into account the distribution of the data
+
+![](https://i.imgur.com/qw7nNeg.png)
+
+#### A. GNN data association
+
+
+![](https://i.imgur.com/TA6CjPP.png)
+
+Shown in Figure 4.15 are two consecutive frames of the same object (red circles).
+
+검은 십자가는 4개의 모서리 특징점(Corner Feature points)이다. `The black crossings are the four corner feature points of the vehicle. `
+
+Since the error or accuracy of the sensor, there is gap between two edges of the right angle. 
+
+In the first frame (shown at left),
+- the gap is notable such that the DBSCAN regarded them as different clusters and association
+step marks the horizontal edge as an “adding” object (blue circles). 
+
+In the new frame (shown at right), 
+- the object is tracked successfully again because the older objects have priority to match
+to the segments. 
+
+The artificial “added” object is deleted since it does not last for enough time
+
+#### B. Feature point association
 
 
 
 
+### 4.4 Model motion
+
+Similar to Lim used in visual tracking system [83], a general time series dynamic model is applied in this work to predict the state of targets during occlusion.
+
+```
+83] Hwasup Lim, “Dynamic motion and appearance modeling for robust visual tracking, ” PhD thesis, The Pennsylvania State University, 2007
+```
+
+#### A. Dynamic modeling for motion model
+
+
+In this thesis, the motions considered include at least 
+- constant velocity, 
+- constant acceleration,
+- geometric turning.
 
 
 
+## 5. Experimental Results
 
 
-
-
-
-
-
-
-
-
+## 6. Conclusion
 
 
 
