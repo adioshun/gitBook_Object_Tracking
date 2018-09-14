@@ -247,7 +247,23 @@ nearest segment with the same label
 
 ### 4.1 Pre-processing
 
+background subtraction is very useful 
+- to separate the foreground and background, and 
+- to remove noise
+
+an occupancy grid map [25] is employed to detect moving objects.
+
+```
+[25] A. Elfes, “Occupancy grids : a probabilistic framework for robot percpetion and navigation,”
+PhD thesis, Carnegie Mellon University, 1989
+```
 
 
-
-
+```
+onlimitdataDel(D)
+for each beam j of data set D
+L(j) = the length of the ith beam
+    if L(j) == max(D)
+        L(j) = N AN
+return D
+```
