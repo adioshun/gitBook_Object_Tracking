@@ -254,16 +254,57 @@ background subtraction is very useful
 an occupancy grid map [25] is employed to detect moving objects.
 
 ```
-[25] A. Elfes, “Occupancy grids : a probabilistic framework for robot percpetion and navigation,”
-PhD thesis, Carnegie Mellon University, 1989
+[25] A. Elfes, “Occupancy grids : a probabilistic framework for robot percpetion and navigation,” PhD thesis, Carnegie Mellon University, 1989
 ```
 
+To form the occupancy map, 
 
+1. the field of the LIDAR view is separated into 40cm×40cm grids, which is empirically selected. 
+
+2. At any time frame, 
+    - if a grid is occupied by the segments detected by sensor, its corresponding value will be increased by 1 and 
+    - if no segment detected in this gird, the value will be decreased by 1. 
+
+3. After a reasonable time interval, the grids representing stationary obstacles will have a relatively high value and any segments in these grids will be regarded as stationary objects. 
+
+4. The stationary map is formed by all the grids with high enough value. 
+
+> In the experiment without temporary static objects, the map tends to be stable after 80 to 100 frames.
+
+```python 
+# table after 80 to 100 frames.
+mapUpdate(oldM ap, D)
+addMap = same size to oldMap with all grids are 1
+
+for each beam j with valid value in data set D
+    the value of corresponding grid of addMap plus 1
+
+for the value of each grid V_m of the addMap
+    if V_m >= 1
+        V_m = 1
+        
+newMap = oldMap + addMap
+return newMap
 ```
-onlimitdataDel(D)
-for each beam j of data set D
-L(j) = the length of the ith beam
-    if L(j) == max(D)
-        L(j) = N AN
-return D
-```
+
+### 4.2 Segmentation and classification
+
+1. Once the noise is removed from the raw data,
+
+2. LIDAR scan is separated into different segments and classified by the similar rule-based classification method applied by Nashashibi [36].
+
+3. After classifying, every segment will be marked by feature points for the convenience of data association.
+
+![](https://i.imgur.com/nZE9cMP.png)
+
+#### A. Segmentation
+
+DBSCAN사용 
+
+
+#### B. Partially occluded object detection
+
+본 논문에서는 [38, 36]연구를 참고 하여, the partial occlusion can be detected by the distance information and classified as follows :
+- Occluded one endpoint;
+- Occluded both endpoints;
+- Occluded middle part;
