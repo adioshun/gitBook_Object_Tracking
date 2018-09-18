@@ -1,7 +1,7 @@
 |논문명 |Low resolution lidar-based multi-object tracking for driving application |
 | --- | --- |
 | 저자\(소속\) | \(\) |
-| 학회/년도 | IROS 2015, [논문]() |
+| 학회/년도 | 2017, [논문](http://www.iri.upc.edu/files/scidoc/1924-Low-resolution-lidar-based-multi-object-tracking-for-driving-applications.pdf) |
 | Citation ID / 키워드 | |
 | 데이터셋(센서)/모델 | |
 | 관련연구||
@@ -12,8 +12,6 @@
 
 
 # Low resolution lidar-based multi-object tracking for driving applications
-
-http://www.iri.upc.edu/files/scidoc/1924-Low-resolution-lidar-based-multi-object-tracking-for-driving-applications.pdf
 
 
 # Abstract
