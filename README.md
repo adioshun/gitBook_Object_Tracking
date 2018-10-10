@@ -8,8 +8,7 @@
 Yaakov Barshalom, X. Rong Li, Estimation with Applications to Tracking and Navigation
 ```
 https://onlinelibrary.wiley.com/doi/book/10.1002/0471221279
-Estimation with Applications to Tracking and Navigation李晓榕.pdf
-
+http://read.pudn.com/downloads117/ebook/497286/Estimation%20with%20Applications%20to%20Tracking%20and%20Navigation%E6%9D%8E%E6%99%93%E6%A6%95.pdf
 
 입니다. 저는 처음이 책을 접하지 않고 두서없이 공부를 하였지만 제가 추천 드리는 책이 제가 생각하기로는 기본적인 트래킹 알고리즘에 대한 설명이 잘 되어 있는 것으로 생각됩니다. 
 
