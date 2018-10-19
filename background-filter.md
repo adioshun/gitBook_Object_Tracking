@@ -1,3 +1,21 @@
+[CHANGE DETECTION OF MOBILE LIDAR DATA USING CLOUD COMPUTING](https://pdfs.semanticscholar.org/8aa4/f28b325a73bb3168cef1d40851caf0b74948.pdf): 2016
+
+
+## occupancy grid map기반 
+
+**occupancy grid map** 을 이용하면 움직이는 물체사이에서 고정된 물체를 찾을수 있다. `The occupancy grid map allows to identify static objects from moving objects. `
+- It has been intensively used for detecting the surroundings of a vehicle in order to monitor and predict the movement of other road users.
+
+
+## octree 기반 
+
+> [Quadtrees and Octrees](https://www.i-programmer.info/programming/theory/1679-quadtrees-and-octrees.html?start=1)
+
+[background subtraction of pointcloud](https://answers.ros.org/question/36272/background-subtraction-of-pointcloud/): ROS QnA
+
+
+
+
 
 
 ## 2012-Lidar-Based-MOT-system-with-Dyanamic-modeling
