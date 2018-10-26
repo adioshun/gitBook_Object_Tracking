@@ -38,6 +38,11 @@ Y. Bar-Shalom, and E. Tse, “Tracking in a Cluttered Environment with Probabili
 
 특히 Y. Bar-Shalom이 지은 책 두권은 표적 추적에 관련하여 매우 좋은 책으로 생각됩니다. 최대한 간추리고 기본적인 알고리즘들에 대한 논문과 책을 소개 시켜 드립니다. 소개드린 논문과 책 말고 좀더 심도 있는 연구가 필요하시면 (예를 들어 track management, multi-target tracking algorithm 등)에 관심이 있으시면 연락 주시면 관련 자료들을소개 시켜 드리겠습니다. 
 
+---
+
+# [CVPR 2019 Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
+
+- Multivariate Kalman Filters - Working with Multiple State Variables](https://github.com/shijieS/ComputerVisionSummarization/blob/master/codebook/06-Multivariate-Kalman-Filters.ipynb): 쥬피터
 
 ---
 
