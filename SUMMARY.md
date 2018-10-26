@@ -50,6 +50,7 @@
 * [Data-Association](data-association.md)
   * [2014-Survey-Multi-target Tracking Filters and Data Association](data-association/2014-survey-multi-target-tracking-filters-and-data-association.md)
   * [Terms-Data-Association](data-association/terms-data-association.md)
+  * [Multiple Hypothesis Tracking](data-association/multiple-hypothesis-tracking.md)
 * [Assignment ](assignment.md)
   * [Hungarian-method](hungarian-method.md)
 * [Datasets](datasets.md)
