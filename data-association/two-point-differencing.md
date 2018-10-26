@@ -16,8 +16,7 @@
 - 트랙초기화(Track initiation)는 추적의 필수 요소이지만 중요성에 비해 연구가 많이 이루어 지지 않았다. `Track initiation is an essential component of all tracking algorithms, but one that has received little attention.`
 
 - 움직임이 일정한 물체의 추적에는 칼만필터를 사용하는것이 일반적으로 좋다. `For situations where the dynamic and measurement models are linear and appropriate Gaussianity and independence assumptions hold, it is well-known that the Kalman filter (KF) is optimal in the minimum mean squared error sense [1−2].`
-
-However, this result requires that the mean ofthe initial state estimate is equal to the mean of the initialstate, and its associated error covariance matrix is equal tothe true initial covariance. 
+    - 하지만 좋은 결과를 위해서는 요구 사항들이 있다. `However, this result requires that the mean ofthe initial state estimate is equal to the mean of the initial state, and its associated error covariance matrix is equal to the true initial covariance.`
 
 In practice, this is rarely thecase. 
 
