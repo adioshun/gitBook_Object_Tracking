@@ -24,42 +24,47 @@
  - and its associated error covariance matrix is equal to the true initial covariance.
 
 
-In practice, this is rarely the case. 
+- 실제 적용시에는 이상적으로는 잘못된 초기화도 수정(=제거)되지만 이를 보장 할수는 없다. `In practice, this is rarely the case. Ideally, any initial transients introduced by incorrect initialization will quickly be eliminated, but this cannot be guaranteed.`
 
-Ideally, any initial transients introduced by incorrectinitialization will quickly be eliminated, but this cannot beguaranteed. 
+- 이러한 에러의 영향에 대한 연구가 [3-5]에서 이루어 졌고 최근에는 타겟 추적에 초점을 연구 되었다[6]. `The effect of such errors on Kalman filters for general problems have been examined in [3 − 5] and more recently, with a focus on target tracking, in [6].`
 
-The effect of such errors on Kalman filters forgeneral problems have been examined in [3 − 5] and morerecently, with a focus on target tracking, in [6].There are additional factors to be considered for targettracking problems. 
+타겟 추적 문제와 관련된 몇가지 고려 사항들이 더 있다. `There are additional factors to be considered for target tracking problems.`
 
-In real-world radar tracking problems,the measurements are range and azimuth in the 2D case,and range, azimuth, and elevation in the 3D case. 
+- 실생활에서 Radar 추적의 측정치는 2D에서는 거리, 방위각이며, 3D에서는 거리, 방위가, 고도이다. `In real-world radar tracking problems,the measurements are range and azimuth in the 2D case,and range, azimuth, and elevation in the 3D case. `
 
-Unbiasedposition measurements and associated measurement covari-ances can be derived from these radar measurements [7] , butthe associated measurement errors are no longer Gaussian.For the ground target tracking problem using the groundmoving target indicator (GMTI) radar sensor, the 3D posi-tion of a target can be estimated using the GMTI range andazimuth measurements, sensor position, and terrain data [8] .A similar situation occurs in the video tracking problem.The 3D position of a ground target can be estimated usingthe target centroid pixel location, intrinsic and extrinsiccamera parameters, and terrain data [9] . 
+- Unbiased position measurements and associated measurement covariances can be derived from these radar measurements [7] , 
+ - but the associated measurement errors are no longer Gaussian.
 
-Similarly, the er-rors in the 3D position estimate of the target for the GMTIand video tracking problems are not Gaussian. 
+- For the ground target tracking problem using the ground moving target indicator (GMTI) radar sensor, 
+ - the 3D position of a target can be estimated using the GMTI range andazimuth measurements, sensor position, and terrain data [8] .
+ 
+- 비디오 추적문제에서도 비슷한 상황이 발생 한다. `A similar situation occurs in the video tracking problem.`
 
-This lack ofGaussianity will also have an impact on the performance ofthe filter and can potentially exacerbate any initializationerrors. 
+The 3D position of a ground target can be estimated usingthe target centroid pixel location, intrinsic and extrinsic camera parameters, and terrain data [9] . 
 
-This is demonstrated in [10], which considers theproblem of target tracking with long range radars.In this paper, we compare two track initiation algo-rithms, the single-point (SP) method [11−12] and the two-point difference (TPD) method [2] , using position-only mea-surements in 1D, 2D, or 3D. 
+Similarly, the errors in the 3D position estimate of the target for the GMTI and video tracking problems are not Gaussian. 
 
-We assume that the targetmotion is described by the nearly constant velocity model(NCVM) [2] . 
+- 이런 비가우시안 속성으로 인해서 필터 성능에 영향을 미치고 잠재적으로 초기에러 확산을 야기 한다. `This lack of Gaussianity will also have an impact on the performance of the filter and can potentially exacerbate any initialization errors. `
+ - [10]에서 이를 증빙하였다. 
+This is demonstrated in [10], which considers the problem of target tracking with long range radars.
 
-Then, the SP algorithm initiates the trackusing the first position measurement and sets the veloc-ity components to zero. 
 
-The maximum possible speed ofthe target is used, in addition to the measurement covari-ances, to initialize the associated covariance matrix [11−12] .A KF is then used to process subsequent position measure-ments. 
+본 논문에서는 두개의 트랙 초기화 알고리즘을 비교 하였다. `In this paper, we compare two track initiation algorithms,` 
+- the single-point (SP) method [11−12] and 
+- the two-point difference (TPD) method [2] , using position-only measurements in 1D, 2D, or 3D. 
 
-In contrast, the TPD algorithm [2] uses informationon the first two measurements alone to initialize the filter.This estimate represents the maximum likelihood estimatefor Gaussian position errors. 
+본 논문에서는 타겟의 움직음은 고정된 속도라고 가정 하였다. `We assume that the target motion is described by the nearly constant velocity model(NCVM) [2] . `
 
-We demonstrate numericallythat the SP method has a smaller mean square error ma-trix (MSEM) than the TPD for a 3D radar target trackingproblem. 
+- SP: Then, the SP algorithm initiates the track using the first position measurement and sets the velocity components to zero. 
+ - The maximum possible speed of the target is used, in addition to the measurement covariances, to initialize the associated covariance matrix [11−12] .
+ - A KF is then used to process subsequent position measurements. 
 
-We conjecture that this result holds analytically.We analytically show that, if the process noise approacheszero and the maximum speed of a target used to initial-ize the velocity variance approaches infinity, then the SPalgorithm reduces to the TPD algorithm.The organization of the paper is as follows. 
+- TDP : In contrast, the TPD algorithm [2] uses information on the first two measurements alone to initialize the filter.
+ - This estimate represents the maximum likelihood estimatefor Gaussian position errors. 
 
-Section 1 de-scribes the target dynamic and measurement models. 
+We demonstrate numerically that the SP method has a smaller mean square error matrix (MSEM) than the TPD for a 3D radar target tracking problem. 
 
-Sec-tion 2 presents the SP and TPD track initiation algorithms.The bias and the MSEM of the two estimators at the sec-ond observation time are discussed in Section 3. 
+We conjecture that this result holds analytically.
 
-Section 4establishes the relationship between the two track initiationalgorithms analytically. 
+We analytically show that, if the process noise approaches zero and the maximum speed of a target used to initialize the velocity variance approaches infinity, then the SP algorithm reduces to the TPD algorithm.
 
-Finally, Sections 5 and 6 presentnumerical results and conclusions.Let n (1, 2 or 3) denote the dimension of the targetposition. 
-
-We use I and 0 n to represent the n × n identitymatrix and null matrix, respectively. 
-
-A general m × n nullmatrix is denoted by 0 m×n .
