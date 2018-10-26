@@ -23,3 +23,7 @@ Human Detection, Tracking and Segmentation in Surveillance Video : https://www.y
 
 
 [Basic GNN Tracking](https://github.com/fbaeuerlein/BasicGNNTracking): C++
+
+
+[Ebook][handbook of multisensor data fusion](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVQnGoa2Foo-TjEF) :2001, CRC press
+- 8장 : [Target Tracking Using Probabilistic Data Association-Based Techniques with Applications to Sonar,Radar, and EO Sensors](http://dsp-book.narod.ru/HMDF/2379ch08.pdf)
