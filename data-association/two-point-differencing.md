@@ -13,7 +13,9 @@
 
 > MALLICK Mahendra, 2008 [[Download]](https://www.researchgate.net/publication/245568628_Comparison_of_Single-point_and_Two-point_Difference_Track_Initiation_Algorithms_Using_Position_Measurements)
 
-Track initiation is an essential component of all track-ing algorithms, but one that has received little attention.For situations where the dynamic and measurement modelsare linear and appropriate Gaussianity and independenceassumptions hold, it is well-known that the Kalman fil-ter (KF) is optimal in the minimum mean squared errorsense [1−2] . 
+- 트랙초기화(Track initiation)는 추적의 필수 요소이지만 중요성에 비해 연구가 많이 이루어 지지 않았다. `Track initiation is an essential component of all tracking algorithms, but one that has received little attention.`
+
+- 움직임이 일정한 물체의 추적에는 칼만필터를 사용하는것이 일반적으로 좋다. `For situations where the dynamic and measurement models are linear and appropriate Gaussianity and independence assumptions hold, it is well-known that the Kalman filter (KF) is optimal in the minimum mean squared error sense [1−2].`
 
 However, this result requires that the mean ofthe initial state estimate is equal to the mean of the initialstate, and its associated error covariance matrix is equal tothe true initial covariance. 
 
