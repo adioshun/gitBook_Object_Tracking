@@ -47,6 +47,8 @@
   * [Kalman-code](kalmanfilter/kalman-code.md)
 * [Condensation](Condensation.md)
   * [code](Condensation/Condensation-code.md)
+* [Particle\_filter](kalmanfilter/particlefilter.md)
+  * particle\_intro
 * [Data-Association](data-association.md)
   * [2014-Survey-Multi-target Tracking Filters and Data Association](data-association/2014-survey-multi-target-tracking-filters-and-data-association.md)
   * [Terms-Data-Association](data-association/terms-data-association.md)
