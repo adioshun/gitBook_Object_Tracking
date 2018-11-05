@@ -44,14 +44,6 @@
 
 * [IOU\_Tracker](tracker/ioutracker.md)
 * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
-
-
-## Implementation
-
-* [dlib](implementation/dlib.md)
-
-## 참고
-
 * [kalman\_filter](kalmanfilter.md)
   * [Kalman-Intro](kalmanfilter/kalman-intro.md)
   * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
@@ -60,14 +52,35 @@
   * [code](Condensation/Condensation-code.md)
 * [Particle\_filter](kalmanfilter/particlefilter.md)
   * particle\_intro
+
+
+
+## Data Association 
+
 * [Data-Association](data-association.md)
   * [2014-Survey-Multi-target Tracking Filters and Data Association](data-association/2014-survey-multi-target-tracking-filters-and-data-association.md)
   * [Terms-Data-Association](data-association/terms-data-association.md)
   * [Multiple Hypothesis Tracking](data-association/multiple-hypothesis-tracking.md)
   * [two-point differencing](data-association/two-point-differencing.md)
   * [GM-PHD filter](data-association/gm-phd-filter.md)
+
+
+
+## ID Management 
+
 * [Assignment ](assignment.md)
   * [Hungarian-method](hungarian-method.md)
+
+
+## Implementation
+
+* [dlib](implementation/dlib.md)
+
+## 참고
+
+
+
+
 * [Datasets](datasets.md)
   * [2D-Tracking-Datasets](2d-tracking-datasets.md)
 * [Application-Counting](application-counting.md)
