@@ -42,7 +42,7 @@ Y. Bar-Shalom, and E. Tse, “Tracking in a Cluttered Environment with Probabili
 
 # [CVPR 2019 Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
 
-- Multivariate Kalman Filters - Working with Multiple State Variables](https://github.com/shijieS/ComputerVisionSummarization/blob/master/codebook/06-Multivariate-Kalman-Filters.ipynb): 쥬피터
+- [Multivariate Kalman Filters - Working with Multiple State Variables](https://github.com/shijieS/ComputerVisionSummarization/blob/master/codebook/06-Multivariate-Kalman-Filters.ipynb): 쥬피터
 
 ---
 
