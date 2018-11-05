@@ -41,9 +41,9 @@
 
 
 ## Tracker
-* [Tracker](tracker.md)
-  * [IOU\_Tracker](tracker/ioutracker.md)
-  * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
+
+* [IOU\_Tracker](tracker/ioutracker.md)
+* [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
 
 
 ## Implementation
