@@ -42,3 +42,5 @@ rows = D.min(axis=1).argsort()
 # sorting using the previously computed row index list
 cols = D.argmin(axis=1)[rows]
 ```
+
+https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How%20to%20calculate%20distance.ipynb
