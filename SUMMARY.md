@@ -4,8 +4,7 @@
 
 * [Introduction](README.md)
 * [Tracking 개요](tracking.md)
-* [Tracker](tracker.md)
-  * [IOU\_Tracker](tracker/ioutracker.md)
+
 
 ## 2D Object Tracking
 
@@ -18,7 +17,6 @@
   * [2014-Survey-ObjectDetection-TrackingMethods](2dtracking/2014-survey-objectdetection-trackingmethods.md)
   * [2016- GOTURN](2dtracking/2016-goturn.md)
   * [2016-SORT-SimpleOnlineRealtimeTracking](2dtracking/2016-sort-simpleonlinerealtimetracking.md)
-  * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
   * [2017-Detect2Track-Track2Detect](2dtracking/2017-detect2track-track2detect.md)
   * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
 
@@ -40,6 +38,13 @@
   * [2017-3D-Lidar MOT for Autonomous-Driving](3dtracking/2017-3d-lidar-mot-for-autonomous-driving.md)
   * [2017-online Learning](3dtracking/2017-Online learning for human classification in 3D LiDAR-based tracking.md)
   * [2018-Fast and Furious](3dtracking/2018-fast-and-furious.md)
+
+
+## Tracker
+* [Tracker](tracker.md)
+  * [IOU\_Tracker](tracker/ioutracker.md)
+  * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
+
 
 ## Implementation
 
