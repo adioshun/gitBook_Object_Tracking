@@ -41,4 +41,8 @@ L 8.45  0.25  1477010443349642  8.45  0.25  -3.00027  0
 
 ```
 
+In this project the LIDAR measurements are transformed from the cartesian into the polar coordinate system using this formula:
 
+
+
+![](http://www.coldvision.io/wp-content/uploads/2017/04/object_tracking_rada_measurements_transform.png)
