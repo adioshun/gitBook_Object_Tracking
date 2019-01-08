@@ -45,16 +45,7 @@
 * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
 
 
-## Kalman_Filter
 
-* [kalman\_filter](kalmanfilter.md)
-  * [Kalman-Intro](kalmanfilter/kalman-intro.md)
-  * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
-  * [Kalman-code](kalmanfilter/kalman-code.md)
-* [Condensation](Condensation.md)
-  * [code](Condensation/Condensation-code.md)
-* [Particle\_filter](kalmanfilter/particlefilter.md)
-  * particle\_intro
 
 ## Data Association
 
@@ -69,10 +60,26 @@
 
 * [Assignment ](assignment.md)
   * [Hungarian-method](hungarian-method.md)
+  
+---
 
 ## Sensor Fusion
 
 * [Sensor\_fusion](sensor-fusion/sensorfusion.md)
+
+## Kalman_Filter
+
+* [kalman\_filter](kalmanfilter.md)
+  * [Kalman-Intro](kalmanfilter/kalman-intro.md)
+  * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
+  * [Kalman-code](kalmanfilter/kalman-code.md)
+* [Condensation](Condensation.md)
+  * [code](Condensation/Condensation-code.md)
+* [Particle\_filter](kalmanfilter/particlefilter.md)
+  * particle\_intro
+
+
+---
 
 ## Implementation
 
