@@ -65,10 +65,10 @@
 
 * [Assignment ](assignment.md)
   * [Hungarian-method](hungarian-method.md)
-  
+
 ## Sensor Fusion
 
-
+* [Sensor\_fusion](sensor-fusion/sensorfusion.md)
 
 ## Implementation
 
