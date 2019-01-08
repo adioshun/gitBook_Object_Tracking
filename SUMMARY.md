@@ -44,9 +44,6 @@
 * [centroid\_tracker](tracker/centroidtracker.md)
 * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
 
-
-
-
 ## Data Association
 
 * [Data-Association](data-association.md)
@@ -60,14 +57,12 @@
 
 * [Assignment ](assignment.md)
   * [Hungarian-method](hungarian-method.md)
-  
----
 
 ## Sensor Fusion
 
 * [Sensor\_fusion](sensor-fusion/sensorfusion.md)
 
-## Kalman_Filter
+## Kalman\_Filter
 
 * [kalman\_filter](kalmanfilter.md)
   * [Kalman-Intro](kalmanfilter/kalman-intro.md)
@@ -76,10 +71,7 @@
 * [Condensation](Condensation.md)
   * [code](Condensation/Condensation-code.md)
 * [Particle\_filter](kalmanfilter/particlefilter.md)
-  * particle\_intro
-
-
----
+  * [particle\_intro](kalmanfilter/particlefilter/particleintro.md)
 
 ## Implementation
 
