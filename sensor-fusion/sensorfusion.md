@@ -17,7 +17,7 @@ Sensor Fusion Algorithms For Autonomous Driving
 
 # Tool
 
-[Data fusion development with ROS | BASELABS](https://www.baselabs.de/data-fusion-development-with-ros/)
+[Data fusion development with ROS | BASELABS](https://www.baselabs.de/data-fusion-development-with-ros/): 필독, 샘플파일 제공 
 
 
 
