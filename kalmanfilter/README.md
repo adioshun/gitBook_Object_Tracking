@@ -30,7 +30,6 @@ The UKF is a powerful nonlinear estimation technique and has been shown to be a 
 
 - [[추천] 쥬피터 모음](https://github.com/balzer82/Kalman)
 
-- [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
 
 # 표윤석, ROS 로봇 프로그래밍, 349page 참고 
 
