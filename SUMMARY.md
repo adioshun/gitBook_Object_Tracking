@@ -61,15 +61,18 @@
 ## Sensor Fusion
 
 ## Kalman\_Filter
-
+* [README](kalmanfilter/README.md)
 * [kalman\_filter](kalmanfilter.md)
-  * [Kalman-Intro](kalmanfilter/kalman-intro.md)
-  * [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
-  * [Kalman-code](kalmanfilter/kalman-code.md)
-* [Condensation](Condensation.md)
-  * [code](Condensation/Condensation-code.md)
+* [Kalman-Intro](kalmanfilter/kalman-intro.md)
+* [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
+* [Kalman-code](kalmanfilter/kalman-code.md)
 * [Particle\_filter](kalmanfilter/particlefilter.md)
   * [particle\_intro](kalmanfilter/particlefilter/particleintro.md)
+
+## Condensation
+* [Condensation](Condensation.md)
+  * [code](Condensation/Condensation-code.md)
+
 
 ## Implementation
 
