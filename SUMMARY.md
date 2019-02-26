@@ -58,8 +58,6 @@
 * [Assignment ](assignment.md)
   * [Hungarian-method](hungarian-method.md)
 
-## Sensor Fusion
-
 ## Kalman\_Filter
 
 * [README](kalmanfilter/README.md)
