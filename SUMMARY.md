@@ -62,7 +62,6 @@
 
 * [README](kalmanfilter/README.md)
 * [Kalman-Intro](kalmanfilter/kalman-intro.md)
-* [Udacity\_KalmanFilter](kalmanfilter/udacitykalmanfilter.md)
 * [Kalman-code](kalmanfilter/kalman-code.md)
 * [Particle\_filter](kalmanfilter/particlefilter.md)
   * [particle\_intro](kalmanfilter/particlefilter/particleintro.md)
