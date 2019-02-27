@@ -4,6 +4,9 @@
 
 * [Introduction](README.md)
 * [Tracking 개요](tracking.md)
+* [칼만필터](https://legacy.gitbook.com/book/adioshun/kalmanfilter/details)
+
+
 
 ## 2D Object Tracking
 
@@ -58,9 +61,7 @@
 * [Assignment ](assignment.md)
   * [Hungarian-method](hungarian-method.md)
 
-## Kalman\_Filter
 
-* [칼만필터](https://legacy.gitbook.com/book/adioshun/kalmanfilter/details)
 
 ## Condensation
 
