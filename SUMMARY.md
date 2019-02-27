@@ -71,6 +71,7 @@
 ## Implementation
 
 * [dlib](implementation/dlib.md)
+* [이미지내 사람추적](implementation/surveillance.md)
 
 ## 참고
 
