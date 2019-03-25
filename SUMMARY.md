@@ -46,6 +46,7 @@
 * [IOU\_Tracker](tracker/ioutracker.md)
 * [centroid\_tracker](tracker/centroidtracker.md)
 * [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
+* [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
 
 ## Data Association
 
