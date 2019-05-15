@@ -36,9 +36,6 @@
   * [2014-Confidence-Based-PedestrianTracking](3dtracking/2014-confidence-based-pedestriantracking.md)
   * [2015-PersonTracking-2D-Lidar](3dtracking/2015-persontracking-2d-lidar.md)
   * [2017-Low resolution lidar-based multi-object tracking for driving applications](3dtracking/2017-low-resolution-lidar-based-multi-object-tracking-for-driving-applications.md)
-  * [2017-3D-Lidar MOT for Autonomous-Driving](3dtracking/2017-3d-lidar-mot-for-autonomous-driving.md)
-  * [2017-online Learning](3dtracking/2017-Online learning for human classification in 3D LiDAR-based tracking.md)
-  * [2018-Fast and Furious](3dtracking/2018-fast-and-furious.md)
 
 ## Tracker
 
