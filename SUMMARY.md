@@ -26,16 +26,7 @@
 * [3D Background-filter](background-filter.md)
   * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
 * [3D\_Detection](3ddetection.md)
-  * [2018-pixor](3dtracking/2018-pixor.md)
 * [3D\_Tracking](3dtracking.md)
-  * [2007-SLAMMOT](3dtracking/2007-slammot.md)
-  * [2008-Model based vehicle tracking for autonomous driving in urban environments](3dtracking/2008-model based vehicle tracking for autonomousdriving in urban environments.md)
-  * [2010-Tracking People with a 360 degreelidar](3dtracking/2010-Tracking-People-with-a-360-degree-lidar.md)
-  * [2011-Tracking People in 3D Using a Bottom-Up Top-Down Detector](3dtracking/2011-tracking-people-in-3d-using-a-bottom-up-top-down-detector.md)
-  * [2012-Lidar-Based-MOT-system-with-Dyanamic-modeling](3dtracking/2012-lidar-based-mot-system-with-dyanamic-modeling.md)
-  * [2014-Confidence-Based-PedestrianTracking](3dtracking/2014-confidence-based-pedestriantracking.md)
-  * [2015-PersonTracking-2D-Lidar](3dtracking/2015-persontracking-2d-lidar.md)
-  * [2017-Low resolution lidar-based multi-object tracking for driving applications](3dtracking/2017-low-resolution-lidar-based-multi-object-tracking-for-driving-applications.md)
 
 ## Tracker
 
