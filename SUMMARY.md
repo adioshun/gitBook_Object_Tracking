@@ -13,12 +13,9 @@
 * [2D\_Detection](https://adioshun.gitbooks.io/deep_drive/content/)
 * [2D\_Tracking](2dtracking.md)
   * [Mean Shift\_CAM shift](2dtracking/mean-shift.md)
-  * [2006-Survey-Object-tracking](2dtracking/2006-survey-object-tracking.md)
   * [2012-TLD](2dtracking/pn-tracker.md)
   * [2014-Survey-ObjectDetection-TrackingMethods](2dtracking/2014-survey-objectdetection-trackingmethods.md)
   * [2016- GOTURN](2dtracking/2016-goturn.md)
-  * [2016-SORT-SimpleOnlineRealtimeTracking](2dtracking/2016-sort-simpleonlinerealtimetracking.md)
-  * [2017-Detect2Track-Track2Detect](2dtracking/2017-detect2track-track2detect.md)
   * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
 
 ## 3D Object Tracking
@@ -38,7 +35,6 @@
 ## Data Association
 
 * [Data-Association](data-association.md)
-  * [2014-Survey-Multi-target Tracking Filters and Data Association](data-association/2014-survey-multi-target-tracking-filters-and-data-association.md)
   * [Terms-Data-Association](data-association/terms-data-association.md)
   * [Multiple Hypothesis Tracking](data-association/multiple-hypothesis-tracking.md)
   * [two-point differencing](data-association/two-point-differencing.md)
