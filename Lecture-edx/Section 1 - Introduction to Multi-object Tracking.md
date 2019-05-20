@@ -97,6 +97,9 @@ of noisy sensor measurements to determine the **object's state**.
 ### 1.2.2 Imperfect Detections
 
 
+- Missed detection : 탐지 실패 
+- False Detection : 물체가 아닌데 탐지한 경우 
+
 
 
 
