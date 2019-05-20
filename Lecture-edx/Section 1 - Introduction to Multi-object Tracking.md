@@ -73,7 +73,10 @@ of noisy sensor measurements to determine the **object's state**.
 - 탐지 에러등으로 한 물체에 대해 여러 탐지가 이루어 지는 경우 
     -eg. 바닦에 튕긴 전파가 차의 후면이 아닌 중간 바닦에 닿는 경우 
 
-##### 마. 
+##### 마. Tracking with unresolved objects (=Tracking with merged Measurements)
+
+- Multiple object cause a single detection 
+    - eg. 붙어 있는 차량이 동일한 속도로 이동시 Radar는 하나로 인식 
 
 
 
