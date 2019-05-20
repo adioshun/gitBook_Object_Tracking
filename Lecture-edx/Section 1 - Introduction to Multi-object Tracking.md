@@ -295,6 +295,17 @@ Later in this course we're going to learn about how we can use the predicted lik
 
 ### 1.4.1 Kalman Filter Review
 
+MOT에서는 모션모델과 측정모델이 비선형 경우가 많다 따라서 칼말필터 말고 다음 non-linear kalman를 사용한다. 
+- Extended kalman filter
+- Sigma-point kalman filter
+    - unscented kalman filter(UKF)
+    - cubature kalman filter(CKF)
+
+
+MOT에서 highly non-linear 시나리오일경우에는 다음을 사용한다. 
+- particle filter 
+
+> 대부분의 MOT 경우 particle filter까지는 안써도 된다. 
 
 
 
