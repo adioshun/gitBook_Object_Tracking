@@ -60,3 +60,25 @@ of noisy sensor measurements to determine the **object's state**.
 - Several objects treated as single entity : A GROUP
 
 - Possibly more than one detection per group, per time step 
+
+- 그룹자체의 움직임에 관심 있을때 
+
+![](https://i.imgur.com/830F0ei.png)
+
+
+##### 라. Tracking with multi-path propagating 
+
+![](https://i.imgur.com/aaArjUK.png)
+
+- 탐지 에러등으로 한 물체에 대해 여러 탐지가 이루어 지는 경우 
+    -eg. 바닦에 튕긴 전파가 차의 후면이 아닌 중간 바닦에 닿는 경우 
+
+##### 마. 
+
+
+
+
+
+
+
+
