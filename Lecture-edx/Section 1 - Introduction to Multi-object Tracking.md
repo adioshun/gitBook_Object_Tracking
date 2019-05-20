@@ -110,7 +110,7 @@ of noisy sensor measurements to determine the **object's state**.
 
 #### 1.3.1 Bayesian Filtering Review
 
-> MOT 는 Bayesian method를 해결 하는 문제 이다. 
+> MOT 는 Bayesian method를 해결 하는 문제이다. 
 
 아래 기술들에 대하여 알고 있어야 한다. 
 - Recursive estimation, Bayesian Statistics, bayes thorem
