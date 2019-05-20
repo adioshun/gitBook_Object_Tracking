@@ -279,9 +279,16 @@ Later in this course we're going to learn about how we can use the predicted lik
 
 #### 1.3.6 Estimators and Performance Evaluation
 
+아래 경우 posterior density를 이용하여 **object estimate**를 계산해야 하는 경우가 있다. `sometime it is necessary to compute an object estimate using the posterior density`
+- MOT결과 시각화 
+- 성능 평가 
+
+![](https://i.imgur.com/88hkycy.png)
 
 
 
+
+![](https://i.imgur.com/HUMMmHt.png)
 
 
 
