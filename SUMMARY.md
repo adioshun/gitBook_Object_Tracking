@@ -20,7 +20,7 @@
 
 ## 3D Object Tracking
 
-* [3D Background-filter](background-filter.md)
+* [background-filter](background-filter.md)
   * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
 * [3D\_Detection](3ddetection.md)
 * [3D\_Tracking](3dtracking.md)
@@ -59,11 +59,6 @@
 * [Section 4 - Random Finite Sets](Lecture-edx/Section 4 - Random Finite Sets.md)
 * [Section 5 - MOT Using Conjugate Priors](Lecture-edx/Section 5 - MOT Using Conjugate Priors.md)
 * [Section 6 - Outlook - What's Next?](Lecture-edx/Section 6 - Outlook - Whats Next.md)
-
-
-
-
-
 
 ## Implementation
 
