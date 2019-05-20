@@ -174,7 +174,27 @@ With a motion model with additive noise, we get a Gaussian transition density.
 So the density of the state at time k, given the state at time k minus 1, is a Gaussian PDF, with mean given by the motion function , f, with the previous state as input and a covariance, Q.
 
 
+#### 1.3.3 Measurement Modelling
 
+
+센서의 종류와 탐지 대상에 따라 다르다. 
+
+Describes relation between objects state and measurement 
+
+
+[](https://i.imgur.com/HO7XITt.png)
+
+
+
+![](https://i.imgur.com/91yOrqt.png)
+
+So let's have a look at an example where we have Gaussian distributed measurement noise.
+
+So the density for the measurement noise is Gaussian with 0 mean and covariance R.
+
+If we have a measurement model with additive noise, then we get a Gaussian measurement likelihood.
+
+So the density for the measurement z given the state x is Gaussian with mean described by the measurement function h with the object state as input, and the covariance is the measurement noise covariance, R.
 
 
 
