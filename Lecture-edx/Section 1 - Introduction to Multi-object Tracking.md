@@ -8,3 +8,19 @@
 - 역사 : 2차 세계 대전 
 - 본 강의에서는 자율 주행용 추적 시스템에 초점 
 
+#### 1.1.2 Multi-object Tracking Defintions
+
+- Single object tracking is an example of a **filtering** problem.
+
+- So what we are dealing with is the sequential processing
+of noisy sensor measurements to determine the **object's state**.
+    - object's position
+    - properties that describe its motion
+    - speed ,direction
+
+- multiple object tracking 
+    - determining the number of objects.
+    - determining the object states.
+    
+> 물체의 수를 알고 있다면, the multiple object tracking problem is simplified.
+
