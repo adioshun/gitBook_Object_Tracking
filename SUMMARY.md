@@ -49,6 +49,10 @@
 
 * [Condensation](Condensation.md)
   * [code](Condensation/Condensation-code.md)
+  
+## edx Multi-Object Tracking for Automotive Systems
+
+* [README](Lecture-edx/README.md)
 
 ## Implementation
 
