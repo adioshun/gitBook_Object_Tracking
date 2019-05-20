@@ -54,6 +54,16 @@
 
 * [README](Lecture-edx/README.md)
 * [Section 1 - Introduction to Multi-object Tracking](Lecture-edx/Section 1 - Introduction to Multi-object Tracking.md)
+* [Section 2 - Single-object Tracking in Clutter](Lecture-edx/Section 2 - Single-object Tracking in Clutter.md)
+* [Section 3 - Tracking n Targets](Lecture-edx/Section 3 - Tracking n Targets.md)
+* [Section 4 - Random Finite Sets](Lecture-edx/Section 4 - Random Finite Sets.md)
+* [Section 5 - MOT Using Conjugate Priors](Lecture-edx/Section 5 - MOT Using Conjugate Priors.md)
+* [Section 6 - Outlook - What's Next?](Lecture-edx/Section 6 - Outlook - Whats Next.md)
+
+
+
+
+
 
 ## Implementation
 
