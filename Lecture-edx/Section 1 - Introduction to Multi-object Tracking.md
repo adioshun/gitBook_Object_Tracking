@@ -83,7 +83,7 @@ of noisy sensor measurements to determine the **object's state**.
 
 ---
 
-### 1.2.1 Challenges in MOT
+#### 1.2.1 Challenges in MOT
 
 ![](https://i.imgur.com/6e1wRzE.png)
 
@@ -94,13 +94,13 @@ of noisy sensor measurements to determine the **object's state**.
 - 물체가 가려짐 
 - 탐의 불안정 
 
-### 1.2.2 Imperfect Detections
+#### 1.2.2 Imperfect Detections
 
 
 - Missed detection : 탐지 실패 
 - False Detection : 물체가 아닌데 탐지한 경우 
 
-### 1.2.3 Data Association Uncertainties
+#### 1.2.3 Data Association Uncertainties
 
 ![](https://i.imgur.com/iaFDHy9.png)
 
@@ -108,11 +108,24 @@ of noisy sensor measurements to determine the **object's state**.
 
 ---
 
-### 1.3.1 Bayesian Filtering Review
+#### 1.3.1 Bayesian Filtering Review
 
 > MOT 는 Bayesian method를 해결 하는 문제 이다. 
 
+아래 기술들에 대하여 알고 있어야 한다. 
+- Recursive estimation, Bayesian Statistics, bayes thorem
+- Linear and non-linear filtering
+    - Kalman filter
+    - Non-linear Kalman filter
+    - Particle filter
+- Simple motion and measurement modeling 
 
+
+##### 가. Bayesian Recursive Filtering 
+
+Two Step 
+- Prediction 
+- Update
 
 
 
