@@ -217,41 +217,37 @@ So the density for the measurement z given the state x is Gaussian with mean des
 
 Given that we have a motion model and a measurement model, let's return to the Bayesian filtering recursion.
 The first step in the recursion is known as the Chapman-Kolmogorov prediction.
-Here we take the density at time k minus 1,
-given measurements up to and including time k minus 1,
-and we also take the transition density,
-and then we marginalize the previous state.
+Here we take the density at time k minus 1,given measurements up to and including time k minus 1,and we also take the transition density,and then we marginalize the previous state.
+
 In other words, we marginalize the state at time k minus 1.
-What this does is that it gives us the predicted state
-density, in other words, the density of the state at time k,
-given measurements up to and including time k minus 1.
+What this does is that it gives us the predicted state density, in other words, the density of the state at time k, given measurements up to and including time k minus 1.
+
 The second step is the Bayes update.
-Here we take the predicted density,
-the density of the state at time k,
-given measurements up to and including time k minus 1.
-And we also take the measurement likelihood, so the density
-of the measurement z, given the state,
+
+Here we take the predicted density, the density of the state at time k, given measurements up to and including time k minus 1.
+
+And we also take the measurement likelihood, so the density of the measurement z, given the state,
 and then we normalize this.
-And this gives us the updated density,
-the density of the object state x
-at time k, given measurements up to and including time k.
-So we can see that the predicted density
-is used in the Bayes update.
+
+And this gives us the updated density, the density of the object state x at time k, given measurements up to and including time k.
+
+So we can see that the predicted density is used in the Bayes update.
+
 And the updated density is then used in the next prediction.
+
 And this gives us the Bayesian filtering recursion.
-We predict the posterior density.
+
+We predict the posterior density. 
+
 We do a Bayes update and then we repeat this.
-In multiple object tracking, the normalizing
-constant in the Bayes update is sometimes
-called the predicted likelihood.
-What we have here is the predicted object density,
-given measurements up to time k minus 1,
-and the measurement likelihood.
-And these two densities multiplied
-give us the joint density of the measurement and the object
-state.
-And when we then marginalize the object state,
-we get just the density for the measurement.
+
+In multiple object tracking, the normalizing constant in the Bayes update is sometimes called the predicted likelihood.
+
+What we have here is the predicted object density, given measurements up to time k minus 1, and the measurement likelihood.
+
+And these two densities multiplied give us the joint density of the measurement and the object state.
+
+And when we then marginalize the object state, we get just the density for the measurement.
 
 
 
@@ -281,7 +277,7 @@ Later in this course we're going to learn about how we can use the predicted lik
 
 
 
-
+#### 1.3.6 Estimators and Performance Evaluation
 
 
 
