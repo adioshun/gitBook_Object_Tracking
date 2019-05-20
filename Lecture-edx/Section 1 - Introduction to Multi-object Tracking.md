@@ -197,14 +197,86 @@ If we have a measurement model with additive noise, then we get a Gaussian measu
 So the density for the measurement z given the state x is Gaussian with mean described by the measurement function h with the object state as input, and the covariance is the measurement noise covariance, R.
 
 
+#### 1.3.4 Sufficient Modelling
+
+그럼 모델링은 어느 수준까지 해야 하나? 모델들은 100%완전할 필요는 없다 **sufficiently accurate**하고 **reasonable complexity**이면 된다. 
+- high quality estimation 
+- reasonable computation cost 
+
+둘 사이의 적절한 밸런스만 유지 하면 된다. 
+
+
+> 정확한 모델링을 위해 자동차의 바퀴 4개, 각 조향..등등을 다 안하고, 앞바퀴-뒷바퀴-조향 만 모델링 해도 된다. 
+
+
+
+#### 1.3.5 Prediction, update, likelihood
+
+![](https://i.imgur.com/20uIQ5w.png)
+
+
+Given that we have a motion model and a measurement model, let's return to the Bayesian filtering recursion.
+The first step in the recursion is known as the Chapman-Kolmogorov prediction.
+Here we take the density at time k minus 1,
+given measurements up to and including time k minus 1,
+and we also take the transition density,
+and then we marginalize the previous state.
+In other words, we marginalize the state at time k minus 1.
+What this does is that it gives us the predicted state
+density, in other words, the density of the state at time k,
+given measurements up to and including time k minus 1.
+The second step is the Bayes update.
+Here we take the predicted density,
+the density of the state at time k,
+given measurements up to and including time k minus 1.
+And we also take the measurement likelihood, so the density
+of the measurement z, given the state,
+and then we normalize this.
+And this gives us the updated density,
+the density of the object state x
+at time k, given measurements up to and including time k.
+So we can see that the predicted density
+is used in the Bayes update.
+And the updated density is then used in the next prediction.
+And this gives us the Bayesian filtering recursion.
+We predict the posterior density.
+We do a Bayes update and then we repeat this.
+In multiple object tracking, the normalizing
+constant in the Bayes update is sometimes
+called the predicted likelihood.
+What we have here is the predicted object density,
+given measurements up to time k minus 1,
+and the measurement likelihood.
+And these two densities multiplied
+give us the joint density of the measurement and the object
+state.
+And when we then marginalize the object state,
+we get just the density for the measurement.
 
 
 
 
 
+![](https://i.imgur.com/71kMpm2.png)
 
+We have a predicted likelihood that has been obtained by marginalizing some **predicted state density** and some **measurement likelihood**.
 
+두개의 센서 측정을 가정하자. `Now let's assume that we have two different measurements, valued 2.5 and 6.9.`
 
+추적기를 위해 아래가 2가지를 알아야 한다. `In a tracking context, `
+- we have to reason about which of these two measurements should be associated to the state.
+- We also have to reason about how probable each alternative association is.
+
+**predicted likelihood**를 이용하여 알수 있다. `And we can do this using the predicted likelihood. `
+
+In this case, we find that 
+- the measurement equal to 2.5 has the predicted likelihood of about 0.3, whereas the measurement equal to 6.9 has the likelihood of much, much less.
+
+In other words, the measurement value 2.5 is the most likely measurement of these two.
+
+And if we had to make a decision which of these two measurements we should associate to the object, a good decision would be to take the most likely one.
+
+Later in this course we're going to learn about how we can use the predicted likelihoods for multiple objects to reason about data association.
 
 
 
