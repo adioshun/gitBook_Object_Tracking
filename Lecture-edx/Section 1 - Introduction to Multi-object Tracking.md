@@ -291,6 +291,9 @@ Later in this course we're going to learn about how we can use the predicted lik
 ![](https://i.imgur.com/HUMMmHt.png)
 
 
+---
+
+### 1.4.1 Kalman Filter Review
 
 
 
