@@ -138,3 +138,37 @@ of noisy sensor measurements to determine the **object's state**.
 #### 1.3.2 Motion modelling
 
 
+- 정의 : 물체가 어떻게 움직이는가를 모델링 한것. 즉, object state가 시간에 따라 발전하는가. `Describes how the tracked objects move; how the object state evolves over time'
+
+- Data Association에도 중요한 역할을 한다.  
+
+
+- Common models 
+    - Linear : Constant velocity, Constant acceleration
+    - Non-Linear : Coordinated turn 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
