@@ -150,6 +150,41 @@ of noisy sensor measurements to determine the **object's state**.
 
 
 
+![](https://i.imgur.com/tKPgJqn.png)
+
+So let's consider an example where we have a constant velocity motion model.
+
+We have the state at time k, and it consists of position and velocity.
+
+In this case, a suitable motion function would be the following that you can see here on the screen.
+
+The position at time k is given by the position at time k minus 1, plus the sampling time, t, multiplied by the velocity at time k minus 1.
+
+
+And then we add some noise to this.
+
+Since we have a constant velocity motion model, the velocity at time k is given simply by the velocity at the previous time step, k minus 1, plus some noise.
+
+
+![](https://i.imgur.com/RcjZX0M.png)
+
+So let's consider an example where we have Gaussian distributed process noise.
+We assume it has a probability density function--that is, Gaussian with mean 0 and covariance Q.
+With a motion model with additive noise, we get a Gaussian transition density.
+So the density of the state at time k, given the state at time k minus 1, is a Gaussian PDF, with mean given by the motion function , f, with the previous state as input and a covariance, Q.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
