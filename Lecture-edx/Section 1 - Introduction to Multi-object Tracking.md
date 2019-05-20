@@ -121,14 +121,20 @@ of noisy sensor measurements to determine the **object's state**.
 - Simple motion and measurement modeling 
 
 
-##### 가. Bayesian Recursive Filtering 
+베이지안 필터링은 Motion과 Measurement Modelling을 필요로 한다. 
+- For Bayesian MOT, we need models for the multiple objects, 
+    - how they move
+    - how they enter/leave the surveillance area
+    - how the detector works
 
-Two Step 
-- Prediction 
-- Update
+- Such multiple object motion models, and multiple object measurement models, partly build upon models for single oblject:
+    - single object **motion model**
+    - single object **measurement model** 
+    
+- single object models integrated into multi-object models 
 
 
 
-
+#### 1.3.2 Motion modelling
 
 
