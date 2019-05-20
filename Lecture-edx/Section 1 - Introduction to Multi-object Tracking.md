@@ -47,7 +47,9 @@ of noisy sensor measurements to determine the **object's state**.
 
 - At most one detection per object, per time step 
     - eg. 이미지 탐지의 바운딩 박스, 비행기 탐지용 radar
-    
+
+> 본 강좌에서는 이 경우에 대해서만 다룸 
+
 ##### 나. Extended Object Tracking 
 
 - Possible more than one detection per object, per time step 
@@ -77,6 +79,24 @@ of noisy sensor measurements to determine the **object's state**.
 
 - Multiple object cause a single detection 
     - eg. 붙어 있는 차량이 동일한 속도로 이동시 Radar는 하나로 인식 
+
+
+---
+
+### 1.2.1 Challenges in MOT
+
+![](https://i.imgur.com/6e1wRzE.png)
+
+- 물체의 수 모름 
+- 물체의 상태 모름 
+- 물체가 움직임 
+- 물체가 사라지고, 나타남
+- 물체가 가려짐 
+- 탐의 불안정 
+
+### 1.2.2 Imperfect Detections
+
+
 
 
 
