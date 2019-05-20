@@ -100,6 +100,17 @@ of noisy sensor measurements to determine the **object's state**.
 - Missed detection : 탐지 실패 
 - False Detection : 물체가 아닌데 탐지한 경우 
 
+### 1.2.3 Data Association Uncertainties
+
+![](https://i.imgur.com/iaFDHy9.png)
+
+![](https://i.imgur.com/0OZ11BJ.png)
+
+---
+
+### 1.3.1 Bayesian Filtering Review
+
+> MOT 는 Bayesian method를 해결 하는 문제 이다. 
 
 
 
