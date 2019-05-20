@@ -24,3 +24,9 @@ of noisy sensor measurements to determine the **object's state**.
     
 > 물체의 수를 알고 있다면, the multiple object tracking problem is simplified.
 
+#### 1.1.3 Tracking Based on Detections
+
+![](https://i.imgur.com/hNNpUal.png)
+
+- 추적은 탐지(measurements = detections )로 부터 시작 된다. 
+- MOT알고리즘의 결과물은 **Posterior densities for objected states **
