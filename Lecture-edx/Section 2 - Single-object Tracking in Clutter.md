@@ -11,3 +11,10 @@
 - This makes single object tracking more similar to Kalman filtering and the type of nonlinear
 filtering problems 
 
+- challenges 
+    - Time varying state variables
+    - Noisy measurement 
+    - missed detection 
+    - clutter detection (잡음)
+    - Unknown data associations 
+    
