@@ -30,4 +30,6 @@ filtering** problems
 ##### 가. Single Object Motion Models 
 
 
+> SOT의 Motion model 표기시 $$\pi_k $$ 사용  
 
+![](https://i.imgur.com/XUDlYtc.png)
