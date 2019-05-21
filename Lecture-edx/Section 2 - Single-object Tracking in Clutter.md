@@ -25,3 +25,6 @@ filtering** problems
 
 #### 2.2.1 Single object motion and measurement models
 
+- Bernoulli distribution is central to both SOT and MOT 
+    - 탐지 = 0, 미탐지 = 1 
+
