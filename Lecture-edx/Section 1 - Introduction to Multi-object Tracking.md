@@ -315,6 +315,8 @@ MOT에서 highly non-linear 시나리오일경우에는 다음을 사용한다.
 #### 1.5.1 Assumed Density Filtering
 
 
+http://luiarthur.github.io/ucsc_notes/advBayesComputing/14/
+
 
 
 
