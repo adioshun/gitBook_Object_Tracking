@@ -8,8 +8,8 @@
 
 - 하나의 물체만 존재 
 
-- This makes single object tracking more similar to Kalman filtering and the type of nonlinear
-filtering problems 
+- This makes single object tracking more similar to **Kalman filtering** and the type of **nonlinear
+filtering** problems 
 
 - challenges 
     - Time varying state variables
@@ -18,3 +18,10 @@ filtering problems
     - clutter detection (잡음)
     - Unknown data associations 
     
+
+
+
+---
+
+#### 2.2.1 Single object motion and measurement models
+
