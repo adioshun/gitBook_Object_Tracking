@@ -33,3 +33,13 @@ filtering** problems
 > SOT의 Motion model 표기시 $$\pi_k $$ 사용  
 
 ![](https://i.imgur.com/XUDlYtc.png)
+
+
+##### 나. Single Object Measurement Models 
+
+- Clutter detection모델도 필요 하지만, 지금은 생략 
+
+> $$g_k$$ to denote the distribution of the detections from a single object
+
+![](https://i.imgur.com/GtB0Ybb.png)
+
