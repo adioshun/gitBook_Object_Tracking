@@ -12,3 +12,18 @@ GM-PHD 필터
 
 
 [Multi-target Tracking with PHD Filters](https://www.math.u-bordeaux.fr/~mpace/PhdFiltering.html)
+
+---
+
+본 논문에서는 앞서 언급한 문제를 극복하고자 확률밀도가정(Probability Hypothesis Density (PHD))필터를 이용하여 영
+상기반의 온라인 다중객체추적을 구현한다. 
+
+PHD 필터는 다중 객체와 측정치들을 Random Finite Set에 근거하여 객체 집합과 관측치 집합으로 모델링한다. 기존의 데이터연관 기반
+의 추적 방식들과 다르게 PHD 필터는 각 객체를 독립적으
+로 추정하기 보다 객체들을 하나의 집합으로 고려하여 추정
+한다. 이러한 특징 때문에 각 객체에 하나의 관측지를 할당
+하는 데이터연관 부분이 불필요하다. 또한, PHD 필터는 객체
+의 사라짐, 출현, 그리고 검출 불확실성을 확률적으로 모델링
+하여 표적 객체 관리와 검출 불확실성 관리를 필터링 과정에
+서 자동적으로 처리할 수 있다는 장점이 있다.
+
