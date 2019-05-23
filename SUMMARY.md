@@ -21,7 +21,6 @@
 ## 3D Object Tracking
 
 * [background-filter](background-filter.md)
-  * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
 * [3D\_Detection](3ddetection.md)
 * [3D\_Tracking](3dtracking.md)
 
