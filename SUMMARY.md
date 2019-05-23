@@ -6,7 +6,8 @@
 * [Tracking 개요](tracking.md)
 * [칼만필터](https://legacy.gitbook.com/book/adioshun/kalmanfilter/details)
 * [References](references.md)
-* Categories
+* [Categories](categories.md)
+* [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
 
 ## 2D Object Tracking
 
