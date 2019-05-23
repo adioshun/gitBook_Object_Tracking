@@ -85,3 +85,4 @@ histogram backprojection 기법과 mean shift를 결합한 방법
 
 [비디오에서 객체 추적하기2 - CamShift](http://sams.epaiai.com/220659310860): python
 
+[[Object Tracking] OpenCV 객체추적 프로그램 접근법 (MeanShift and CAMShift)](https://eehoeskrap.tistory.com/41?category=570078): Enough is not enough
