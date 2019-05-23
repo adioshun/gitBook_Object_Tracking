@@ -8,7 +8,15 @@
 * [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
 * [CVPR2017\_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
 
-## 2D Object Tracking
+## Tracker 
+
+* [IOU\_Tracker](tracker/ioutracker.md)
+* [centroid\_tracker](tracker/centroidtracker.md)
+* [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
+
+
+
+
 
 * [2D\_Tracking](2dtracking.md)
   * [Mean Shift\_CAM shift](2dtracking/mean-shift.md)
@@ -16,17 +24,15 @@
   * [2016- GOTURN](2dtracking/2016-goturn.md)
   * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
 
-## 3D Object Tracking
+
 
 * [background-filter](background-filter.md)
 * [3D\_Detection](3ddetection.md)
 * [3D\_Tracking](3dtracking.md)
 
-## Tracker
 
-* [IOU\_Tracker](tracker/ioutracker.md)
-* [centroid\_tracker](tracker/centroidtracker.md)
-* [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
+
+
 
 ## Data Association
 
