@@ -91,6 +91,14 @@ Advanced Tracking Algorithm
 
 ![](https://t1.daumcdn.net/cfile/tistory/2469F54157F8B84417)
 
+- point tracker : 매 프레임에서 탐지 수행 
+- kernel, contour : object가 처음에 나타날 때만 detection 과정이 필요  
+
+`For illustration, the point trackers involve detection in every frame; while
+geometric area or kernel based tracking or contours-based tracking require detection only when the object first appears
+in the scene. `
+
+
 
 > [정리](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2014-a-survey-on-object-detection-and-tracking-methods.md?_k=0wej7f)
 
