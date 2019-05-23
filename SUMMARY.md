@@ -16,12 +16,12 @@
 * [Mean Shift](tracker/mean-shift.md)
 * [CAM Shift](tracker/cam-shift.md)
 * [Multiple Hypothesis Tracking](tracker/multiple-hypothesis-tracking.md)
+* [PN tracker](tracker/pn-tracker.md)
+* [GOTURN](tracker/goturn.md)
 
 ---
 
 * [2D\_Tracking](2dtracking.md)
-  * [2012-TLD](2dtracking/pn-tracker.md)
-  * [2016- GOTURN](2dtracking/2016-goturn.md)
   * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
 
 ---
