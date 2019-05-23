@@ -146,6 +146,23 @@ Manya Afonso는 대표적인 비선형 예측 알고리즘인 확장 칼만 필�
 
 
 ---
+![](https://t1.daumcdn.net/cfile/tistory/2469F54157F8B84417)
+
+2. Object Tracking Methods
+
+
+
+Tracking은 주변 환경에서 일어나는 이미지의 움직임, 경로(Path)를 추적하는 문제로 정의 할 수 있다. 영상의 single frame의 환경에서 객체의 움직음을 찾을 때, route를 생성해가는 과정을 거친다. 객체 추출, 객체 인식 및 Tracking 그리고, 행동에 대한 분석을 위한 Object Tracking 방법을 설명하고자 한다. 
+
+
+
+논문에 따르면 객체 추적은 Point Tracking, Kernel based Tracking 그리고 Silhouette based Tracking 세가지로 나뉘어진다. point tracker는 매 프레임에서 상황을 결정하고, kernel이나 contour 등을 이용한 추적 방법에서는 object가 오직 처음에 나타날 때만 detection하는 과정을 거치게 된다. 트래킹에 관한 방법들을 도식화 한 그림은 다음과 같다.
+
+
+
+출처: https://eehoeskrap.tistory.com/91 [Enough is not enough]
+
+---
 
 ## pyimagesearch 소개 8개의 tracker
 
