@@ -32,7 +32,6 @@
 
 * [Data-Association](data-association.md)
   * [Terms-Data-Association](data-association/terms-data-association.md)
-  * [Multiple Hypothesis Tracking](data-association/multiple-hypothesis-tracking.md)
   * [two-point differencing](data-association/two-point-differencing.md)
   * [GM-PHD filter](data-association/gm-phd-filter.md)
 
