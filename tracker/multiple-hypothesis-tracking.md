@@ -4,7 +4,7 @@
 
 - [[코드-C]](https://github.com/WeatherGod/MHT)
 
-- C. Kim, "[Multiple Hypothesis Tracking Revisited](https://ieeexplore.ieee.org/document/7410890)", ICCV 2015 [[영문정리]](Multiple Hypothesis Tracking Revisited), [[코드-Python]](https://github.com/jperdomo23/openmht)
+- C. Kim, "[Multiple Hypothesis Tracking Revisited](https://ieeexplore.ieee.org/document/7410890)", ICCV 2015 , [[코드-Python]](https://github.com/jperdomo23/openmht)
 
 
 - [MULTIPLE OBJECT TRACKING WITH MHT](http://www.deepvisionconsulting.com/multiple-object-tracking-with-mht/) : blog 2018

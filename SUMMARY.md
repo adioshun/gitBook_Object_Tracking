@@ -22,7 +22,7 @@
 ---
 
 * [2D\_Tracking](2dtracking.md)
-  * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
+  * [2018-Tracking Things in Object Detection Videos](2dtracking/2018-blog-tracking-things.md)
 
 ---
 
