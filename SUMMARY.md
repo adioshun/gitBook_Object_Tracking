@@ -4,15 +4,12 @@
 
 * [README](README.md)
 * [Tracking 개요](tracking.md)
-* [칼만필터](https://legacy.gitbook.com/book/adioshun/kalmanfilter/details)
 * [References](references.md)
 * [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
 * [CVPR2017\_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
 
 ## 2D Object Tracking
 
-* [2D Background-filter](https://adioshun.gitbooks.io/gitbook_from_github/content/opencvbackgroundsubtractor.html)
-* [2D\_Detection](https://adioshun.gitbooks.io/deep_drive/content/)
 * [2D\_Tracking](2dtracking.md)
   * [Mean Shift\_CAM shift](2dtracking/mean-shift.md)
   * [2012-TLD](2dtracking/pn-tracker.md)
