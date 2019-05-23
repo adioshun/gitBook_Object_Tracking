@@ -14,7 +14,6 @@
 * [2D\_Tracking](2dtracking.md)
   * [Mean Shift\_CAM shift](2dtracking/mean-shift.md)
   * [2012-TLD](2dtracking/pn-tracker.md)
-  * [2014-Survey-ObjectDetection-TrackingMethods](2dtracking/2014-survey-objectdetection-trackingmethods.md)
   * [2016- GOTURN](2dtracking/2016-goturn.md)
   * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
 
