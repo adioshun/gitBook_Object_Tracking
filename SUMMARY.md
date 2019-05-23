@@ -8,6 +8,7 @@
 * [References](references.md)
 * [Categories](categories.md)
 * [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
+* [CVPR2017_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
 
 ## 2D Object Tracking
 
