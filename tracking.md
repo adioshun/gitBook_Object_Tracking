@@ -20,9 +20,6 @@ Before 2000 Lidar센서의 성능이 좋지 않아 카메라를 이용한 추적
 
 * Meanshift and Camshift: These are algorithms for locating the maxima of a density function. They are also used for tracking.
 
-* Single object trackers: In this class of trackers, the first frame is marked using a rectangle to indicate the location of the object we want to track. The object is then tracked in subsequent frames using the tracking algorithm. In most real life applications, these trackers are used in conjunction with an object detector.
-
-* Multiple object track finding algorithms: In cases when we have a fast object detector, it makes sense to detect multiple objects in each frame and then run a track finding algorithm that identifies which rectangle in one frame corresponds to a rectangle in the next frame.
 
 ### Tracking vs Detection
 
@@ -54,7 +51,52 @@ Advanced Tracking Algorithm
 * kernel-based
 * correlation-based
 
+
 ---
+
+**이동물체 추적기법**은 그 처리방법에 따라 분류할 경우 **정합기반기법**과 **에너지기법**으로 분류할 수 있다.
+
+정합기반기법
+
+* 추적대상의 윤곽선, 모서리, 휘도 혹은 색상분포를 가지고 추적대상의 모델ㅇ르 구성하여 화면 내에서 이와 유사한 부분을 탐색하는 방법으로 탐색과 정합 두 가지 단계로 구성된다.
+* 정합기반 방법은 탐색과정을 거쳐 이동물체의 이동 가능한 위치를 예측하며, 정합과정을 거쳐 이동물체의 이동 가능한 위치를 예측하며, 정합과정을 거쳐 예측위치에 대한 이동물체의 동일성 판별을 수행하게 된다.
+* 정합기반 이동물체 추적기법은 전체적인 휘도 변화에 대한 적응능력이 좋으며, 배경과 위치의 변화가 발생할 경우에도 적용할 수 있다는 장점을 가지고있다.
+* 그러한 추적대상의 프레임간의 변화가 클 경우 정합성능이 저하되고, 추적대상의 움직임이 고속인 경우 추적대상이 저주파 성분으로 이루어지기 때문에 정합을 위한 템플릿 추출에 어려움이 발생하게 된다.
+
+에너지기반 이동물체 추적
+
+* 광류, 능동외곽선, 레벨 셋 등과 같은 세부적인 분류가 있으며, 공통적으로 화소, 영역, 윤곽선 등과 같은 영상의 특징점이 프레임 간에서 에너지보존 법칙을 준수한다는가정을 기초로 한다.
+* 즉, 짧은 시간 내에서 얻어지는 연속하는 두 프레임에 대하여 한 화소 또는 한 영역은 공간적인 변화만 존재하며, 밝기 값이나 분포, 즉 화소자체가 소유하고 있는 빛 에너지를 보존된다는 것이다.
+* 이 기법은 계산량이 증가하지만 화면의 미세한 움직임까지 포착할 수 있으며, 추적 대상의 형태변화가 클 경우에도 강인간 추적 성능을 보여주는 장점을 가지고 있다.
+
+---
+
+# [Moving Object Tracking of Vehicle Detection](http://docplayer.net/16497156-Moving-object-tracking-of-vehicle-detection-a-concise-review.html): 2015
+
+
+
+* Tracking Methods
+* Region-based tracking methods
+* contour tracking methods
+* 3D Model based tracking methods
+* Feature based tracking methods
+* Color and Pattern based tracking methods
+
+
+> [상세](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2015-moving-object-tracking-of-vehicle-detection-a-concise-review.md?_k=1o66tn)
+
+---
+
+### [A Survey on Object Detection and Tracking Methods](https://pdfs.semanticscholar.org/25a6/c5dff9a7019475daa81cd5a7f1f2dcdb5cf1.pdf): 2014
+
+![](https://t1.daumcdn.net/cfile/tistory/2469F54157F8B84417)
+
+
+> [정리](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2014-a-survey-on-object-detection-and-tracking-methods.md?_k=0wej7f)
+
+---
+
+# 각 알고리즘 설명 
 
 그 중 Mean Shift, CAMshift ABCshift 알고리즘은 탐색 윈도우 를 통하여 추적물체의 영역 및 중심을 계산한다.
 
@@ -98,52 +140,6 @@ Manya Afonso는 대표적인 비선형 예측 알고리즘인 확장 칼만 필�
 
 > CAMshift 기법과 칼만 필터를 결합한 객체 추적 시스템, 김대영, 2013
 
----
-
-**이동물체 추적기법**은 그 처리방법에 따라 분류할 경우 **정합기반기법**과 **에너지기법**으로 분류할 수 있다.
-
-정합기반기법
-
-* 추적대상의 윤곽선, 모서리, 휘도 혹은 색상분포를 가지고 추적대상의 모델ㅇ르 구성하여 화면 내에서 이와 유사한 부분을 탐색하는 방법으로 탐색과 정합 두 가지 단계로 구성된다.
-* 정합기반 방법은 탐색과정을 거쳐 이동물체의 이동 가능한 위치를 예측하며, 정합과정을 거쳐 이동물체의 이동 가능한 위치를 예측하며, 정합과정을 거쳐 예측위치에 대한 이동물체의 동일성 판별을 수행하게 된다.
-* 정합기반 이동물체 추적기법은 전체적인 휘도 변화에 대한 적응능력이 좋으며, 배경과 위치의 변화가 발생할 경우에도 적용할 수 있다는 장점을 가지고있다.
-* 그러한 추적대상의 프레임간의 변화가 클 경우 정합성능이 저하되고, 추적대상의 움직임이 고속인 경우 추적대상이 저주파 성분으로 이루어지기 때문에 정합을 위한 템플릿 추출에 어려움이 발생하게 된다.
-
-에너지기반 이동물체 추적
-
-* 광류, 능동외곽선, 레벨 셋 등과 같은 세부적인 분류가 있으며, 공통적으로 화소, 영역, 윤곽선 등과 같은 영상의 특징점이 프레임 간에서 에너지보존 법칙을 준수한다는가정을 기초로 한다.
-* 즉, 짧은 시간 내에서 얻어지는 연속하는 두 프레임에 대하여 한 화소 또는 한 영역은 공간적인 변화만 존재하며, 밝기 값이나 분포, 즉 화소자체가 소유하고 있는 빛 에너지를 보존된다는 것이다.
-* 이 기법은 계산량이 증가하지만 화면의 미세한 움직임까지 포착할 수 있으며, 추적 대상의 형태변화가 클 경우에도 강인간 추적 성능을 보여주는 장점을 가지고 있다.
-
----
-
-# [Moving Object Tracking of Vehicle Detection](http://docplayer.net/16497156-Moving-object-tracking-of-vehicle-detection-a-concise-review.html): 2015
-
-
-
-* Tracking Methods
-* Region-based tracking methods
-* contour tracking methods
-* 3D Model based tracking methods
-* Feature based tracking methods
-* Color and Pattern based tracking methods
-
-
-> [상세](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2015-moving-object-tracking-of-vehicle-detection-a-concise-review.md?_k=1o66tn)
-
----
-
-### [A Survey on Object Detection and Tracking Methods](https://pdfs.semanticscholar.org/25a6/c5dff9a7019475daa81cd5a7f1f2dcdb5cf1.pdf): 2014
-
-![](https://t1.daumcdn.net/cfile/tistory/2469F54157F8B84417)
-
-1. Object Tracking Methods
-
-Tracking은 주변 환경에서 일어나는 이미지의 움직임, 경로\(Path\)를 추적하는 문제로 정의 할 수 있다. 영상의 single frame의 환경에서 객체의 움직음을 찾을 때, route를 생성해가는 과정을 거친다. 객체 추출, 객체 인식 및 Tracking 그리고, 행동에 대한 분석을 위한 Object Tracking 방법을 설명하고자 한다.
-
-논문에 따르면 객체 추적은 Point Tracking, Kernel based Tracking 그리고 Silhouette based Tracking 세가지로 나뉘어진다. point tracker는 매 프레임에서 상황을 결정하고, kernel이나 contour 등을 이용한 추적 방법에서는 object가 오직 처음에 나타날 때만 detection하는 과정을 거치게 된다. 트래킹에 관한 방법들을 도식화 한 그림은 다음과 같다.
-
-출처: [https://eehoeskrap.tistory.com/91](https://eehoeskrap.tistory.com/91) \[Enough is not enough\]
 
 ---
 
