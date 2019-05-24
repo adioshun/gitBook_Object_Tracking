@@ -63,6 +63,11 @@
 
 * [CSE598C Vision-Based Tracking](http://www.cse.psu.edu/~rtc12/CSE598C/)
 
+## Mobile Robotics 2 
+
+* [Slide_Video](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/)
+
+
 ## Implementation
 
 * [dlib](implementation/dlib.md)
