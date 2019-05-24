@@ -20,16 +20,7 @@
 * [Kalman Filter](tracker/kalman-filter.md)
 * [Particle Filter](tracker/particle-filter.md)
 
-## 2D Tracking
 
-* [README](2D-Tracking/README.md)
-* [Occlusion Handling](2D-Tracking/occlusion-handling.md)
-* [2018-Tracking Things in Object Detection Videos](2D-Tracking/2018-tracking-things-in-object-detection-videos.md)
-
-## 3D Tracking
-
-* [README](3D-Tracking/README.md)
-* Occlusion Handling
 
 ## Data Association
 
@@ -48,6 +39,21 @@
 
 * [Condensation](Condensation.md)
   * [code](Condensation/Condensation-code.md)
+
+
+## 2D Tracking
+
+* [README](2D-Tracking/README.md)
+* [Occlusion Handling](2D-Tracking/occlusion-handling.md)
+* [2018-Tracking Things in Object Detection Videos](2D-Tracking/2018-tracking-things-in-object-detection-videos.md)
+
+## 3D Tracking
+
+* [README](3D-Tracking/README.md)
+* Occlusion Handling
+
+
+---
 
 ## edx Multi-Object Tracking for Automotive Systems
 
