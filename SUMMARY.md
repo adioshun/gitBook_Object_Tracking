@@ -21,22 +21,18 @@
 * [Joint probabilistic data association \(JPDA\)](tracker/joint-probabilistic-data-association-jpda.md)
 * [Greedy Nearest Neighbor \(GNN\) Filter](tracker/greedy-nearest-neighbor-gnn-filter.md)
 
-
-
 ## 2D Tracking
 
 * [README](2D-Tracking/README.md)
-
 * [2D\_Tracking](2dtracking.md)
   * [2018-Tracking Things in Object Detection Videos](2dtracking/2018-blog-tracking-things.md)
-
-
+* [2018-Tracking Things in Object Detection Videos](2D-Tracking/2018-tracking-things-in-object-detection-videos.md)
 
 ## 3D Tracking
 
 * [README](3D-Tracking/README.md)
 
-
+---
 
 * [3D\_Tracking](3dtracking.md)
 
