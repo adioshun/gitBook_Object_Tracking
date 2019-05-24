@@ -35,3 +35,8 @@ The NNF(Nearest Neighbor Filter??) only takes into account the prediction of the
 따라서 마할라노비스 방식이 더 좋다. `Thus, the Mahalanobis distance better associates new measurements to a vehicle projected along its probable path, not to vehicles that happen to be close to the new measurement but whose paths are not nearby the measurement [38].`
 
 본 논문에서는 허용할만한 에러를 보이고 간단한 구현 방식으로 GNN 필터를 사용 하였다. `In this thesis, for easiness implementation with acceptable error, GNN filter is applied as data association approach.`
+
+![](https://i.imgur.com/qw7nNeg.png)
+![](https://i.imgur.com/s46YsoT.png)
+
+---
