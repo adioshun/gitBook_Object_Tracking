@@ -1,9 +1,4 @@
-- [Python Particle Probability Hypothesis Density Filter](): B.-N. Vo, S. Singh, and A. Doucet, “Sequential Monte Carlo implementation     of the PHD filter for multi-target tracking,”, 2003
 
-
-
-
----
 
 본 논문에서는 앞서 언급한 문제를 극복하고자 확률밀도가정(Probability Hypothesis Density (PHD))필터를 이용하여 영
 상기반의 온라인 다중객체추적을 구현한다. 
@@ -20,6 +15,8 @@ PHD 필터는 다중 객체와 측정치들을 Random Finite Set에 근거하여
 
 # [Multi-target Tracking with PHD Filters](https://www.math.u-bordeaux.fr/~mpace/PhdFiltering.html)
 
+## 분류 
+
 Random Finite Set (RFS)기반 기법들 
 - Multiple Hypotheses tracking (MHT)
 - Joint Probabilistic Data Association Filter (JPDAF) 
@@ -34,18 +31,33 @@ joined with Mahler's finite set statistics (FISST)기법
 - a Sequential Monte Carlo PHD filter (SMC-PHD) and 
 - a Gaussian Mixture PHD filter (GM-PHD) to a realistic naval and aerial scenario.
 
-PHD Filters
+## PHD Filters
 
-The Probability Hypothesis Density (PHD) filter is a multiple-target filter for recursively estimating the number and the state of a set of targets given a set of observations. It is able to operate in environments with false alarms and missdetections and it works by propagating in time the intensity of the targets RFS instead of the full multi-target posterior density.
-In literature, various implementations have been proposed and their performance compared using different levels of clutter and model uncertainty. The generic sequential Monte Carlo implementation (SMC-PHD) filter, proposed by Vo et al. in [4], generally suffers of an high computational cost as it requires a large number of particles and relies on clustering techniques to provide state estimates. The unreliability of estimates due to inaccuracy introduced by the clustering step and the computational complexity constitute its main
-drawbacks. To alleviate these problem a closed form solution to the PHD filter recursion, called Gaussian Mixture PHD (GM-PHD), has been proposed by Vo and Ma in [7]. This approach does not require clustering procedures but, since
-it makes use of the Kalman filter equations, it is restricted to linear-Gaussian target dynamic. When targets show a mildly non-linear dynamic it is generally possible to rely on extensions for the GM-PHD filter using the Extended Kalman filter (EK-PHD) or the Unscented Kalman filter (UK-PHD) or to use the Gaussian Particle Implementations of the PHD filter.
+The Probability Hypothesis Density (PHD) filter is a multiple-target filter for recursively estimating the number and the state of a set of targets given a set of observations. 
+
+It is able to operate in environments with false alarms and miss-detections and it works by propagating in time the intensity of the targets RFS instead of the full multi-target posterior density.
+
+In literature, various implementations have been proposed and their performance compared using different levels of clutter and model uncertainty. 
 
 
-### 예 1
+### SMC-PHD
 
+The generic sequential Monte Carlo implementation (SMC-PHD) filter, proposed by Vo et al. in [4], generally suffers of an high computational cost as it requires a large number of particles and relies on clustering techniques to provide state estimates. 
+
+The unreliability of estimates due to inaccuracy introduced by the clustering step and the computational complexity constitute its main drawbacks. 
+
+
+> Python Particle Probability Hypothesis Density Filter: B.-N. Vo, S. Singh, and A. Doucet, “Sequential Monte Carlo implementation of the PHD filter for multi-target tracking,”, 2003
 
 ### 예 2 : GM-PHD
+
+To alleviate these problem a closed form solution to the PHD filter recursion, called Gaussian Mixture PHD (GM-PHD), has been proposed by Vo and Ma in [7]. 
+
+This approach does not require clustering procedures but, since it makes use of the Kalman filter equations, it is restricted to linear-Gaussian target dynamic. 
+
+When targets show a mildly non-linear dynamic it is generally possible to rely on extensions for the GM-PHD filter using the Extended Kalman filter (EK-PHD) or the Unscented Kalman filter (UK-PHD) or to use the Gaussian Particle Implementations of the PHD filter.
+
+
 
 
 > [GM-PHD 필터를 이용한 보행자 탐지 성능 향상 방법](http://www.dbpia.co.kr/Article/NODE06594856), 2015
