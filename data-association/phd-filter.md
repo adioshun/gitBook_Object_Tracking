@@ -49,7 +49,7 @@ The unreliability of estimates due to inaccuracy introduced by the clustering st
 
 > Python Particle Probability Hypothesis Density Filter: B.-N. Vo, S. Singh, and A. Doucet, “Sequential Monte Carlo implementation of the PHD filter for multi-target tracking,”, 2003
 
-### 예 2 : GM-PHD
+### GM-PHD
 
 To alleviate these problem a closed form solution to the PHD filter recursion, called Gaussian Mixture PHD (GM-PHD), has been proposed by Vo and Ma in [7]. 
 
