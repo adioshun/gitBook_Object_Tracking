@@ -40,7 +40,7 @@ It is able to operate in environments with false alarms and miss-detections and 
 In literature, various implementations have been proposed and their performance compared using different levels of clutter and model uncertainty. 
 
 
-### SMC-PHD
+##### SMC-PHD
 
 The generic sequential Monte Carlo implementation (SMC-PHD) filter, proposed by Vo et al. in [4], generally suffers of an high computational cost as it requires a large number of particles and relies on clustering techniques to provide state estimates. 
 
@@ -49,7 +49,7 @@ The unreliability of estimates due to inaccuracy introduced by the clustering st
 
 > Python Particle Probability Hypothesis Density Filter: B.-N. Vo, S. Singh, and A. Doucet, “Sequential Monte Carlo implementation of the PHD filter for multi-target tracking,”, 2003
 
-### GM-PHD
+##### GM-PHD
 
 To alleviate these problem a closed form solution to the PHD filter recursion, called Gaussian Mixture PHD (GM-PHD), has been proposed by Vo and Ma in [7]. 
 
