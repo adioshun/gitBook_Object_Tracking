@@ -6,3 +6,12 @@ PDA
 NN
 - 각 항적에 대한 특정의 예측치에 가장 가까운 측정치를 그 항적에 연계시켜 항적을 유지해 나감 
 
+
+prediction: propagate state pdf forward in time,taking process noise into account (translate, deform,and spread the pdf)
+
+
+
+Data association to determine best match
+
+update: use Bayes theorem to modify prediction pdf based on current measuremen
+

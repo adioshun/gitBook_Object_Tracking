@@ -34,7 +34,7 @@
 
 Human Detection, Tracking and Segmentation in Surveillance Video : https://www.youtube.com/watch?v=f7PHLx3HoyQ&t=4s
 
-[Introduction to Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf): ppt, CSE598C
+Introduction to Data Association [[Part1]](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf), [[Part2]](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart2.pdf): ppt, CSE598C
 
 
 [Robotics 2Data Association](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-11-dataassociation.pdf): 

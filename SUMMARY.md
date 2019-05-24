@@ -40,6 +40,7 @@
 
 * [Assignment ](assignment.md)
   * [Hungarian-method](hungarian-method.md)
+* [Gating](gating.md)
 
 ## Condensation
 
