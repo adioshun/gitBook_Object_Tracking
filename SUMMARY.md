@@ -57,6 +57,10 @@
 * [Section 5 - MOT Using Conjugate Priors](Lecture-edx/Section 5 - MOT Using Conjugate Priors.md)
 * [Section 6 - Outlook - What's Next?](Lecture-edx/Section 6 - Outlook - Whats Next.md)
 
+## CSE598C Vision-Based Tracking
+
+* [CSE598C Vision-Based Tracking](http://www.cse.psu.edu/~rtc12/CSE598C/)
+
 ## Implementation
 
 * [dlib](implementation/dlib.md)
