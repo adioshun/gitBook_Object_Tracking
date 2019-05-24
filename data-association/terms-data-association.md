@@ -15,3 +15,12 @@ Data association to determine best match
 
 update: use Bayes theorem to modify prediction pdf based on current measuremen
 
+---
+
+[Data Association](http://luthuli.cs.uiuc.edu/~daf/tutorials/activity/Trackingbasicsblock.pdf)
+- Nearest neighbours
+    - choose the measurement with highest probability given predicted state
+    - popular, but can lead to catastrophe
+- Probabilistic Data Association
+    - combine measurements, weighting by probability given predicted state
+    - gate using predicted state

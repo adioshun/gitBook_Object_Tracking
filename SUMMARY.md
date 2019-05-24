@@ -17,6 +17,7 @@
 * [GOTURN](tracker/goturn.md)
 * [Joint probabilistic data association \(JPDA\)](tracker/joint-probabilistic-data-association-jpda.md)
 * [Greedy Nearest Neighbor \(GNN\) Filter](tracker/greedy-nearest-neighbor-gnn-filter.md)
+* [Kalman Filter](tracker/kalman-filter.md)
 
 ## 2D Tracking
 

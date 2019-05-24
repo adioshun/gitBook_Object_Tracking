@@ -15,11 +15,55 @@
 
 
 
+---
+
+# [Robotics 2 Data Association](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-11-dataassociation.pdf)
+
+![](https://i.imgur.com/DGFjhYz.png)
+
+- 데이터 수집 
+- 측정값 예측 : 탐지 대상이 있을것 같은 **Area** 생성 
+    - Area : Validation Gate라고 불리우며, 탐색 범위를 좁힐때 사용 됨   
+- 측정값이 Area안에 있는지 확인 
 
 
+#### 흐름 예시 : Multi-Target DA: Global NN 
+
+1. Build the assignment matrix
+2. Solve the linear assignment problem 
+    - Hungarian method (blow up to square matrix)
+    - Munkres algorithm for rectangular matrices
+    - Finds global cost minimum! 
+3. Check if assignments are in the validation gate
+4. Performs DA jointly!
 
 
+## Single Target Data Association
 
+Non-Bayesian
+- Nearest neighbor (NN)
+    - Simple to implement
+    - Can integrate wrong measurements (false alarms), and thus, produce overconfident estimates
+    - Good if prediction and measurement models are accurate 
+
+Bayesian
+- Probabilistic Data Association Filter (PDAF)
+    - A bit more involved to implement
+    - Provide conservative estimates
+    - Good in presence of high clutter and noisy models 
+    
+
+## Multi-Target Data Association 
+
+Non Bayesian approaches
+- Nearest neighbor
+- Interpretation tree
+- Joint compatibility (JCBB)
+
+Bayesian approaches
+- JPDAF
+- MHT
+- MCMC 
 
 
 
