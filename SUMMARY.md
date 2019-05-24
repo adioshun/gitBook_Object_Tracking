@@ -18,6 +18,8 @@
 * [Multiple Hypothesis Tracking](tracker/multiple-hypothesis-tracking.md)
 * [PN tracker](tracker/pn-tracker.md)
 * [GOTURN](tracker/goturn.md)
+* [Joint probabilistic data association \(JPDA\)](tracker/joint-probabilistic-data-association-jpda.md)
+* [Greedy Nearest Neighbor \(GNN\) Filter](tracker/greedy-nearest-neighbor-gnn-filter.md)
 
 ---
 
