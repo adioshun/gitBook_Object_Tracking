@@ -6,12 +6,10 @@
 * [Tracking 개요](tracking.md)
 * [References](references.md)
 
-
 ## Tracker
 
 * [IOU\_Tracker](tracker/ioutracker.md)
 * [centroid\_tracker](tracker/centroidtracker.md)
-
 * [Mean Shift](tracker/mean-shift.md)
 * [CAM Shift](tracker/cam-shift.md)
 * [Multiple Hypothesis Tracking](tracker/multiple-hypothesis-tracking.md)
@@ -29,14 +27,12 @@
 
 * [README](3D-Tracking/README.md)
 
-
-
 ## Data Association
 
 * [Data-Association](data-association.md)
   * [Terms-Data-Association](data-association/terms-data-association.md)
   * [two-point differencing](data-association/two-point-differencing.md)
-  * [GM-PHD filter](data-association/gm-phd-filter.md)
+  * [PHD Filter](data-association/phd-filter.md)
 
 ## ID Management
 
@@ -70,11 +66,9 @@
   * [2D-Tracking-Datasets](2d-tracking-datasets.md)
 * [Application-Counting](application-counting.md)
 
-## 참고(외부링크)
+## 참고\(외부링크\)
 
 * [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
 * [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
 * [CVPR2017\_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
-
-
 
