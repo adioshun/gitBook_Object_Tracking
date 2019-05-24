@@ -5,14 +5,13 @@
 * [README](README.md)
 * [Tracking 개요](tracking.md)
 * [References](references.md)
-* [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
-* [CVPR2017\_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
+
 
 ## Tracker
 
 * [IOU\_Tracker](tracker/ioutracker.md)
 * [centroid\_tracker](tracker/centroidtracker.md)
-* [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
+
 * [Mean Shift](tracker/mean-shift.md)
 * [CAM Shift](tracker/cam-shift.md)
 * [Multiple Hypothesis Tracking](tracker/multiple-hypothesis-tracking.md)
@@ -30,7 +29,7 @@
 
 * [README](3D-Tracking/README.md)
 
----
+
 
 ## Data Association
 
@@ -70,4 +69,12 @@
 * [Datasets](datasets.md)
   * [2D-Tracking-Datasets](2d-tracking-datasets.md)
 * [Application-Counting](application-counting.md)
+
+## 참고(외부링크)
+
+* [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
+* [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
+* [CVPR2017\_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
+
+
 
