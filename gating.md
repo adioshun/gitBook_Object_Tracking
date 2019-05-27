@@ -7,7 +7,13 @@ Gating to determine possible matching observations
 
 ![](https://i.imgur.com/26AA2O4.png)
 
+## Data Association Scores
 
+- Similarity or affinity scores for determining the correspondence of blobs across frames is based on feature similarity between blobs.
+
+- Commonly used features: location , size / shape, velocity, appearance
+
+- For example: location, size and shape similarity can be measured based on bounding box overla(IoU)
 
 ---
 
