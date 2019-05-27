@@ -6,6 +6,8 @@ m-out-of-n기법 : n번 스캔에서 m번 연관된 정도를 살핌, 5회 미�
 - IPDAF(Integrated PDAF)이나 LM-IPDAF(Linear-Multiple IPDA) 기법
 
 
+Assignment Problem = build a table of match scores
+
 ---
 
 

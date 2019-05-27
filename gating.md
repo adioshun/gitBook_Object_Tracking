@@ -1,6 +1,8 @@
 # [Introduction to Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)
 
-Gating to determine possible matching observations
+목적 : Gating to determine possible matching observations
+
+정의 : A method for pruning matches that are geometrically unlikely from the start.
 
 
 ![](https://i.imgur.com/c2uEroB.png)

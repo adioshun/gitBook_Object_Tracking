@@ -30,3 +30,9 @@ def linear_assignment(X):
 
 
 ### [scipy.optimize.linear_sum_assignment](https://docs.scipy.org/doc/scipy-0.18.1/reference/generated/scipy.optimize.linear_sum_assignment.html)
+
+
+
+---
+
+- [알고리즘 설명](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf): 3/4지점 
