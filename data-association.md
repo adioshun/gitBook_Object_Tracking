@@ -72,11 +72,10 @@ Bayesian approaches
 
 ---
 
-[Global Data Association for Multiple Pedestrian Tracking](https://www.youtube.com/watch?v=SgRSniLdpwk): youtube 
-
-[Object tracking](https://www.youtube.com/watch?v=liFAVoff9nM) : UCF CRCV 강좌 
-
-Human Detection, Tracking and Segmentation in Surveillance Video : https://www.youtube.com/watch?v=f7PHLx3HoyQ&t=4s
+Youtube
+- [Global Data Association for Multiple Pedestrian Tracking](https://www.youtube.com/watch?v=SgRSniLdpwk)
+- [Object tracking](https://www.youtube.com/watch?v=liFAVoff9nM) : UCF CRCV 강좌 
+- [Human Detection, Tracking and Segmentation in Surveillance Video](https://www.youtube.com/watch?v=f7PHLx3HoyQ&t=4s)
 
 Introduction to Data Association [[Part1]](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf), [[Part2]](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart2.pdf): ppt, CSE598C
 
@@ -85,7 +84,6 @@ Introduction to Data Association [[Part1]](http://www.cse.psu.edu/~rtc12/CSE598C
 
 
 [People Tracking:Data Association](http://luthuli.cs.uiuc.edu/~daf/tutorials/activity/data_association.pdf): ppt
-
 
 [A Comparison of Data Association Techniques for Target Tracking in Clutter](https://pdfs.semanticscholar.org/c0d2/b5c5b6c8224688e47cd842db5693cc479548.pdf): 2002
 
@@ -96,8 +94,7 @@ Introduction to Data Association [[Part1]](http://www.cse.psu.edu/~rtc12/CSE598C
 
 [Basic GNN Tracking](https://github.com/fbaeuerlein/BasicGNNTracking): C++
 
-
-[Ebook][handbook of multisensor data fusion](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVQnGoa2Foo-TjEF) :2001, CRC press
-- 8장 : [Target Tracking Using Probabilistic Data Association-Based Techniques with Applications to Sonar,Radar, and EO Sensors](http://dsp-book.narod.ru/HMDF/2379ch08.pdf)
-
-[eBook] [Fundamentals of object tracking](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVVdlzNoLpMfexyk): 2011, 캠프리지 
+Ebook
+- [handbook of multisensor data fusion](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVQnGoa2Foo-TjEF) :2001, CRC press
+- [Target Tracking Using Probabilistic Data Association-Based Techniques with Applications to Sonar,Radar, and EO Sensors](http://dsp-book.narod.ru/HMDF/2379ch08.pdf) : 8장 
+- [Fundamentals of object tracking](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVVdlzNoLpMfexyk): 2011, 캠프리지 
