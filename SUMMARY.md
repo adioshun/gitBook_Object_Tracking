@@ -28,12 +28,9 @@
   * [Terms-Data-Association](data-association/terms-data-association.md)
   * [two-point differencing](data-association/two-point-differencing.md)
   * [PHD Filter](data-association/phd-filter.md)
-
-## ID Management
-
-* [Assignment ](assignment.md)
-  * [Hungarian-method](hungarian-method.md)
 * [Gating](gating.md)
+
+
 
 ## Condensation
 
