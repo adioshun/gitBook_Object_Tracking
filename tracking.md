@@ -2,13 +2,11 @@
 
 Tracking 정의 : locating an object in successive frames of a video
 
-Before 2000 Lidar센서의 성능이 좋지 않아 카메라를 이용한 추적 시스템이 주로 개발 되었다.
+|![](https://i.imgur.com/r1AONhf.png)|![](https://i.imgur.com/biR0MMZ.png)|
+|-|-|
+|Filtering|Tracking|
 
-카메라 기반 추적 시스템 제약 `Lindstrom and Eklundh summarized other key limitations of camera-based tracking systems including:`
 
-* cameras have a field-of-view that is too narrow; 
-* the visual appearance of a feature is not robust to position or lighting changes; 
-* the visual processing gives little explicit distance information
 
 ### Object Tracking관련 아이디어들
 
