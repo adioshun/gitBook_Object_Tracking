@@ -7,6 +7,7 @@ Tracking 정의 : locating an object in successive frames of a video
 출처 : [Udacity](https://classroom.udacity.com/courses/ud810/lessons/3271928538/concepts/32865685380923)
 - [Prediction](https://youtu.be/KsbjLtR_N0Y) 다시 살펴 보기 
 - [Correction](https://youtu.be/KV7BKqrzeC4) 다시 살펴 보기 
+- [Sumary](https://classroom.udacity.com/courses/ud810/lessons/3271928538/concepts/32865685430923) 다시 살펴 보기 
 
 |![](https://i.imgur.com/r1AONhf.png)|![](https://i.imgur.com/biR0MMZ.png)|
 |-|-|

@@ -3,3 +3,6 @@
 ![](https://i.imgur.com/suq6cyL.png)
 
 
+---
+
+# [Udacity - Kalman as a tracker](https://classroom.udacity.com/courses/ud810/lessons/3325568562/concepts/33096785930923)

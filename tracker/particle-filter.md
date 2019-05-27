@@ -2,3 +2,7 @@
 
 ![](https://i.imgur.com/dSKPyN1.png)
 
+
+---
+
+# [Udacity - Particle filter as a tracker](https://classroom.udacity.com/courses/ud810/lessons/3353778638/concepts/33450785630923)
