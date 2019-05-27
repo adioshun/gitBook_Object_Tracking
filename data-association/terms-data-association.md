@@ -9,8 +9,6 @@ NN
 
 prediction: propagate state pdf forward in time,taking process noise into account (translate, deform,and spread the pdf)
 
-
-
 Data association to determine best match
 
 update: use Bayes theorem to modify prediction pdf based on current measuremen
