@@ -50,4 +50,7 @@ histogram backprojection 기법과 mean shift를 결합한 방법
 위 그림처럼 Local Minimum에 빠진다. 
 
 
+---
+
+# [Udacity](https://youtu.be/TMPEujQrY70)
 
