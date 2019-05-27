@@ -20,6 +20,7 @@
 * [Greedy Nearest Neighbor \(GNN\) Filter](tracker/greedy-nearest-neighbor-gnn-filter.md)
 * [Kalman Filter](tracker/kalman-filter.md)
 * [Particle Filter](tracker/particle-filter.md)
+* [Hungarian](tracker/hungarian.md)
 
 ## Data Association
 
