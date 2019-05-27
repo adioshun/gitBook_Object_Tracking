@@ -1,5 +1,7 @@
 # Data Association
 
+> 유사 표현?? Assignments Algorithm,  matching algorithm, Validation Gate (확인 필요)
+
 정의 
     - 추적되고 있는 객체들에 올바른 관측치를 할당하는 것
     - assigning sensor responses to trajectories
