@@ -1,5 +1,7 @@
 # Multiple Hypothesis Tracking
 
+> Particle filtering was just a convenient way of doing MHT(multi-hypothesis tracking )
+
 - 'Spatially Indexed Clustering for Scalable Tracking of Remotely Sensed Drift Ice', 2017 [[코드-Python]](https://github.com/jonatanolofsson/mht)
 
 - [[코드-C]](https://github.com/WeatherGod/MHT)

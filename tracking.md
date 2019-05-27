@@ -1,4 +1,6 @@
-# Tracking 개요
+# Tracking
+
+## 1. 개요
 
 Tracking 정의 : locating an object in successive frames of a video
 
@@ -12,6 +14,21 @@ Tracking 정의 : locating an object in successive frames of a video
 |![](https://i.imgur.com/r1AONhf.png)|![](https://i.imgur.com/biR0MMZ.png)|
 |-|-|
 |Filtering|Tracking|
+
+
+
+## 2 . [Issues](https://www.youtube.com/watch?v=xChHuaPsq90)
+
+- Initialization  
+  - Manual 
+  - 배경 제거 
+  - Detection 
+- Obtaining observation and dynamics model 
+- Prediction vs. correction 
+- Data Association 
+
+---
+
 
 
 

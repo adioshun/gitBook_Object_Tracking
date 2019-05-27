@@ -6,3 +6,6 @@
 ---
 
 # [Udacity - Particle filter as a tracker](https://classroom.udacity.com/courses/ud810/lessons/3353778638/concepts/33450785630923)
+
+> Particle filtering was just a convenient way of doing MHT(multi-hypothesis tracking )
+

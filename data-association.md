@@ -11,6 +11,9 @@
 - IPDAF(Integrated PDAF)이나 LM-IPDAF(Linear-Multiple IPDA) :
 
 
+
+--- 
+
 분류 방법 #1 
 
 - 확률 기반: probabilistic data association [5], joint probabilistic data association [6], multiple hypothesis tracking [7] 
@@ -44,7 +47,9 @@ Assignment Problem = build a table of match scores
 - MHT(Multiple Hypothesis Tracking) 알고리듬에서는 N-scan back을 수행하여 같은 측정치를 연속적으로 사용하고 비슷한 상태 벡터를 사용하는 경우 트랙을 병합하여 트랙을 정확히 추정한다. 
 - 그러나 대부분 사용하는 NNF, PDAF, JPDAF, IPDAF, LM-IPDAF등의 알고리듬은 No-scan back이다. 
 
+---
 
+## [Udacity](https://www.youtube.com/watch?v=DK1DIcPwCOU)
 
 
 
