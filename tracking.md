@@ -26,6 +26,7 @@ Tracking 정의 : locating an object in successive frames of a video
 - Obtaining observation and dynamics model 
 - Prediction vs. correction 
 - Data Association 
+- Drift : Errors caused by dynamical model, observation model, and data association tend to accumulate over time 
 
 ---
 
