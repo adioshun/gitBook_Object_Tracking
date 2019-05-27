@@ -2,6 +2,12 @@
 
 Tracking 정의 : locating an object in successive frames of a video
 
+![](https://i.imgur.com/zGOq9n2.png)
+
+> 출처 : https://classroom.udacity.com/courses/ud810/lessons/3271928538/concepts/32865685380923
+
+
+
 |![](https://i.imgur.com/r1AONhf.png)|![](https://i.imgur.com/biR0MMZ.png)|
 |-|-|
 |Filtering|Tracking|
