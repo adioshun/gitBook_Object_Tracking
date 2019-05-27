@@ -4,8 +4,8 @@
 
 * [README](README.md)
 * [Tracking 개요](tracking.md)
-* [References](references.md)
 * [SOT\_vs\_MOT](sotvs-mot.md)
+* [References](references.md)
 
 ## Tracker
 

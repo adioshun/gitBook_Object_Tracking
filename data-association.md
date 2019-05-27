@@ -9,10 +9,15 @@
 - IPDAF(Integrated PDAF)이나 LM-IPDAF(Linear-Multiple IPDA) :
 
 
-분류 
+분류 방법 #1 
+
 - 확률 기반: probabilistic data association [5], joint probabilistic data association [6], multiple hypothesis tracking [7] 
 - 최적화 기반: Hungarian algorithm [16]
 - 전역최적화 기반의 greedy 방법[17] 
+
+분류 방법 #2
+- Bayesian: compute a full (or approx.) distribution in DA space from priors, posterior beliefs, and observations
+- Non-Bayesian: compute a maximum likelihood estimate from the possible set of DA solutions 
 
 
 
