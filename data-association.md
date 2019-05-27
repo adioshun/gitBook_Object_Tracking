@@ -1,5 +1,8 @@
-정의 : 추적되고 있는 객체들에 올바른 관측치를 할당하는 것 
+# Data Association
 
+정의 
+    - 추적되고 있는 객체들에 올바른 관측치를 할당하는 것
+    - assigning sensor responses to trajectories
 
 데이터 연관 필터 
 - NNF(Nearest Neighbor Filter), PDAF(Probabilistic Data Association Filter), JPDAF(Joint PDA)

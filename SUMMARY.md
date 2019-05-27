@@ -5,6 +5,7 @@
 * [README](README.md)
 * [Tracking 개요](tracking.md)
 * [References](references.md)
+* [SOT\_vs\_MOT](sotvs-mot.md)
 
 ## Tracker
 
@@ -19,8 +20,6 @@
 * [Greedy Nearest Neighbor \(GNN\) Filter](tracker/greedy-nearest-neighbor-gnn-filter.md)
 * [Kalman Filter](tracker/kalman-filter.md)
 * [Particle Filter](tracker/particle-filter.md)
-
-
 
 ## Data Association
 
@@ -40,7 +39,6 @@
 * [Condensation](Condensation.md)
   * [code](Condensation/Condensation-code.md)
 
-
 ## 2D Tracking
 
 * [README](2D-Tracking/README.md)
@@ -51,9 +49,6 @@
 
 * [README](3D-Tracking/README.md)
 * Occlusion Handling
-
-
----
 
 ## edx Multi-Object Tracking for Automotive Systems
 
@@ -69,10 +64,9 @@
 
 * [CSE598C Vision-Based Tracking](http://www.cse.psu.edu/~rtc12/CSE598C/)
 
-## Mobile Robotics 2 
+## Mobile Robotics 2
 
-* [Slide_Video](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/)
-
+* [Slide\_Video](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/)
 
 ## Implementation
 
