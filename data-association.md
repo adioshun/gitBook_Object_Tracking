@@ -111,28 +111,3 @@ Bayesian approaches
 
 
 ---
-
-Youtube
-- [Global Data Association for Multiple Pedestrian Tracking](https://www.youtube.com/watch?v=SgRSniLdpwk)
-- [Object tracking](https://www.youtube.com/watch?v=liFAVoff9nM) : UCF CRCV 강좌 
-- [Human Detection, Tracking and Segmentation in Surveillance Video](https://www.youtube.com/watch?v=f7PHLx3HoyQ&t=4s)
-
-
-Slide
-- Introduction to Data Association [[Part1]](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf), [[Part2]](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart2.pdf): ppt, CSE598C
-- [Robotics 2Data Association](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-11-dataassociation.pdf): 
-- [People Tracking:Data Association](http://luthuli.cs.uiuc.edu/~daf/tutorials/activity/data_association.pdf): ppt
-
-
-논문 
-- [A Comparison of Data Association Techniques for Target Tracking in Clutter](https://pdfs.semanticscholar.org/c0d2/b5c5b6c8224688e47cd842db5693cc479548.pdf): 2002
-- 적외선 영상에서 다수표적추적을 위한 LM-IHPDA 알고리듬 연구: 2013, 송택
-- [3D-LIDAR Multi Object Tracking for Autonomous Driving](https://www.slideshare.net/adioshun/3dlidar-multi-object-tracking-for-autonomous-driving-111277160?qid=aa9596e3-5121-4eb1-bd53-89565da2c368&v=&b=&from_search=2): 석사 학위, 140p
-
-코드 
-- [Basic GNN Tracking](https://github.com/fbaeuerlein/BasicGNNTracking): C++
-
-Ebook
-- [handbook of multisensor data fusion](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVQnGoa2Foo-TjEF) :2001, CRC press
-    - [Target Tracking Using Probabilistic Data Association-Based Techniques with Applications to Sonar,Radar, and EO Sensors](http://dsp-book.narod.ru/HMDF/2379ch08.pdf) : 8장 
-- [Fundamentals of object tracking](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVVdlzNoLpMfexyk): 2011, 캠프리지 
