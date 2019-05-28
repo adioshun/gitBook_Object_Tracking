@@ -24,3 +24,8 @@ JPDA에서 이러한 가설치(hypotheses)들을 합치는 방식 대비, MHT에
 모든 track들이 유지 되기 때문에 **모션모델**이 불확실한곳에서 유용한다. ` Since all potential tracks are maintained and updated, this method is very useful when the target motion model is unpredictable.`
 
 단점으로 시간이 지남에 따라 유지해야 하는 가설치가 기하 급수적으로 증가하긴 하지만 아직많이 사용되고 있다. [26,28,63]에서는 가설치 삭제 방안도 제시 되었다. ` Although the number of hypothesis may grow exponentially over time, MHT is still applied in many multi-object tracking systems, supplementary with hypothesis deleting mechanism [26, 28, 63]. Wang, et al. also implemented this method on Navlab for real-time road tests (see the previous Figure 2.9).`
+
+
+---
+
+# [Multiple Hypothesis Tracking Implementation ](http://cdn.intechopen.com/pdfs/34086/InTech-Multiple_hypothesis_tracking_implementation.pdf)

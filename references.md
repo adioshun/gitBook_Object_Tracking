@@ -18,6 +18,7 @@ Slide
 코드
 - [Basic GNN Tracking](https://github.com/fbaeuerlein/BasicGNNTracking): C++
 - [A Python utility package for multiple object tracking](https://github.com/nwojke/pymotutils): python
+- [JPDAFTracker](https://github.com/apennisi/jpdaf_tracking): c++
 
 Ebook
 - [handbook of multisensor data fusion](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVQnGoa2Foo-TjEF) :2001, CRC press
