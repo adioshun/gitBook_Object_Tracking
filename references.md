@@ -20,6 +20,7 @@ Slide
 - [A Python utility package for multiple object tracking](https://github.com/nwojke/pymotutils): python
 - [JPDAFTracker](https://github.com/apennisi/jpdaf_tracking): c++
 - [Graph Neural Based End-to-end Data Association Framework for Online Multiple-Object Tracking](https://github.com/peizhaoli05/EDA_GNN)
+- [trackpy](https://github.com/soft-matter/trackpy):  a Python package for particle tracking in 2D, 3D
 
 
 Ebook
