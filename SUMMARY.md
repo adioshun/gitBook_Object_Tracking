@@ -30,8 +30,6 @@
   * [PHD Filter](data-association/phd-filter.md)
 * [Gating](gating.md)
 
-
-
 ## Condensation
 
 * [Condensation](Condensation.md)
@@ -46,7 +44,7 @@
 ## 3D Tracking
 
 * [README](3D-Tracking/README.md)
-* Occlusion Handling
+* [Occlusion Handling](3D-Tracking/occlusion-handling.md)
 
 ## edx Multi-Object Tracking for Automotive Systems
 
