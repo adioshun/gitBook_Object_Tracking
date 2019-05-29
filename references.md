@@ -22,6 +22,7 @@ Slide
 - [Graph Neural Based End-to-end Data Association Framework for Online Multiple-Object Tracking](https://github.com/peizhaoli05/EDA_GNN)
 - [trackpy](https://github.com/soft-matter/trackpy):  a Python package for particle tracking in 2D, 3D
 - [IOU Tracker](https://github.com/bochinski/iou-tracker) : python 
+- [Multiple Target Filtering Library](https://github.com/nathanlem1/MTF-Lib) : python 
 
 Ebook
 - [handbook of multisensor data fusion](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVQnGoa2Foo-TjEF) :2001, CRC press
