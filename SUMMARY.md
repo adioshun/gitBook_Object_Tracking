@@ -46,12 +46,10 @@
 * [README](3D-Tracking/README.md)
 * [Occlusion Handling](3D-Tracking/occlusion-handling.md)
 
-## [Book] 칼만필터는 어렵지 않아 
+## \[Book\] 칼만필터는 어렵지 않아
 
 * [README](Book-kalman/README.md)
-* [Part_1](Book-kalman/part01.md)
-
-
+* [Part 1 재귀 필터](Book-kalman/part01.md)
 
 ## edx Multi-Object Tracking for Automotive Systems
 
@@ -90,3 +88,4 @@
 * [CVPR2017\_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
 * [Udacity-Tracking-as-inference](https://classroom.udacity.com/courses/ud810/lessons/3271928538/concepts/36111189900923)
 * [Student Dave's Tutorials](http://studentdavestutorials.weebly.com/multi-bugobject-tracking.html)
+
