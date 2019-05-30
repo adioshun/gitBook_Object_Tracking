@@ -20,7 +20,7 @@ Tracking 정의 : locating an object in successive frames of a video
 ## [Tracking Algorithms](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)
 
 - Single non-maneuvering target, no origin uncertainty
-  - Kalman $lter (KF) or extended Kalman filter (EKF)
+  - Kalman filter (KF) or extended Kalman filter (EKF)
 
 - Single maneuvering target, no origin uncertainty
   - KF/EKF with variable process noise
