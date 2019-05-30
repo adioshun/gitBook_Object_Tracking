@@ -19,6 +19,16 @@
 
 ---
 
+# Validation Gate 
+
+- The area around the predicted measurement in which pairings are accepted is called validation gate or validation region
+
+- This procedure is also called validation gaiting or simply gaiting 
+
+
+
+
+---
 # [Robotics 2 Data Association](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-11-dataassociation.pdf)
 
 Validation Gate 방법 
@@ -27,3 +37,8 @@ Validation Gate 방법
  - Mahalanobis distance : Position(O), Uncertainty(O), Correlations (O)
  
  
+
+
+---
+
+[Gating](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)

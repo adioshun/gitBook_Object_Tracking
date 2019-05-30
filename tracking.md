@@ -16,6 +16,34 @@ Tracking 정의 : locating an object in successive frames of a video
 |Filtering|Tracking|
 
 
+---
+## [Tracking Algorithms](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)
+
+- Single non-maneuvering target, no origin uncertainty
+  - Kalman $lter (KF) or extended Kalman filter (EKF)
+
+- Single maneuvering target, no origin uncertainty
+  - KF/EKF with variable process noise
+  - Multiple model approaches (MM)
+
+- Single non-maneuvering target, origin uncertainty
+  - KF/EKF with nearest/strongest neighbor data association
+  - Probabilistic data association filter (PDAF)
+  
+- Single maneuvering target, origin uncertainty
+  - Multiple model-PDAF (MM-PDAF)
+
+- Multiple non-maneuvering targets
+  - Joint probabilistic data association filter (JPDAF)
+  - Multiple hypothesis tracker (MHT)
+  - Markov chain Monte Carlo data association (MCMCDA)
+  
+- Multiple maneuvering targets
+  - MM-variants of MHT (e.g. IMMMHT)
+  - MM-variants of other data association techniques
+
+---
+
 
 ## 2 . [Issues](https://www.youtube.com/watch?v=xChHuaPsq90)
 
