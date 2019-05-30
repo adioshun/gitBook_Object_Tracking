@@ -27,5 +27,27 @@ JPDA에서 이러한 가설치(hypotheses)들을 합치는 방식 대비, MHT에
 
 
 ---
+# [Effective Data Association Algorithms for Multitarget Tracking](https://macsphere.mcmaster.ca/bitstream/11375/16272/2/thesis%20-%20Biruk%20Habtemariam.pdf)
+
+
+#### 2.3.2 Multiple Hypothesis Testing
+
+In the Multiple Hypothesis Testing (MHT) [19][78] approach a hypothesis will be generated and tested with the received measurements in the current scan or frame. 
+
+For a given measurement the hypotheses could be the measurement is originated from one of initialized tracks, or is originated from a new target or is a false alarm [18]. 
+
+A Bayesian approach will be used to compute the probabilities of each hypothesis. 
+
+The valid hypotheses derived from sequences of measurements are evaluated and propagated over time, each of them generating a set of new hypotheses at every sample time k. 
+
+단점 : The major drawback in implementing the MHT algorithm for practical applications is the exponential growth in the number of the assignment hypotheses as time of a scan and number of measurement increases. 
+
+This leads to the development of several hypothesis pruning, hypothesis merging and gating techniques [18][29]. 
+
+
+
+
+
+---
 
 # [Multiple Hypothesis Tracking Implementation ](http://cdn.intechopen.com/pdfs/34086/InTech-Multiple_hypothesis_tracking_implementation.pdf)
