@@ -13,14 +13,15 @@
 * [centroid\_tracker](tracker/centroidtracker.md)
 * [Mean Shift](tracker/mean-shift.md)
 * [CAM Shift](tracker/cam-shift.md)
-* [Multiple Hypothesis Tracking](tracker/multiple-hypothesis-tracking.md)
+* [Multiple Hypothesis Tracking \(MHT\)](tracker/multiple-hypothesis-tracking.md)
 * [PN tracker](tracker/pn-tracker.md)
 * [GOTURN](tracker/goturn.md)
+* [Probabilistic data association \(PDA\)](tracker/probabilistic-data-association-pda.md)
 * [Joint probabilistic data association \(JPDA\)](tracker/joint-probabilistic-data-association-jpda.md)
 * [Greedy Nearest Neighbor \(GNN\) Filter](tracker/greedy-nearest-neighbor-gnn-filter.md)
 * [Kalman Filter](tracker/kalman-filter.md)
 * [Particle Filter](tracker/particle-filter.md)
-* [Hungarian](tracker/hungarian.md)
+* Probabilistic data association
 
 ## Data Association
 
