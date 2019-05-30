@@ -18,6 +18,8 @@ DARPA 2007 에서 JPDA가 이용되었다. `The robot in DARPA 2007 challenge, J
 
 ---
 
-[Joint Probability Data Association Filter by Tobias Marsena](https://www.youtube.com/watch?v=SM44SEKAglo) : youtube, 초 간단한 설명 
+- [Joint Probability Data Association Filter by Tobias Marsena](https://www.youtube.com/watch?v=SM44SEKAglo) : youtube, 초 간단한 설명 
+
+- [Joint Probabilistic Data Association Tracking ](https://github.com/apennisi/jpdaf_tracking): 깃허브, c++
 
 
