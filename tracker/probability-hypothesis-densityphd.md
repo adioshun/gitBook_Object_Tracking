@@ -20,3 +20,15 @@ The PHD filter has been shown an effective way of tracking a time-varying multip
 
 ---
 
+### 4.2 GM-PHD 필터
+
+Data Associateion까지 고려한 다중 객체 추적에 적용
+
+이전 프레임의 포인트를 현재 프레임의 물체에 자동으로 누적하여 물체 해상도 및 보행자 분류 성능을 향상
+
+```
+이연주, 서승우, "GM-PHD 필터를 이용한 보행자 탐지 성능 향상 방법", 서울대, 2015
+```
+
+
+---

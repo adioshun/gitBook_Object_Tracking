@@ -129,6 +129,21 @@ Advanced Tracking Algorithm
 
 > [상세](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2015-moving-object-tracking-of-vehicle-detection-a-concise-review.md?_k=1o66tn)
 
+### [분류 # 7](https://pdfs.semanticscholar.org/25a6/c5dff9a7019475daa81cd5a7f1f2dcdb5cf1.pdf): 2014
+
+![](https://t1.daumcdn.net/cfile/tistory/2469F54157F8B84417)
+
+- point tracker : 매 프레임에서 탐지 수행 
+- kernel, contour : object가 처음에 나타날 때만 detection 과정이 필요  
+
+`For illustration, the point trackers involve detection in every frame; while
+geometric area or kernel based tracking or contours-based tracking require detection only when the object first appears
+in the scene. `
+
+
+
+> [정리:A Survey on Object Detection and Tracking Methods](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2014-a-survey-on-object-detection-and-tracking-methods.md?_k=0wej7f)
+
 
 
 ---
@@ -157,24 +172,6 @@ Advanced Tracking Algorithm
 
 
 
----
-
-### [A Survey on Object Detection and Tracking Methods](https://pdfs.semanticscholar.org/25a6/c5dff9a7019475daa81cd5a7f1f2dcdb5cf1.pdf): 2014
-
-![](https://t1.daumcdn.net/cfile/tistory/2469F54157F8B84417)
-
-- point tracker : 매 프레임에서 탐지 수행 
-- kernel, contour : object가 처음에 나타날 때만 detection 과정이 필요  
-
-`For illustration, the point trackers involve detection in every frame; while
-geometric area or kernel based tracking or contours-based tracking require detection only when the object first appears
-in the scene. `
-
-
-
-> [정리](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2014-a-survey-on-object-detection-and-tracking-methods.md?_k=0wej7f)
-
----
 
 # 각 알고리즘 설명 
 그 중 Mean Shift, CAMshift ABCshift 알고리즘은 탐색 윈도우 를 통하여 추적물체의 영역 및 중심을 계산한다.
@@ -227,68 +224,14 @@ Manya Afonso는 대표적인 비선형 예측 알고리즘인 확장 칼만 필�
 
 ---
 
-## pyimagesearch 소개 8개의 tracker
-
-> [OpenCV Object Tracking](https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/), [\[code\_SingleOT\]](https://gist.github.com/adioshun/779738c3e28151ffbb9dc7d2b13c2c0a), [\[code\_MOT\]](https://gist.github.com/adioshun/72106c82674fd6cd7b06fe9105c2ab86)
-
-OpenCV includes eight \(yes, eight!\) separate object tracking implementations
-
-1. BOOSTING Tracker: Based on the same algorithm used to power the machine learning behind Haar cascades \(AdaBoost\), but like Haar cascades, is over a decade old. This tracker is slow and doesn’t work very well. Interesting only for legacy reasons and comparing other algorithms. \(minimum OpenCV 3.0.0\)
-
-2. MIL Tracker: Better accuracy than BOOSTING tracker but does a poor job of reporting failure. \(minimum OpenCV 3.0.0\)
-
-3. KCF Tracker: Kernelized Correlation Filters. Faster than BOOSTING and MIL. Similar to MIL and KCF, does not handle full occlusion well. \(minimum OpenCV 3.1.0\)
-
-4. CSRT Tracker: Discriminative Correlation Filter \(with Channel and Spatial Reliability\). Tends to be more accurate than KCF but slightly slower. \(minimum OpenCV 3.4.2\)
-
-5. MedianFlow Tracker: Does a nice job reporting failures; however, if there is too large of a jump in motion, such as fast moving objects, or objects that change quickly in their appearance, the model will fail. \(minimum OpenCV 3.0.0\)
-
-6. TLD Tracker: I’m not sure if there is a problem with the OpenCV implementation of the TLD tracker or the actual algorithm itself, but the TLD tracker was incredibly prone to false-positives. I do not recommend using this OpenCV object tracker. \(minimum OpenCV 3.0.0\)
-
-7. MOSSE Tracker: Very, very fast. Not as accurate as CSRT or KCF but a good choice if you need pure speed. \(minimum OpenCV 3.4.1\)
-
-8. GOTURN Tracker: The only deep learning-based object detector included in OpenCV. It requires additional model files to run \(will not be covered in this post\). My initial experiments showed it was a bit of a pain to use even though it reportedly handles viewing changes well \(my initial experiments didn’t confirm this though\). I’ll try to cover it in a future post, but in the meantime, take a look at Satya’s writeup. \(minimum OpenCV 3.2.0\)
-
-My personal suggestion is to:
-
-* Use CSRT when you need higher object tracking accuracy and can tolerate slower FPS throughput
-
-* Use KCF when you need faster FPS throughput but can handle slightly lower object tracking accuracy
-
-* Use MOSSE when you need pure speed
-
----
 
 
-## 4. Obstacle tracking
-
-vehicle odometry 정보 추가적으로 활용
-
-연속적으로 얻어지는 인식 결과를 바탕으로 이러한 오탐을 줄일 수 있는데, 이룰 추적기법\(Tracking\)이라고 한다.
-
-* 이전 프레임의 포인트를 현재 프레임의 물체에 자동으로 누적하여 물체 해상도 및 보행자 분류 성능을 향상
 
 ### 4.1 단일 칼만 필터 기반
 
-일반적으로 단일 객체 추적에 적용
 
-Teichman의 연구\[7\]에선 단일 칼만 필터기반 추적기법을 이용하여 데이터를 누적시켜 분류의 성능을 높이고자 했다.
 
-하지만 물체가 몇 개 없는 단조로운 시나리오에서 전후 프레임 간에 일치되는 물체관계를 이미 알고 있다고 가정하여, 특별한 데이터 연계 방법 없이 해당 물체 정보들을 단일 칼만 필터만 사용해추적 및 누적하여 포인트 수 증가를 유도하였다.
 
-```
-[7] A. Teichman, J. Levinson and S. Thrun, “Towards 3D Object Recognition via Classification of Arbitrary Object Tracks,” International Conference on Robotics and Automation, Shanghai, China, May 2011.
-```
-
-### 4.2 GM-PHD 필터
-
-Data Associateion까지 고려한 다중 객체 추적에 적용
-
-이전 프레임의 포인트를 현재 프레임의 물체에 자동으로 누적하여 물체 해상도 및 보행자 분류 성능을 향상
-
-```
-이연주, 서승우, "GM-PHD 필터를 이용한 보행자 탐지 성능 향상 방법", 서울대, 2015
-```
 
 ---
 
