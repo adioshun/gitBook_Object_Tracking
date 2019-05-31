@@ -8,7 +8,6 @@
 
 
 
----
 
 
 
@@ -21,8 +20,7 @@
 - 전역최적화 기반의 greedy 방법[17] 
 
 분류 방법 #2
-- Bayesian: compute a full (or approx.) distribution in DA space from priors, posterior beliefs, and observations
-- Non-Bayesian: compute a maximum likelihood estimate from the possible set of DA solutions 
+
 
 ---
 m-out-of-n기법 : n번 스캔에서 m번 연관된 정도를 살핌, 5회 미만 assign 실패시 Dead로 판단

@@ -93,12 +93,20 @@ Bayesian approaches
 
 
 ```
+- Bayesian: compute a full (or approx.) distribution in DA space from priors, posterior beliefs, and observations
+
+- Non-Bayesian: compute a maximum likelihood estimate from the possible set of DA solutions 
+
 - Nearest neighbours
     - choose the measurement with highest probability given predicted state
     - popular, but can lead to catastrophe
+    
 - Probabilistic Data Association
     - combine measurements, weighting by probability given predicted state
     - gate using predicted state
+
+
+
 ```
 > [ref](http://luthuli.cs.uiuc.edu/~daf/tutorials/activity/Trackingbasicsblock.pdf)
 
