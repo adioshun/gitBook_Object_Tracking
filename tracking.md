@@ -73,6 +73,64 @@ Tracking 정의 : locating an object in successive frames of a video
   - etc
 
 
+### 분류 #3 : 이미지 기반 트래킹
+
+* 결정론적 방법 : Local Search
+  * Least-Square tracking
+  * Mean-Shift
+  * Gradient ascent/decent 알고리즘
+* 확률론적 방법 : Probabilistic search
+  * Kalman Filter
+  * extended kalman Filter
+  * Particle Filter
+
+### 분류 #4
+
+Basic Tracking Algorithm
+
+* centroid tracking : it relies on the Euclidean distance between
+  * \(1\) existing object centroids \(i.e., objects the centroid tracker has already seen before\) and
+  * \(2\) new object centroids between subsequent frames in a video.
+
+Advanced Tracking Algorithm
+
+* kernel-based
+* correlation-based
+
+
+### 분류 #5 
+
+**이동물체 추적기법**은 그 처리방법에 따라 분류할 경우 **정합기반기법**과 **에너지기법**으로 분류할 수 있다.
+
+정합기반기법
+
+* 추적대상의 윤곽선, 모서리, 휘도 혹은 색상분포를 가지고 추적대상의 모델ㅇ르 구성하여 화면 내에서 이와 유사한 부분을 탐색하는 방법으로 탐색과 정합 두 가지 단계로 구성된다.
+* 정합기반 방법은 탐색과정을 거쳐 이동물체의 이동 가능한 위치를 예측하며, 정합과정을 거쳐 이동물체의 이동 가능한 위치를 예측하며, 정합과정을 거쳐 예측위치에 대한 이동물체의 동일성 판별을 수행하게 된다.
+* 정합기반 이동물체 추적기법은 전체적인 휘도 변화에 대한 적응능력이 좋으며, 배경과 위치의 변화가 발생할 경우에도 적용할 수 있다는 장점을 가지고있다.
+* 그러한 추적대상의 프레임간의 변화가 클 경우 정합성능이 저하되고, 추적대상의 움직임이 고속인 경우 추적대상이 저주파 성분으로 이루어지기 때문에 정합을 위한 템플릿 추출에 어려움이 발생하게 된다.
+
+에너지기반 이동물체 추적
+
+* 광류, 능동외곽선, 레벨 셋 등과 같은 세부적인 분류가 있으며, 공통적으로 화소, 영역, 윤곽선 등과 같은 영상의 특징점이 프레임 간에서 에너지보존 법칙을 준수한다는가정을 기초로 한다.
+* 즉, 짧은 시간 내에서 얻어지는 연속하는 두 프레임에 대하여 한 화소 또는 한 영역은 공간적인 변화만 존재하며, 밝기 값이나 분포, 즉 화소자체가 소유하고 있는 빛 에너지를 보존된다는 것이다.
+* 이 기법은 계산량이 증가하지만 화면의 미세한 움직임까지 포착할 수 있으며, 추적 대상의 형태변화가 클 경우에도 강인간 추적 성능을 보여주는 장점을 가지고 있다.
+
+### [분류 #6](http://docplayer.net/16497156-Moving-object-tracking-of-vehicle-detection-a-concise-review.html): 2015
+
+
+
+* Tracking Methods
+* Region-based tracking methods
+* contour tracking methods
+* 3D Model based tracking methods
+* Feature based tracking methods
+* Color and Pattern based tracking methods
+
+
+> [상세](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2015-moving-object-tracking-of-vehicle-detection-a-concise-review.md?_k=1o66tn)
+
+
+
 ---
 
 ## 3 . [Issues](https://www.youtube.com/watch?v=xChHuaPsq90)
@@ -91,80 +149,13 @@ Tracking 정의 : locating an object in successive frames of a video
 
 
 
-### Object Tracking관련 아이디어들
-
-* Dense Optical flow: These algorithms help estimate the motion vector of every pixel in a video frame.
-
-* Sparse optical flow: These algorithms, like the Kanade-Lucas-Tomashi \(KLT\) feature tracker, track the location of a few feature points in an image.
-
-* Kalman Filtering: A very popular signal processing algorithm used to predict the location of a moving object based on prior motion information. One of the early applications of this algorithm was missile guidance! Also as mentioned here, “the on-board computer that guided the descent of the Apollo 11 lunar module to the moon had a Kalman filter”.
-
-* Meanshift and Camshift: These are algorithms for locating the maxima of a density function. They are also used for tracking.
-
 
 ### Tracking vs Detection
 
 > 추가 내용 살펴 보기 : [https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
 
----
-
-# 이미지 기반 트래킹
-
-추적 알고리즘 분류 \#1
-
-* 결정론적 방법 : Local Search
-  * Least-Square tracking
-  * Mean-Shift
-  * Gradient ascent/decent 알고리즘
-* 확률론적 방법 : Probabilistic search
-  * Kalman Filter
-  * extended kalman Filter
-  * Particle Filter
-
-Basic Tracking Algorithm
-
-* centroid tracking : it relies on the Euclidean distance between
-  * \(1\) existing object centroids \(i.e., objects the centroid tracker has already seen before\) and
-  * \(2\) new object centroids between subsequent frames in a video.
-
-Advanced Tracking Algorithm
-
-* kernel-based
-* correlation-based
 
 
----
-
-**이동물체 추적기법**은 그 처리방법에 따라 분류할 경우 **정합기반기법**과 **에너지기법**으로 분류할 수 있다.
-
-정합기반기법
-
-* 추적대상의 윤곽선, 모서리, 휘도 혹은 색상분포를 가지고 추적대상의 모델ㅇ르 구성하여 화면 내에서 이와 유사한 부분을 탐색하는 방법으로 탐색과 정합 두 가지 단계로 구성된다.
-* 정합기반 방법은 탐색과정을 거쳐 이동물체의 이동 가능한 위치를 예측하며, 정합과정을 거쳐 이동물체의 이동 가능한 위치를 예측하며, 정합과정을 거쳐 예측위치에 대한 이동물체의 동일성 판별을 수행하게 된다.
-* 정합기반 이동물체 추적기법은 전체적인 휘도 변화에 대한 적응능력이 좋으며, 배경과 위치의 변화가 발생할 경우에도 적용할 수 있다는 장점을 가지고있다.
-* 그러한 추적대상의 프레임간의 변화가 클 경우 정합성능이 저하되고, 추적대상의 움직임이 고속인 경우 추적대상이 저주파 성분으로 이루어지기 때문에 정합을 위한 템플릿 추출에 어려움이 발생하게 된다.
-
-에너지기반 이동물체 추적
-
-* 광류, 능동외곽선, 레벨 셋 등과 같은 세부적인 분류가 있으며, 공통적으로 화소, 영역, 윤곽선 등과 같은 영상의 특징점이 프레임 간에서 에너지보존 법칙을 준수한다는가정을 기초로 한다.
-* 즉, 짧은 시간 내에서 얻어지는 연속하는 두 프레임에 대하여 한 화소 또는 한 영역은 공간적인 변화만 존재하며, 밝기 값이나 분포, 즉 화소자체가 소유하고 있는 빛 에너지를 보존된다는 것이다.
-* 이 기법은 계산량이 증가하지만 화면의 미세한 움직임까지 포착할 수 있으며, 추적 대상의 형태변화가 클 경우에도 강인간 추적 성능을 보여주는 장점을 가지고 있다.
-
----
-
-# [Moving Object Tracking of Vehicle Detection](http://docplayer.net/16497156-Moving-object-tracking-of-vehicle-detection-a-concise-review.html): 2015
-
-
-
-* Tracking Methods
-* Region-based tracking methods
-* contour tracking methods
-* 3D Model based tracking methods
-* Feature based tracking methods
-* Color and Pattern based tracking methods
-
-
-> [상세](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2015-moving-object-tracking-of-vehicle-detection-a-concise-review.md?_k=1o66tn)
 
 ---
 
