@@ -26,7 +26,6 @@
 ## Data Association
 
 * [Data-Association](data-association.md)
-  * [Terms-Data-Association](data-association/terms-data-association.md)
   * [two-point differencing](data-association/two-point-differencing.md)
 * [Gating](gating.md)
 
@@ -45,6 +44,7 @@
 
 * [README](3D-Tracking/README.md)
 * [Occlusion Handling](3D-Tracking/occlusion-handling.md)
+* [Track initiation](3D-Tracking/track-initiation.md)
 
 ## edx Multi-Object Tracking for Automotive Systems
 
