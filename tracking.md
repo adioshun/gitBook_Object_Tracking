@@ -92,6 +92,16 @@ Bayesian approaches
 - MCMC 
 
 
+```
+- Nearest neighbours
+    - choose the measurement with highest probability given predicted state
+    - popular, but can lead to catastrophe
+- Probabilistic Data Association
+    - combine measurements, weighting by probability given predicted state
+    - gate using predicted state
+```
+> [ref](http://luthuli.cs.uiuc.edu/~daf/tutorials/activity/Trackingbasicsblock.pdf)
+
 
 
 

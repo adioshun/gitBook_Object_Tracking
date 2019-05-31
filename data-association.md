@@ -6,20 +6,11 @@
     - 추적되고 있는 객체들에 올바른 관측치를 할당하는 것
     - assigning sensor responses to trajectories
 
-데이터 연관 필터 
-- NNF(Nearest Neighbor Filter), PDAF(Probabilistic Data Association Filter), JPDAF(Joint PDA)
-- IPDAF(Integrated PDAF)이나 LM-IPDAF(Linear-Multiple IPDA) :
+
 
 ---
 
-## [DA](http://luthuli.cs.uiuc.edu/~daf/tutorials/activity/Trackingbasicsblock.pdf)
 
-- Nearest neighbours
-    - choose the measurement with highest probability given predicted state
-    - popular, but can lead to catastrophe
-- Probabilistic Data Association
-    - combine measurements, weighting by probability given predicted state
-    - gate using predicted state
 
 --- 
 
