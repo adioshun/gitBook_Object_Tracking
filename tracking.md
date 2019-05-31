@@ -61,7 +61,44 @@ Tracking 정의 : locating an object in successive frames of a video
   - MM-variants of MHT (e.g. IMMMHT)
   - MM-variants of other data association techniques
 
----
+### 분류 #8 
+
+#### Single Target Data Association
+
+Non-Bayesian
+- Nearest neighbor (NN)
+    - Simple to implement
+    - Can integrate wrong measurements (false alarms), and thus, produce overconfident estimates
+    - Good if prediction and measurement models are accurate 
+
+Bayesian
+- Probabilistic Data Association Filter (PDAF)
+    - A bit more involved to implement
+    - Provide conservative estimates
+    - Good in presence of high clutter and noisy models 
+    
+
+#### Multi-Target Data Association 
+
+Non Bayesian approaches
+- Nearest neighbor
+- Interpretation tree
+- Joint compatibility (JCBB)
+
+Bayesian approaches
+- JPDAF
+- MHT
+- MCMC 
+
+
+
+
+
+
+
+
+
+
 
 ### [분류 #2](https://github.com/nathanlem1/MTF-Lib)
 
@@ -161,34 +198,7 @@ in the scene. `
 > [정리:A Survey on Object Detection and Tracking Methods](https://legacy.gitbook.com/book/adioshun/paper_2d-object-detection-and-tracking/edit#/edit/master/Tracking/2014-a-survey-on-object-detection-and-tracking-methods.md?_k=0wej7f)
 
 
-### 분류 #8 
 
-#### Single Target Data Association
-
-Non-Bayesian
-- Nearest neighbor (NN)
-    - Simple to implement
-    - Can integrate wrong measurements (false alarms), and thus, produce overconfident estimates
-    - Good if prediction and measurement models are accurate 
-
-Bayesian
-- Probabilistic Data Association Filter (PDAF)
-    - A bit more involved to implement
-    - Provide conservative estimates
-    - Good in presence of high clutter and noisy models 
-    
-
-#### Multi-Target Data Association 
-
-Non Bayesian approaches
-- Nearest neighbor
-- Interpretation tree
-- Joint compatibility (JCBB)
-
-Bayesian approaches
-- JPDAF
-- MHT
-- MCMC 
 
 
 
