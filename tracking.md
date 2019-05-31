@@ -75,7 +75,7 @@ Tracking 정의 : locating an object in successive frames of a video
 
 ---
 
-## 2 . [Issues](https://www.youtube.com/watch?v=xChHuaPsq90)
+## 3 . [Issues](https://www.youtube.com/watch?v=xChHuaPsq90)
 
 - Initialization  
   - Manual 
