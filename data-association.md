@@ -10,7 +10,16 @@
 - NNF(Nearest Neighbor Filter), PDAF(Probabilistic Data Association Filter), JPDAF(Joint PDA)
 - IPDAF(Integrated PDAF)이나 LM-IPDAF(Linear-Multiple IPDA) :
 
+---
 
+## [DA](http://luthuli.cs.uiuc.edu/~daf/tutorials/activity/Trackingbasicsblock.pdf)
+
+- Nearest neighbours
+    - choose the measurement with highest probability given predicted state
+    - popular, but can lead to catastrophe
+- Probabilistic Data Association
+    - combine measurements, weighting by probability given predicted state
+    - gate using predicted state
 
 --- 
 
@@ -67,7 +76,7 @@ Assignment Problem = build a table of match scores
 - 측정값이 Area안에 있는지 확인 
 
 
-#### 흐름 예시 : Multi-Target DA: Global NN 
+#### 절차 #1 (Multi-Target DA: Global NN)
 
 1. Build the assignment matrix
 2. Solve the linear assignment problem 
@@ -78,32 +87,13 @@ Assignment Problem = build a table of match scores
 4. Performs DA jointly!
 
 
-## Single Target Data Association
+### 절차 #2 
 
-Non-Bayesian
-- Nearest neighbor (NN)
-    - Simple to implement
-    - Can integrate wrong measurements (false alarms), and thus, produce overconfident estimates
-    - Good if prediction and measurement models are accurate 
+prediction: propagate state pdf forward in time,taking process noise into account (translate, deform,and spread the pdf)
 
-Bayesian
-- Probabilistic Data Association Filter (PDAF)
-    - A bit more involved to implement
-    - Provide conservative estimates
-    - Good in presence of high clutter and noisy models 
-    
+Data association to determine best match
 
-## Multi-Target Data Association 
-
-Non Bayesian approaches
-- Nearest neighbor
-- Interpretation tree
-- Joint compatibility (JCBB)
-
-Bayesian approaches
-- JPDAF
-- MHT
-- MCMC 
+update: use Bayes theorem to modify prediction pdf based on current measuremen
 
 
 
