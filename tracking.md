@@ -17,7 +17,10 @@ Tracking 정의 : locating an object in successive frames of a video
 
 
 ---
-## [Tracking Algorithms](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)
+
+## 2. 분류 
+
+### [분류 #1](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)
 
 - Single non-maneuvering target, no origin uncertainty
   - Kalman filter (KF) or extended Kalman filter (EKF)
@@ -43,6 +46,8 @@ Tracking 정의 : locating an object in successive frames of a video
   - MM-variants of other data association techniques
 
 ---
+
+### [분류 #2](https://github.com/nathanlem1/MTF-Lib)
 
 - Traditional multi-target filters such as 
   - Global Nearest Neighbour (GNN), 
