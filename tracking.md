@@ -61,6 +61,23 @@ Tracking 정의 : locating an object in successive frames of a video
   - MM-variants of MHT (e.g. IMMMHT)
   - MM-variants of other data association techniques
 
+### 분류 #8 
+
+- 확률 기반: probabilistic data association [5], joint probabilistic data association [6], multiple hypothesis tracking [7] 
+- 최적화 기반: Hungarian algorithm [16]
+- 전역최적화 기반의 greedy 방법[17]
+
+### 분류 #8 
+
+- m-out-of-n기법 : n번 스캔에서 m번 연관된 정도를 살핌, 5회 미만 assign 실패시 Dead로 판단
+- NNF(Nearest Neighbor Filter), PDAF(Probabilistic Data Association Filter), JPDAF(Joint PDA)
+
+
+- 확률 기반 기법 : 연관필터에서 제공하는 존재 확률 기법 활용
+- IPDAF(Integrated PDAF)이나 LM-IPDAF(Linear-Multiple IPDA) 기법
+
+
+- Assignment Problem = build a table of match scores
 
 ### 분류 #8 
 
