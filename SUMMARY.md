@@ -26,7 +26,6 @@
 ## Data Association
 
 * [Data-Association](data-association.md)
-  * [two-point differencing](data-association/two-point-differencing.md)
 * [Gating](gating.md)
 
 ## Condensation
