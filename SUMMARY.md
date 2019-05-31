@@ -22,6 +22,7 @@
 * [Kalman Filter](tracker/kalman-filter.md)
 * [Particle Filter](tracker/particle-filter.md)
 * [Probability Hypothesis Density\(PHD\)](tracker/probability-hypothesis-densityphd.md)
+* [Condensation](tracker/condensation.md)
 
 ## Data Association
 
@@ -31,7 +32,6 @@
 ## Condensation
 
 * [Condensation](Condensation.md)
-  * [code](Condensation/Condensation-code.md)
 
 ## 2D Tracking
 
