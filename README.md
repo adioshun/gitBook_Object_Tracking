@@ -2,72 +2,62 @@
 
 ## Tracking
 
-* [Introduction](README.md)
+* [README](README.md)
 * [Tracking 개요](tracking.md)
-* [칼만필터](https://legacy.gitbook.com/book/adioshun/kalmanfilter/details)
-
-
-
-## 2D Object Tracking
-
-* [2D Background-filter](https://adioshun.gitbooks.io/gitbook_from_github/content/opencvbackgroundsubtractor.html)
-* [2D\_Detection](https://adioshun.gitbooks.io/deep_drive/content/)
-* [2D\_Tracking](2dtracking.md)
-  * [Mean Shift\_CAM shift](2dtracking/mean-shift.md)
-  * [2006-Survey-Object-tracking](2dtracking/2006-survey-object-tracking.md)
-  * [2012-TLD](2dtracking/pn-tracker.md)
-  * [2014-Survey-ObjectDetection-TrackingMethods](2dtracking/2014-survey-objectdetection-trackingmethods.md)
-  * [2016- GOTURN](2dtracking/2016-goturn.md)
-  * [2016-SORT-SimpleOnlineRealtimeTracking](2dtracking/2016-sort-simpleonlinerealtimetracking.md)
-  * [2017-Detect2Track-Track2Detect](2dtracking/2017-detect2track-track2detect.md)
-  * [2018-blog-Tracking-things](2dtracking/2018-blog-tracking-things.md)
-
-## 3D Object Tracking
-
-* [3D Background-filter](background-filter.md)
-  * [2016-Change-Detection-of-Mobile-lidar-data](background-filter/2016-change-detection-of-mobile-lidar-data.md)
-* [3D\_Detection](3ddetection.md)
-  * [2018-pixor](3dtracking/2018-pixor.md)
-* [3D\_Tracking](3dtracking.md)
-  * [2007-SLAMMOT](3dtracking/2007-slammot.md)
-  * [2008-Model based vehicle tracking for autonomous driving in urban environments](3dtracking/2008-model based vehicle tracking for autonomousdriving in urban environments.md)
-  * [2010-Tracking People with a 360 degreelidar](3dtracking/2010-Tracking-People-with-a-360-degree-lidar.md)
-  * [2011-Tracking People in 3D Using a Bottom-Up Top-Down Detector](3dtracking/2011-tracking-people-in-3d-using-a-bottom-up-top-down-detector.md)
-  * [2012-Lidar-Based-MOT-system-with-Dyanamic-modeling](3dtracking/2012-lidar-based-mot-system-with-dyanamic-modeling.md)
-  * [2014-Confidence-Based-PedestrianTracking](3dtracking/2014-confidence-based-pedestriantracking.md)
-  * [2015-PersonTracking-2D-Lidar](3dtracking/2015-persontracking-2d-lidar.md)
-  * [2017-Low resolution lidar-based multi-object tracking for driving applications](3dtracking/2017-low-resolution-lidar-based-multi-object-tracking-for-driving-applications.md)
-  * [2017-3D-Lidar MOT for Autonomous-Driving](3dtracking/2017-3d-lidar-mot-for-autonomous-driving.md)
-  * [2017-online Learning](3dtracking/2017-Online learning for human classification in 3D LiDAR-based tracking.md)
-  * [2018-Fast and Furious](3dtracking/2018-fast-and-furious.md)
+* [SOT\_vs\_MOT](sotvs-mot.md)
+* [References](references.md)
 
 ## Tracker
 
 * [IOU\_Tracker](tracker/ioutracker.md)
 * [centroid\_tracker](tracker/centroidtracker.md)
-* [2017-IOU-Tracker](2dtracking/2017-iou-tracker.md)
-* [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
+* [Mean Shift](tracker/mean-shift.md)
+* [CAM Shift](tracker/cam-shift.md)
+* [Multiple Hypothesis Tracking \(MHT\)](tracker/multiple-hypothesis-tracking.md)
+* [PN tracker](tracker/pn-tracker.md)
+* [GOTURN](tracker/goturn.md)
+* [Probabilistic data association \(PDA\)](tracker/probabilistic-data-association-pda.md)
+* [Joint probabilistic data association \(JPDA\)](tracker/joint-probabilistic-data-association-jpda.md)
+* [Greedy Nearest Neighbor \(GNN\) Filter](tracker/greedy-nearest-neighbor-gnn-filter.md)
+* [Kalman Filter](tracker/kalman-filter.md)
+* [Particle Filter](tracker/particle-filter.md)
+* [Probability Hypothesis Density\(PHD\)](tracker/probability-hypothesis-densityphd.md)
+* [Condensation](tracker/condensation.md)
 
 ## Data Association
 
 * [Data-Association](data-association.md)
-  * [2014-Survey-Multi-target Tracking Filters and Data Association](data-association/2014-survey-multi-target-tracking-filters-and-data-association.md)
-  * [Terms-Data-Association](data-association/terms-data-association.md)
-  * [Multiple Hypothesis Tracking](data-association/multiple-hypothesis-tracking.md)
-  * [two-point differencing](data-association/two-point-differencing.md)
-  * [GM-PHD filter](data-association/gm-phd-filter.md)
+* [Gating](gating.md)
 
-## ID Management
+## 2D Tracking
 
-* [Assignment ](assignment.md)
-  * [Hungarian-method](hungarian-method.md)
+* [README](2D-Tracking/README.md)
+* [Occlusion Handling](2D-Tracking/occlusion-handling.md)
+* [2018-Tracking Things in Object Detection Videos](2D-Tracking/2018-tracking-things-in-object-detection-videos.md)
 
+## 3D Tracking
 
+* [README](3D-Tracking/README.md)
+* [Occlusion Handling](3D-Tracking/occlusion-handling.md)
+* [Track initiation](3D-Tracking/track-initiation.md)
 
-## Condensation
+## edx Multi-Object Tracking for Automotive Systems
 
-* [Condensation](Condensation.md)
-  * [code](Condensation/Condensation-code.md)
+* [README](Lecture-edx/README.md)
+* [Section 1 - Introduction to Multi-object Tracking](Lecture-edx/Section 1 - Introduction to Multi-object Tracking.md)
+* [Section 2 - Single-object Tracking in Clutter](Lecture-edx/Section 2 - Single-object Tracking in Clutter.md)
+* [Section 3 - Tracking n Targets](Lecture-edx/Section 3 - Tracking n Targets.md)
+* [Section 4 - Random Finite Sets](Lecture-edx/Section 4 - Random Finite Sets.md)
+* [Section 5 - MOT Using Conjugate Priors](Lecture-edx/Section 5 - MOT Using Conjugate Priors.md)
+* [Section 6 - Outlook - What's Next?](Lecture-edx/Section 6 - Outlook - Whats Next.md)
+
+## CSE598C Vision-Based Tracking
+
+* [CSE598C Vision-Based Tracking](http://www.cse.psu.edu/~rtc12/CSE598C/)
+
+## Mobile Robotics 2
+
+* [Slide\_Video](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/)
 
 ## Implementation
 
@@ -81,8 +71,11 @@
   * [2D-Tracking-Datasets](2d-tracking-datasets.md)
 * [Application-Counting](application-counting.md)
 
----
+## 참고\(외부링크\)
 
-
-
+* [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
+* [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
+* [CVPR2018\]\_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
+* [Udacity-Tracking-as-inference](https://classroom.udacity.com/courses/ud810/lessons/3271928538/concepts/36111189900923)
+* [Student Dave's Tutorials](http://studentdavestutorials.weebly.com/multi-bugobject-tracking.html)
 
