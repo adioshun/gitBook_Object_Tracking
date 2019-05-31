@@ -63,9 +63,6 @@ Tracking 정의 : locating an object in successive frames of a video
   - Generalized Labeled Multi-Bernoulli (GLMB) filter, 
   - etc. 
   
-> This part is taken from http://ba-tuong.vo-au.com/codes.html.
-
-
 - Stochastic populations-based filter such as 
   - Hypothesized and Independent Stochastic Population (HISP) filter, 
   - etc.
