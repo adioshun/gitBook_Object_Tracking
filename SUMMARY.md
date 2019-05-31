@@ -29,10 +29,6 @@
 * [Data-Association](data-association.md)
 * [Gating](gating.md)
 
-## Condensation
-
-* [Condensation](Condensation.md)
-
 ## 2D Tracking
 
 * [README](2D-Tracking/README.md)
