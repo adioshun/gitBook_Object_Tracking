@@ -4,6 +4,8 @@
 
 * [README](README.md)
 * [Tracking 개요](tracking.md)
+* [Data-Association](data-association.md)
+* [Gating](gating.md)
 * [SOT\_vs\_MOT](sotvs-mot.md)
 * [References](references.md)
 
@@ -24,10 +26,7 @@
 * [Probability Hypothesis Density\(PHD\)](tracker/probability-hypothesis-densityphd.md)
 * [Condensation](tracker/condensation.md)
 
-## Data Association
 
-* [Data-Association](data-association.md)
-* [Gating](gating.md)
 
 ## 2D Tracking
 
