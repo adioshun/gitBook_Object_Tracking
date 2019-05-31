@@ -26,17 +26,5 @@ update: use Bayes theorem to modify prediction pdf based on current measuremen
     
 ---
 
-# [Tracking and Data Association](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)
 
-- Detection is knowing the presence of an object, possibly with some attribute information
-
-- Tracking is estimating the state of a moving object over time based on remote measurements
-
-- Tracking also involves maintaining the identity of an object over time despite detection errors (FN, FP) and the presence of other objects
-
-- Tracking may involve estimating the state of several objects at a time. This gives rise to origin uncertainty, that is, uncertainty about which object generated which observation
-
-- Data association addresses the origin uncertainty problem. It’s the process of associating uncertain measurements to known tracks
-
-- Data association may involve interpreting measurements as new tracks, false alarms or misdetections and tracks as occluded or terminated
 

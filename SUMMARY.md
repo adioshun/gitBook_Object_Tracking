@@ -28,7 +28,6 @@
 * [Data-Association](data-association.md)
   * [Terms-Data-Association](data-association/terms-data-association.md)
   * [two-point differencing](data-association/two-point-differencing.md)
-  * [PHD Filter](data-association/phd-filter.md)
 * [Gating](gating.md)
 
 ## Condensation
@@ -81,7 +80,7 @@
 
 * [근접 노드 찾기](https://github.com/adioshun/gitBook_Object_Tracking/blob/master/tracker/How-to-calculate-distance.ipynb)
 * [Deep-Learning-for-Tracking-and-Detection](https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/blob/master/ReadMe.md)
-* [CVPR2018]_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
+* [CVPR2018\]\_Tracking](https://github.com/shijieS/ComputerVisionSummarization#7-tracking)
 * [Udacity-Tracking-as-inference](https://classroom.udacity.com/courses/ud810/lessons/3271928538/concepts/36111189900923)
 * [Student Dave's Tutorials](http://studentdavestutorials.weebly.com/multi-bugobject-tracking.html)
 

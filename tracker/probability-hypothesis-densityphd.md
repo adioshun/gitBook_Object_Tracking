@@ -1,6 +1,5 @@
 
-본 논문에서는 앞서 언급한 문제를 극복하고자 확률밀도가정(Probability Hypothesis Density (PHD))필터를 이용하여 영
-상기반의 온라인 다중객체추적을 구현한다.
+본 논문에서는 앞서 언급한 문제를 극복하고자 확률밀도가정(Probability Hypothesis Density (PHD))필터를 이용하여 영 상기반의 온라인 다중객체추적을 구현한다.
 
 PHD 필터는 다중 객체와 측정치들을 Random Finite Set에 근거하여 객체 집합과 관측치 집합으로 모델링한다.
 
