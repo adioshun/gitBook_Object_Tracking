@@ -28,7 +28,7 @@ Slide
  - [0) GNN-JPDA, 1) JPDA 2) GNN 3) Parallel single-target PDAs 4) Naïve nearest neighbor 5) JPDA* 6) Approximate GNN-JPDA 7) Approximate JPDA  8) Set JPDA 9) Naïve nearest neighbor JPDA 10) Approximate naïve nearest neighbor JPDA ](https://github.com/USNavalResearchLaboratory/TrackerComponentLibrary/blob/master/Assignment%20Algorithms/singleScanUpdate.m) : matlab
 - multiple hypotheses tracking (MHT): [matlab ](http://rehg.org/mht/), [c++](https://ingemarcox.cs.ucl.ac.uk/?page_id=9)
 - [Single Target with RFS Observations Filter, Bernoulli Filter, PHD Filter, CPHD Filter, Cardinality Balanced Multi-Bernoulli Filter, Robust PHD/CPHD/MB Filters, Generalized Labeled Multi-Bernoulli Filter (separate plus joint recursion implementations), Labeled Multi-Bernoulli Filter (separate plus joint recursion implementations), OSPA Metric OSPA(2) Metric](http://ba-tuong.vo-au.com/codes.html): matlab
-
+- [BayesTracking - a library for Bayesian tracking](https://github.com/lcas/bayestracking): C++, ROS, 3D, LCAS
 
 Ebook
 - [handbook of multisensor data fusion](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVQnGoa2Foo-TjEF) :2001, CRC press
