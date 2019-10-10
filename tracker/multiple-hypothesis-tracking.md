@@ -11,7 +11,13 @@
 
 - [MULTIPLE OBJECT TRACKING WITH MHT](http://www.deepvisionconsulting.com/multiple-object-tracking-with-mht/) : blog 2018
 
+- [Multiple Hypothesis Tracking](https://github.com/jonatanolofsson/mht): python, `'Spatially Indexed Clustering for Scalable Tracking of Remotely Sensed Drift Ice` IEEE2017
 
+- [Multi Hypothesis Tracking](https://github.com/chaubold/multiHypothesesTracking): by Carsten Haubold, 2015, Python 
+
+- [pyMHT](https://github.com/erikliland/pyMHT) : Python 
+
+- [Multiple Hypothesis Tracking Revisited](http://rehg.org/mht/): Jim Rehg
 
 ---
 
