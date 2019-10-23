@@ -26,7 +26,8 @@
 * [Probability Hypothesis Density\(PHD\)](tracker/probability-hypothesis-densityphd.md)
 * [Condensation](tracker/condensation.md)
 
-
+## Data Association 
+* [Hungarian Algorithm](DataAssociation/Hungarian_Algorithm.md)
 
 ## 2D Tracking
 
