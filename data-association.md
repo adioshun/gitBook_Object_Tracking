@@ -21,9 +21,9 @@
 
 ---
 
-## [Udacity](https://www.youtube.com/watch?v=DK1DIcPwCOU)
+## [Udacity-Data Association](https://www.youtube.com/watch?v=DK1DIcPwCOU)
 
-
+[![Alt text](https://img.youtube.com/vi/DK1DIcPwCOU/0.jpg)](https://www.youtube.com/watch?v=DK1DIcPwCOU)
 
 
 

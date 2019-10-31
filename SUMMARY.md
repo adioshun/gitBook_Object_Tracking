@@ -3,6 +3,7 @@
 ## Tracking
 
 * [README](README.md)
+* [마인드맵(외부링크)](https://mind42.com/mindmap/ec84eb76-5c05-4812-9d19-99ff9fdca6da)
 * [Tracking 개요](tracking.md)
 * [Data-Association](data-association.md)
 * [Gating](gating.md)
