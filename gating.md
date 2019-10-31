@@ -37,9 +37,14 @@ Validation Gate 방법
 
 ---
 
-- [Gating](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)
-- [Robotics 2 Data Association](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-11-dataassociation.pdf)
-- [Robotics 1 Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)
+- [Gating](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf): 강추, ppt, 83page 
+- [[Uni Freiburg] Robotics 2 Data Association](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-11-dataassociation.pdf)
+- [[CSE598C] Robotics 0 Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/comboptBlockICM.pdf)
+- [[CSE598C] Robotics 1 Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)
+- [[CSE598C] Robotics 2 Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart2.pdf)
+
+
+
 
 
 
