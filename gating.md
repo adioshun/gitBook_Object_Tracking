@@ -1,13 +1,12 @@
-# [Introduction to Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)
+# [Introduction to Data Association
 
 목적 : Gating to determine possible matching observations
 
 정의 : A method for pruning matches that are geometrically unlikely from the start.
 
 
-![](https://i.imgur.com/c2uEroB.png)
-
-![](https://i.imgur.com/26AA2O4.png)
+|![](https://i.imgur.com/c2uEroB.png)|![](https://i.imgur.com/26AA2O4.png)|
+|-|-|
 
 ## Data Association Scores
 
@@ -28,9 +27,6 @@
 
 
 
----
-# [Robotics 2 Data Association](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-11-dataassociation.pdf)
-
 Validation Gate 방법 
  - Euclidian distance : Position(O), Uncertainty(x), Correlations (x)
  - Mahalanobis distance with diagonal covariance matrices : Position(O), Uncertainty(o), Correlations (x)
@@ -41,4 +37,9 @@ Validation Gate 방법
 
 ---
 
-[Gating](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)
+- [Gating](http://srl.informatik.uni-freiburg.de/teachingdir/ws13/slides/11-TemporalReasoning-3.pdf)
+- [Robotics 2 Data Association](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-11-dataassociation.pdf)
+- [Robotics 1 Data Association](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)
+
+
+
