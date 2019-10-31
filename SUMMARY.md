@@ -3,11 +3,10 @@
 ## Tracking
 
 * [README](README.md)
-* [마인드맵(외부링크)](https://mind42.com/mindmap/ec84eb76-5c05-4812-9d19-99ff9fdca6da)
+* [마인드맵\(외부링크\)](https://mind42.com/mindmap/ec84eb76-5c05-4812-9d19-99ff9fdca6da)
 * [Tracking 개요](tracking.md)
 * [Data-Association](data-association.md)
 * [Gating](gating.md)
-* [SOT\_vs\_MOT](sotvs-mot.md)
 * [References](references.md)
 
 ## Tracker
@@ -27,7 +26,8 @@
 * [Probability Hypothesis Density\(PHD\)](tracker/probability-hypothesis-densityphd.md)
 * [Condensation](tracker/condensation.md)
 
-## Data Association 
+## Data Association
+
 * [Hungarian Algorithm](DataAssociation/Hungarian_Algorithm.md)
 
 ## 2D Tracking
