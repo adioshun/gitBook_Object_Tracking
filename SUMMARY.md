@@ -33,7 +33,6 @@
 
 * [README](2D-Tracking/README.md)
 * [Occlusion Handling](2D-Tracking/occlusion-handling.md)
-* [2018-Tracking Things in Object Detection Videos](2D-Tracking/2018-tracking-things-in-object-detection-videos.md)
 
 ## 3D Tracking
 
