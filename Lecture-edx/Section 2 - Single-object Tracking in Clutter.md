@@ -1,3 +1,5 @@
+[![Alt text](https://img.youtube.com/vi/UpXpUjgqhTw/0.jpg)](https://www.youtube.com/watch?v=UpXpUjgqhTw)
+
 ### 2.1 Introduction to SOT in clutter
 
 > false detections = clutter.

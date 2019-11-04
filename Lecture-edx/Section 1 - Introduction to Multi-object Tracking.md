@@ -1,5 +1,7 @@
 ## 1. Introduction to Multi-object Tracking 
 
+[![Alt text](https://img.youtube.com/vi/ay_QLAHcZLY/0.jpg)](https://www.youtube.com/watch?v=ay_QLAHcZLY)
+
 ### 1.1 Introduction to Multi-object Tracking 
 
 #### 1.1.1 Introductory Examples 
