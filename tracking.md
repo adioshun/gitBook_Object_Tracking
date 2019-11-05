@@ -32,6 +32,20 @@ Tracking 정의 : locating an object in successive frames of a video
 - Data association may involve interpreting measurements as new tracks, false alarms or misdetections and tracks as occluded or terminated
 
 
+## [정의 #3](http://ais.informatik.uni-freiburg.de/teaching/ws11/robotics2/pdfs/rob2-19-tracking.pdf)
+
+- “Tracking is the estimation of the state of a moving object based on remote measurements.” [Bar-Shalom] 
+
+- Detection is knowing the presence of an object (possibly with some attribute information)
+
+- Tracking is maintaining the **state** and **identity** of an object over time despite detection errors (false negatives, false alarms), occlusions, and the presence of other objects
+
+Tracking: Error Types 
+- Uncertainty in the values of measurements: Called “noise”
+  - Solution: Filtering (State estimation theory)
+- Uncertainty in the origin of measurements: measurement might originate from sources different from the target of interest. Reasons : False alarms, Decoys and countermeasures, Multiple targets
+  - Solution: Data Association (Statistical decision theory)
+
 ---
 
 ## 2. 분류 
