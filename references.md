@@ -38,6 +38,16 @@ Ebook
 - [Target Tracking Using Probabilistic Data Association-Based Techniques with Applications to Sonar,Radar, and EO Sensors](http://dsp-book.narod.ru/HMDF/2379ch08.pdf) : 8장
 - [Fundamentals of object tracking](https://1drv.ms/b/s!Ag9W8Hm9qZzrzVVdlzNoLpMfexyk): 2011, 캠프리지
 
+
+[[RapidCheck]](https://m.blog.naver.com/sw_maestro/221032791075) 지능형 영상 분석 솔루션
+- [Tracking #1 Introduction](https://ljs93kr.tistory.com/71?category=712540)
+- [Tracking #2 Tracklet](https://ljs93kr.tistory.com/72?category=712540)
+- [Tracking #3 Trajectory](https://ljs93kr.tistory.com/73?category=712540)
+- [Detection & Tracking Summary](https://ljs93kr.tistory.com/65?category=712540)
+
+
+
+
 ---
 # 추천 자료 
 
