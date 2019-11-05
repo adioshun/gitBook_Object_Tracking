@@ -35,7 +35,6 @@
 ## 3D Tracking
 
 * [README](3D-Tracking/README.md)
-* [Occlusion Handling](3D-Tracking/occlusion-handling.md)
 * [Track initiation](3D-Tracking/track-initiation.md)
 
 ## edx Multi-Object Tracking for Automotive Systems
