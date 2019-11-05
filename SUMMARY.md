@@ -4,11 +4,15 @@
 
 * [README](README.md)
 * [마인드맵\(외부링크\)](https://mind42.com/mindmap/ec84eb76-5c05-4812-9d19-99ff9fdca6da)
-* [Tracking 개요](tracking.md)
-* [Data-Association](data-association.md)
-* [Gating](gating.md)
-* [Tracklet](Terms/Tracklet.md)
+* [Tracking 개요](What-is-the-tracking.md)
 * [References](references.md)
+
+## Terms 
+
+* [Data-Association](Terms/data-association.md)
+* [Gating](Terms/gating.md)
+* [Tracklet](Terms/Tracklet.md)
+
 
 ## Tracker
 
