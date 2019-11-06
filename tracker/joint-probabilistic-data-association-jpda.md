@@ -1,4 +1,4 @@
-k# [LIDAR-BASED MULTI-OBJECT TRACKING SYSTEM WITH DYNAMIC MODELING](https://neu-gou.github.io/thesis_Mengran.pdf): 2012, 석사 학위 논문
+# [LIDAR-BASED MULTI-OBJECT TRACKING SYSTEM WITH DYNAMIC MODELING](https://neu-gou.github.io/thesis_Mengran.pdf): 2012, 석사 학위 논문
 
 복합한 환경에서의 다중 물체 추적시 발생 가능한 association의 불확실성을 제거 하기 위해서는  JPDA가 모든 가능한 연관 확률 값을 고려하므로 유용하다. `To eliminate association ambiguity in complex scenes, especially for multi-objective tracking, JPDA is a data association algorithm that takes into account every possible association. `
 

@@ -49,4 +49,5 @@ With target existence model, the JIPDA handles time varying number of targets an
 
 ---
 
-# [[매거진(추천)] The Probabilistic Data Association Filter](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.212.383&rep=rep1&type=pdf)
+- [[매거진(추천)] The Probabilistic Data Association Filter](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.212.383&rep=rep1&type=pdf): gitPaper Tracking 정리 참고 
+
